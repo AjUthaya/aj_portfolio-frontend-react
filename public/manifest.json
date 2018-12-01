@@ -1,15 +1,16 @@
 {
-  "short_name": "React Template",
-  "name": "React Template",
+  "short_name": "AJ Portfolio",
+  "name": "AJ Portfolio",
   "icons": [
     {
-      "src": "../src/assets/images/logo.svg",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/svg+xml"
+      "type": "image/svg+xmlimage/x-icon"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#1671B9",
+  "font_color": "#343434",
+  "background_color": "#f5f5f5"
 }

@@ -25,14 +25,7 @@ if (Config.sentry && Config.sentry.url) {
   // A. CALL: Init sentry
   Raven.config(Config.sentry.url, {
     environment: process.env.NODE_ENV,
-    sampleRate: 1,
-    tags: {
-      user: {
-        type: ""
-      },
-      git_hash: "",
-      git_branch: ""
-    }
+    sampleRate: 1
   }).install();
 }
 

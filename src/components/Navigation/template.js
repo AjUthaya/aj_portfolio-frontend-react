@@ -18,24 +18,7 @@ export default class Navigation extends Component {
   render() {
     return (
       <div className="navigation">
-        <div className="navigation__left">
-          <a className="offcanvas__toggle">
-            <FontAwesomeIcon icon={faBars} />
-          </a>
-
-          <Link to="/" className="navigation__logo-container">
-            <Logo className="navigation__logo" />
-            <span className="navigation__logo-label">React Template</span>
-          </Link>
-        </div>
-
-        <div className="navigation__right">
-          <div className="user-menu__toggle">
-            <div className="user-menu__image-container">
-              <img src="/placeholder.png" alt="user_profile" />
-            </div>
-          </div>
-        </div>
+        <div>LOGO</div>
       </div>
     );
   }
