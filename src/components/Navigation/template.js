@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 
 // IMPORT: Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faAddressCard,
+  faToolbox,
+  faThLarge
+} from "@fortawesome/free-solid-svg-icons";
 
 // IMPORT: SVG Logo
 import Logo from "../../assets/images/logo.png";
@@ -52,7 +57,7 @@ export default class Navigation extends Component {
               <a className="navigation__menu__list__item__link">
                 <FontAwesomeIcon
                   className="navigation__menu__list__item__link__icon"
-                  icon={faHome}
+                  icon={faToolbox}
                 />
               </a>
             </li>
@@ -61,7 +66,7 @@ export default class Navigation extends Component {
               <a className="navigation__menu__list__item__link">
                 <FontAwesomeIcon
                   className="navigation__menu__list__item__link__icon"
-                  icon={faAddressCard}
+                  icon={faThLarge}
                 />
               </a>
             </li>
@@ -70,7 +75,7 @@ export default class Navigation extends Component {
 
         <div className="navigation__toggle">
           <a className="navigation__toggle__link">
-            <div className="navigation__toggle__link__hamburger active">
+            <div className="navigation__toggle__link__hamburger">
               <span className="navigation__toggle__link__hamburger__top" />
               <span className="navigation__toggle__link__hamburger__bottom" />
             </div>
