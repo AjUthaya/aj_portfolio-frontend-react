@@ -47,11 +47,34 @@ export default class Navigation extends Component {
                 />
               </a>
             </li>
+
+            <li className="navigation__menu__list__item">
+              <a className="navigation__menu__list__item__link">
+                <FontAwesomeIcon
+                  className="navigation__menu__list__item__link__icon"
+                  icon={faHome}
+                />
+              </a>
+            </li>
+
+            <li className="navigation__menu__list__item">
+              <a className="navigation__menu__list__item__link">
+                <FontAwesomeIcon
+                  className="navigation__menu__list__item__link__icon"
+                  icon={faAddressCard}
+                />
+              </a>
+            </li>
           </ul>
         </div>
 
         <div className="navigation__toggle">
-          <a>x</a>
+          <a className="navigation__toggle__link">
+            <div className="navigation__toggle__link__hamburger active">
+              <span className="navigation__toggle__link__hamburger__top" />
+              <span className="navigation__toggle__link__hamburger__bottom" />
+            </div>
+          </a>
         </div>
       </div>
     );
