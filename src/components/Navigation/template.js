@@ -12,7 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 // IMPORT: SVG Logo
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo.svg";
 
 // IMPORT: Styles
 import "./index.scss";
@@ -22,14 +22,10 @@ export default class Navigation extends Component {
   // RENDER
   render() {
     return (
-      <div className="navigation">
+      <div className="navigation active">
         <div className="navigation__logo">
           <Link className="navigation__logo__link" to="/">
-            <img
-              className="navigation__logo__link__image"
-              src={Logo}
-              alt="AJ Logo"
-            />
+            <Logo className="navigation__logo__link__image" alt="AJ Logo" />
           </Link>
         </div>
 

@@ -16,9 +16,10 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   max-width: 100%;
+  align-items: flex-end;
 
   .content {
     display: flex;
-    flex-grow: 1;
+    width: calc(100% - #{$navgation_width});
   }
 }
