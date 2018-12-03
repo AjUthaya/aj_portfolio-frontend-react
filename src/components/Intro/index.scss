@@ -1,0 +1,68 @@
+// IMPORT: Variables
+@import "../../scss/variables";
+
+.intro {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: $color-primary;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+      color: $color-secondary;
+      flex-shrink: 0;
+
+      &__name {
+        font-size: 35px;
+      }
+
+      &__title {
+        margin-top: 5px;
+        font-size: 20px;
+      }
+
+      @media only screen and (max-width: 800px) {
+        &__name {
+          font-size: 25px;
+        }
+
+        &__title {
+          font-size: 16px;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        &__name {
+          font-size: 20px;
+        }
+
+        &__title {
+          font-size: 12px;
+        }
+      }
+
+      @media only screen and (max-width: 400px) {
+        &__name {
+          font-size: 18px;
+        }
+
+        &__title {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

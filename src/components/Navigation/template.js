@@ -2,6 +2,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+// IMPORT: Body scroll lock
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
+
 // IMPORT: Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -19,6 +22,32 @@ import "./index.scss";
 
 // EXPORT
 export default class Navigation extends Component {
+  componentDidMount() {
+    // DEFINE: Get navigation list element
+    const navigationMenuElement = document.getElementById("navigation__menu");
+
+    // IF: Navigation element is found
+    if (navigationMenuElement) {
+      // EVENT LISTENER: When the mouse enters navigation
+      navigationMenuElement.addEventListener(
+        "mouseenter",
+        function(event) {
+          // OTHER: Disable parrent scroll
+          disableBodyScroll(navigationMenuElement);
+        },
+        false
+      );
+
+      navigationMenuElement.addEventListener(
+        "mouseleave",
+        function(event) {
+          enableBodyScroll(navigationMenuElement);
+        },
+        false
+      );
+    }
+  }
+
   // RENDER
   render() {
     return (
@@ -30,7 +59,7 @@ export default class Navigation extends Component {
         </div>
 
         <div className="navigation__menu">
-          <ul className="navigation__menu__list">
+          <ul id="navigation__menu" className="navigation__menu__list">
             <li className="navigation__menu__list__item">
               <a className="navigation__menu__list__item__link active">
                 <FontAwesomeIcon
@@ -69,14 +98,14 @@ export default class Navigation extends Component {
           </ul>
         </div>
 
-        <div className="navigation__toggle">
+        {/*<div className="navigation__toggle">
           <a className="navigation__toggle__link">
             <div className="navigation__toggle__link__hamburger">
               <span className="navigation__toggle__link__hamburger__top" />
               <span className="navigation__toggle__link__hamburger__bottom" />
             </div>
           </a>
-        </div>
+    </div>*/}
       </div>
     );
   }

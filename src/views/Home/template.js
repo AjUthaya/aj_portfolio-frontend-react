@@ -8,6 +8,10 @@ import Navigation from "../../components/Navigation/index";
 // IMPORT: Overlayer
 import Overlayer from "../../components/Overlayer/index";
 import { toggleOverlayer } from "../../components/Overlayer/controller";
+// IMPORT: Intro
+import Intro from "../../components/Intro/index";
+// IMPORT: About Me
+import AboutMe from "../../components/AboutMe/index";
 
 // IMPORT: Styles
 import "./index.scss";
@@ -35,8 +39,6 @@ export default class Template extends Component {
 
   // RENDER
   render() {
-    console.log(this.state);
-
     return (
       <div className="wrapper">
         <Overlayer
@@ -45,7 +47,10 @@ export default class Template extends Component {
         />
         <Navigation isActive={this.state.navigation.isActive} />
         <div className="content">
-          <div className="home">Home</div>
+          <div className="home">
+            <Intro />
+            <AboutMe />
+          </div>
         </div>
       </div>
     );

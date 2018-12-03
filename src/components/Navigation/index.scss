@@ -9,6 +9,7 @@
   left: 0;
   height: 100vh;
   max-height: 100%;
+  min-height: 300px;
   width: $navgation_width;
   flex-shrink: 0;
   background: $background-secondary;
@@ -22,6 +23,7 @@
     height: $navgation_height - 2px;
     overflow: hidden;
     border-bottom: 2px solid $theme-primary;
+    z-index: 999;
 
     &__link {
       display: flex;
@@ -31,6 +33,7 @@
       height: 100%;
       cursor: pointer;
       transition: all 0.2s ease-out;
+      background: $background-secondary;
 
       &:hover {
         background: $color-primary;
@@ -51,7 +54,7 @@
   &__menu {
     display: flex;
     flex-grow: 1;
-    min-height: 120px;
+    min-height: 100px;
 
     &__list {
       display: flex;
@@ -63,6 +66,13 @@
       padding: 0;
       list-style: none;
       font-size: 25px;
+
+      @media only screen and (max-height: 400px) {
+        justify-content: normal;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+      }
 
       &__item .active {
         background: $theme-primary;
@@ -106,6 +116,10 @@
           }
         }
       }
+    }
+
+    &__list::-webkit-scrollbar {
+      display: none; // Safari and Chrome
     }
   }
 
