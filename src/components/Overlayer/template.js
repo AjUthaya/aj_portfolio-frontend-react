@@ -5,7 +5,7 @@ import React, { Component } from "react";
 import "./index.scss";
 
 // EXPORT
-export default class Overlayer extends Component {
+export default class Template extends Component {
   // RENDER
   render() {
     // IF: Props key of active is true

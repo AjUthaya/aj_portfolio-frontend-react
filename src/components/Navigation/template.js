@@ -21,7 +21,7 @@ import Logo from "../../assets/images/logo.svg";
 import "./index.scss";
 
 // EXPORT
-export default class Navigation extends Component {
+export default class Template extends Component {
   componentDidMount() {
     // DEFINE: Get navigation list element
     const navigationMenuElement = document.getElementById("navigation__menu");

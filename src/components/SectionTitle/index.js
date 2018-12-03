@@ -38,10 +38,10 @@ const mapDispatchToProps = dispatch => {
 };
 
 // CALL: Function to wrap everything together
-const AboutMe = connect(
+const SectionTitle = connect(
   mapStateToProps,
   mapDispatchToProps
 )(Template);
 
 // EXPORT
-export default AboutMe;
+export default SectionTitle;

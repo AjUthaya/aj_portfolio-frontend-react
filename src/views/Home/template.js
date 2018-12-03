@@ -10,6 +10,8 @@ import Overlayer from "../../components/Overlayer/index";
 import { toggleOverlayer } from "../../components/Overlayer/controller";
 // IMPORT: Intro
 import Intro from "../../components/Intro/index";
+// IMPORT: Section Title
+import SectionTitle from "../../components/SectionTitle/index";
 // IMPORT: About Me
 import AboutMe from "../../components/AboutMe/index";
 
@@ -17,7 +19,7 @@ import AboutMe from "../../components/AboutMe/index";
 import "./index.scss";
 
 // EXPORT
-export default class Template extends Component {
+export default class Home extends Component {
   constructor() {
     super();
     this.state = {
@@ -49,6 +51,7 @@ export default class Template extends Component {
         <div className="content">
           <div className="home">
             <Intro />
+            <SectionTitle />
             <AboutMe />
           </div>
         </div>

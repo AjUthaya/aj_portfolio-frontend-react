@@ -38,10 +38,10 @@ const mapDispatchToProps = dispatch => {
 };
 
 // CALL: Function to wrap everything together
-const Navigation = connect(
+const Intro = connect(
   mapStateToProps,
   mapDispatchToProps
 )(Template);
 
 // EXPORT
-export default Navigation;
+export default Intro;

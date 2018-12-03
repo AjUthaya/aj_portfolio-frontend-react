@@ -11,7 +11,7 @@ import Social from "../../components/Social/index";
 import "./index.scss";
 
 // EXPORT
-export default class Navigation extends Component {
+export default class Template extends Component {
   // RENDER
   render() {
     return (
