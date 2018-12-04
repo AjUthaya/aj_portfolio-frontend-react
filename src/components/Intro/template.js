@@ -3,6 +3,8 @@ import React, { Component } from "react";
 
 // IMPORT: Typing animation
 import Typed from "react-typed";
+// IMPORT: Particles
+import Particles from "react-particles-js";
 
 // IMPORT: Social
 import Social from "../../components/Social/index";
@@ -16,6 +18,54 @@ export default class Template extends Component {
   render() {
     return (
       <div className="intro">
+        <Particles
+          className="intro__particles"
+          params={{
+            particles: {
+              number: {
+                value: 100,
+                density: {
+                  enable: true,
+                  value_area: 1500
+                }
+              },
+              size: {
+                value: 2
+              },
+              line_linked: {
+                enable: true,
+                opacity: 0.5
+              },
+              move: {
+                direction: "center",
+                speed: 0.5
+              },
+              opacity: {
+                anim: {
+                  enable: true,
+                  speed: 1,
+                  opacity_min: 0.5
+                }
+              }
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse"
+                }
+              }
+            },
+            modes: {
+              repulse: {
+                distance: 400,
+                duration: 4
+              }
+            },
+            retina_detect: true
+          }}
+        />
+
         <div className="content__wrapper">
           <div className="intro__wrapper">
             <div className="intro__wrapper__text">
