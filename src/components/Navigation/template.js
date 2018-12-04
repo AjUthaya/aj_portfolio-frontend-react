@@ -1,6 +1,7 @@
 // IMPORT: React
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 // IMPORT: Body scroll lock
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
@@ -54,19 +55,34 @@ export default class Template extends Component {
       <div className="navigation active">
         <div className="navigation__logo">
           <Link className="navigation__logo__link" to="/">
-            <Logo className="navigation__logo__link__image" alt="AJ Logo" />
+            <div className="navigation__logo__link__image_container">
+              <Logo
+                className="navigation__logo__link__image_container__image"
+                alt="AJ Logo"
+              />
+            </div>
+
+            <div className="navigation__logo__link__text_container">
+              <span className="navigation__logo__link__text_container__text">
+                AJ Portfolio
+              </span>
+            </div>
           </Link>
         </div>
 
         <div className="navigation__menu">
           <ul id="navigation__menu" className="navigation__menu__list">
             <li className="navigation__menu__list__item">
-              <a className="navigation__menu__list__item__link active">
+              <NavHashLink
+                smooth
+                className="navigation__menu__list__item__link"
+                to="/#home"
+              >
                 <FontAwesomeIcon
                   className="navigation__menu__list__item__link__icon"
                   icon={faHome}
                 />
-              </a>
+              </NavHashLink>
             </li>
 
             <li className="navigation__menu__list__item">

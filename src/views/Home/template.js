@@ -12,8 +12,6 @@ import { toggleOverlayer } from "../../components/Overlayer/controller";
 import Intro from "../../components/Intro/index";
 // IMPORT: Section Title
 import SectionTitle from "../../components/SectionTitle/index";
-// IMPORT: About Me
-import AboutMe from "../../components/AboutMe/index";
 
 // IMPORT: Styles
 import "./index.scss";
@@ -52,7 +50,6 @@ export default class Home extends Component {
           <div className="home">
             <Intro />
             <SectionTitle />
-            <AboutMe />
           </div>
         </div>
       </div>
