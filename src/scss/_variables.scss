@@ -9,11 +9,6 @@ $color-secondary: #ffffff;
 // Profile colors
 $theme-primary: #1771b9;
 
-// Media query breakpoints
-$breakpoint_mobile: 300px;
-$breakpoint_tablet: 300px;
-$breakpoint_desktop: 300px;
-
 // Navigation
 $navigation_dimensions: 80px;
-$navigation_width: 350px;
+$navigation_breakpoint: 700px;

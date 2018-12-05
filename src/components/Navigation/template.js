@@ -1,7 +1,6 @@
 // IMPORT: React
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { NavHashLink } from "react-router-hash-link";
 
 // IMPORT: Body scroll lock
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
@@ -14,6 +13,9 @@ import {
   faToolbox,
   faThLarge
 } from "@fortawesome/free-solid-svg-icons";
+
+// IMPORT: Animated hamburger icon
+import HamburgerIcon from "../hamburger/index";
 
 // IMPORT: SVG Logo
 import Logo from "../../assets/images/logo.svg";
@@ -53,75 +55,106 @@ export default class Template extends Component {
   render() {
     return (
       <div className="navigation active">
-        <div className="navigation__logo">
-          <Link className="navigation__logo__link" to="/">
-            <div className="navigation__logo__link__image_container">
-              <Logo
-                className="navigation__logo__link__image_container__image"
-                alt="AJ Logo"
-              />
-            </div>
+        <div className="navigation__header">
+          <div className="navigation__header__right">
+            <Link className="navigation__header__right__logo_link" to="/">
+              <div className="navigation__header__right__logo_link__image_container">
+                <Logo
+                  className="navigation__header__right__logo_link__image_container__image"
+                  alt="AJ Logo"
+                />
+              </div>
 
-            <div className="navigation__logo__link__text_container">
-              <span className="navigation__logo__link__text_container__text">
-                AJ Portfolio
-              </span>
+              <div className="navigation__header__right__logo_link__text_container">
+                <span className="navigation__header__right__logo_link__text_container__text">
+                  AJ Portfolio
+                </span>
+              </div>
+            </Link>
+          </div>
+
+          <div className="navigation__header__left">
+            <div className="navigation__header__left__toggle">
+              <HamburgerIcon />
             </div>
-          </Link>
+          </div>
         </div>
 
         <div className="navigation__menu">
-          <ul id="navigation__menu" className="navigation__menu__list">
-            <li className="navigation__menu__list__item">
-              <NavHashLink
-                smooth
-                className="navigation__menu__list__item__link"
-                to="/#home"
-              >
+          <ul className="navigation__menu__list">
+            <li className="navigation__menu__list__item active">
+              <div className="navigation__menu__list__item__icon_container">
                 <FontAwesomeIcon
-                  className="navigation__menu__list__item__link__icon"
+                  className="navigation__menu__list__item__icon_container__icon"
                   icon={faHome}
                 />
-              </NavHashLink>
+              </div>
+
+              <div className="navigation__menu__list__item__text_container">
+                <span className="navigation__menu__list__item__text_container__text">
+                  Home
+                </span>
+              </div>
             </li>
 
             <li className="navigation__menu__list__item">
-              <a className="navigation__menu__list__item__link">
+              <div className="navigation__menu__list__item__icon_container">
                 <FontAwesomeIcon
-                  className="navigation__menu__list__item__link__icon"
+                  className="navigation__menu__list__item__icon_container__icon"
                   icon={faAddressCard}
                 />
-              </a>
+              </div>
+
+              <div className="navigation__menu__list__item__text_container">
+                <span className="navigation__menu__list__item__text_container__text">
+                  Resume
+                </span>
+              </div>
             </li>
 
             <li className="navigation__menu__list__item">
-              <a className="navigation__menu__list__item__link">
+              <div className="navigation__menu__list__item__icon_container">
                 <FontAwesomeIcon
-                  className="navigation__menu__list__item__link__icon"
+                  className="navigation__menu__list__item__icon_container__icon"
                   icon={faToolbox}
                 />
-              </a>
+              </div>
+
+              <div className="navigation__menu__list__item__text_container">
+                <span className="navigation__menu__list__item__text_container__text">
+                  Toolset
+                </span>
+              </div>
             </li>
 
             <li className="navigation__menu__list__item">
-              <a className="navigation__menu__list__item__link">
+              <div className="navigation__menu__list__item__icon_container">
                 <FontAwesomeIcon
-                  className="navigation__menu__list__item__link__icon"
+                  className="navigation__menu__list__item__icon_container__icon"
                   icon={faThLarge}
                 />
-              </a>
+              </div>
+
+              <div className="navigation__menu__list__item__text_container">
+                <span className="navigation__menu__list__item__text_container__text">
+                  Projects
+                </span>
+              </div>
             </li>
           </ul>
-        </div>
 
-        {/*<div className="navigation__toggle">
-          <a className="navigation__toggle__link">
-            <div className="navigation__toggle__link__hamburger">
-              <span className="navigation__toggle__link__hamburger__top" />
-              <span className="navigation__toggle__link__hamburger__bottom" />
+          <div className="navigation__menu__toggle">
+            <div className="navigation__menu__toggle__icon_container">
+              <HamburgerIcon active={true} />
             </div>
-          </a>
-    </div>*/}
+
+            <div className="navigation__menu__toggle__text_container">
+              <span className="navigation__menu__toggle__text_container__text">
+                Close
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
