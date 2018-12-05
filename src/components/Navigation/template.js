@@ -54,7 +54,7 @@ export default class Template extends Component {
   // RENDER
   render() {
     return (
-      <div className="navigation active">
+      <div className="navigation">
         <div className="navigation__header">
           <div className="navigation__header__right">
             <Link className="navigation__header__right__logo_link" to="/">
@@ -145,7 +145,7 @@ export default class Template extends Component {
 
           <div className="navigation__menu__toggle">
             <div className="navigation__menu__toggle__icon_container">
-              <HamburgerIcon active={true} />
+              <HamburgerIcon />
             </div>
 
             <div className="navigation__menu__toggle__text_container">

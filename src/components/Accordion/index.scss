@@ -1,0 +1,27 @@
+// IMPORT: Variables
+@import "../../scss/variables";
+
+.accordion {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__item {
+      display: flex;
+      height: 80px;
+      width: 100%;
+      border-radius: 5px;
+      background: $background-secondary;
+      margin-top: 20px;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+}

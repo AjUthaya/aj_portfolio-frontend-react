@@ -6,7 +6,7 @@
   position: relative;
   width: 40px;
   height: 40px;
-  transition: all 0.2s ease-out;
+  transition: all 0.1s ease-out;
 
   &__top,
   &__bottom {
@@ -18,7 +18,7 @@
     height: 2.5px;
     background: $color-primary;
     transform: rotate(0);
-    transition: all 0.2s ease-out;
+    transition: all 0.1s ease-out;
     top: 20px;
     border-radius: 5px;
   }

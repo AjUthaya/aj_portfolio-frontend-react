@@ -12,6 +12,8 @@ import { toggleOverlayer } from "../../components/Overlayer/controller";
 import Intro from "../../components/Intro/index";
 // IMPORT: Section Title
 import SectionTitle from "../../components/SectionTitle/index";
+// IMPORT: Accordion
+import Accordion from "../../components/Accordion/index";
 
 // IMPORT: Styles
 import "./index.scss";
@@ -49,7 +51,11 @@ export default class Home extends Component {
         <div className="content">
           <div className="home">
             <Intro />
-            <SectionTitle />
+
+            <div className="content__wrapper">
+              <SectionTitle title="Resume" />
+              <Accordion data={[]} />
+            </div>
           </div>
         </div>
       </div>
