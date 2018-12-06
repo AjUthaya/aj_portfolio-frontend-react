@@ -99,7 +99,7 @@ export default class Template extends Component {
                 />
               </span>
 
-              <Social />
+              <Social data={[]} />
             </div>
           </div>
         </div>

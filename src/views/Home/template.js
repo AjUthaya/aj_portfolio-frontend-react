@@ -19,7 +19,7 @@ import Accordion from "../../components/Accordion/index";
 import "./index.scss";
 
 // EXPORT
-export default class Home extends Component {
+export default class Template extends Component {
   constructor() {
     super();
     this.state = {
