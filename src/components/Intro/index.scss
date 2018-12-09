@@ -10,6 +10,7 @@
   min-height: 100vh;
   height: 100%;
   background: $color-primary;
+  overflow: hidden;
 
   @media only screen and (max-width: $navigation_breakpoint) {
     min-height: calc(100vh - #{$navigation_dimensions});
@@ -23,6 +24,7 @@
     position: absolute;
     height: 100%;
     width: calc(100% - 80px);
+    overflow: hidden;
 
     @media only screen and (max-width: $navigation_breakpoint) {
       width: 100%;
