@@ -1,0 +1,44 @@
+// IMPORT: Variables
+@import "../../scss/variables";
+
+.mini_boxes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: -20px;
+    margin-top: -20px;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      background: $background-secondary;
+      margin-left: 20px;
+      margin-top: 20px;
+      padding: 25px 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+
+      &__image_container {
+        display: flex;
+        flex-shrink: 0;
+        height: 50px;
+        width: 50px;
+
+        &__image {
+          object-fit: contain;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 // IMPORT: Placeholder image
-import Placeholder from "../../assets/images/placeholder.png";
 import BjerkeLogo from "../../assets/images/bjerke_vgs.png";
 import LevelupLogo from "../../assets/images/levelup.png";
 
@@ -90,7 +89,7 @@ export default class Template extends Component {
             <div className="accordion__list__item__image_container">
               <img
                 className="accordion__list__item__image_container__image"
-                src={Placeholder}
+                src={"https://via.placeholder.com/300x300"}
                 alt="Logo"
               />
             </div>

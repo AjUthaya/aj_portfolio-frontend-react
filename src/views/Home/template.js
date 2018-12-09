@@ -5,15 +5,13 @@ import React, { Component } from "react";
 // IMPORT: Navigation
 import Navigation from "../../components/Navigation/index";
 
-// IMPORT: Overlayer
+// IMPORT: Components
 import Overlayer from "../../components/Overlayer/index";
 import { toggleOverlayer } from "../../components/Overlayer/controller";
-// IMPORT: Intro
 import Intro from "../../components/Intro/index";
-// IMPORT: Section Title
 import SectionTitle from "../../components/SectionTitle/index";
-// IMPORT: Accordion
 import Accordion from "../../components/Accordion/index";
+import MiniBoxes from "../../components/MiniBoxes/index";
 
 // IMPORT: Styles
 import "./index.scss";
@@ -55,6 +53,15 @@ export default class Template extends Component {
             <div className="content__wrapper">
               <SectionTitle title="Resume" />
               <Accordion data={[]} />
+            </div>
+
+            <div className="content__wrapper">
+              <SectionTitle title="Toolset" />
+              <MiniBoxes data={[]} />
+            </div>
+
+            <div className="content__wrapper">
+              <SectionTitle title="Projects" />
             </div>
           </div>
         </div>
