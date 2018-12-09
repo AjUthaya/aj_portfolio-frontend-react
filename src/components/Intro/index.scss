@@ -28,6 +28,7 @@
 
     @media only screen and (max-width: $navigation_breakpoint) {
       width: 100%;
+      max-height: calc(100vh - 80px);
     }
   }
 

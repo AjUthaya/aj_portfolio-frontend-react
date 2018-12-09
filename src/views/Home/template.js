@@ -56,7 +56,7 @@ export default class Template extends Component {
             </div>
 
             <div className="content__wrapper">
-              <SectionTitle title="Toolset" />
+              <SectionTitle title="Skillset" />
               <MiniBoxes data={[]} />
             </div>
 
