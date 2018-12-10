@@ -12,6 +12,7 @@ import Intro from "../../components/Intro/index";
 import SectionTitle from "../../components/SectionTitle/index";
 import Accordion from "../../components/Accordion/index";
 import MiniBoxes from "../../components/MiniBoxes/index";
+import Projects from "../../components/Projects/index";
 
 // IMPORT: Styles
 import "./index.scss";
@@ -43,7 +44,7 @@ export default class Template extends Component {
       <div className="wrapper">
         <Overlayer
           isActive={this.state.overlayer.isActive}
-          toggleOverlayer={this.toggleOverlayer}
+          controller={toggleOverlayer}
         />
         <Navigation isActive={this.state.navigation.isActive} />
         <div className="content">
@@ -56,12 +57,13 @@ export default class Template extends Component {
             </div>
 
             <div className="content__wrapper">
-              <SectionTitle title="Skillset" />
+              <SectionTitle title="Toolset" />
               <MiniBoxes data={[]} />
             </div>
 
             <div className="content__wrapper">
               <SectionTitle title="Projects" />
+              <Projects />
             </div>
           </div>
         </div>

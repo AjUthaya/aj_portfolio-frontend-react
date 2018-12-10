@@ -80,7 +80,7 @@ export default class Template extends Component {
                     "I'm a Backend Developer",
                     "I'm a Full-Stack Designer"
                   ]}
-                  typeSpeed={50}
+                  typeSpeed={20}
                   backSpeed={40}
                   smartBackspace={true}
                   showCursor={true}
