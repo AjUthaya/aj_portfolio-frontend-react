@@ -10,32 +10,6 @@
   &__filter {
     display: flex;
     width: 100%;
-
-    &__list {
-      display: flex;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-
-      &__item {
-        display: flex;
-        padding: 5px 40px;
-        cursor: pointer;
-
-        &.active {
-          padding: 3.5px 40px;
-          border-bottom: 3px solid $theme-primary;
-
-          .projects__filter__list__item__title {
-            color: $theme-primary;
-          }
-        }
-
-        &__title {
-          font-size: 20px;
-        }
-      }
-    }
   }
 
   &__list {

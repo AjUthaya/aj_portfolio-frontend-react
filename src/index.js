@@ -20,8 +20,20 @@ import reducers from "./reducers/index";
 // IMPORT: Application
 import App from "./views/app";
 
-// 1. IF: Sentry url is defined
-if (Config.sentry && Config.sentry.url) {
+// 1. DEFINE: Variable to store sentry config data
+const sentryConfig = Config.sentry;
+
+// 2. DEFINE: Conditions that validate the sentry config
+const sentryConfigValid =
+  (sentryConfig.app !== "") &
+    (sentryConfig.key !== "") &
+    (sentryConfig.url !== "") &&
+  (sentryConfig.app !== undefined) &
+    (sentryConfig.key !== undefined) &
+    (sentryConfig.url !== undefined);
+
+// 2. IF: Sentry config variable is true
+if (sentryConfigValid) {
   // A. CALL: Init sentry
   Raven.config(Config.sentry.url, {
     environment: process.env.NODE_ENV,
