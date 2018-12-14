@@ -9,7 +9,98 @@
 
   &__filter {
     display: flex;
+    justify-content: center;
     width: 100%;
+
+    &__select {
+      margin-left: 20px;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+
+    &__clear {
+      cursor: pointer;
+      margin-left: 20px;
+      height: 40px;
+      padding: 0 20px;
+      background: #b91616;
+      color: $color-secondary;
+      border-radius: 5px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:active {
+        background: #a01111;
+      }
+
+      &__label {
+        display: flex;
+        flex-shrink: 0;
+        font-size: 12px;
+        cursor: inherit;
+
+        &__title {
+          margin-left: 4px;
+        }
+      }
+    }
+
+    .rrs {
+      width: 250px;
+      height: 40px;
+
+      .caret-icon {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-left: 4px;
+      }
+
+      &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+      }
+
+      &__label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        font-size: 13px;
+        font-weight: bold;
+        height: 40px;
+        padding: 0 20px;
+      }
+    }
+
+    .rrs__button + .rrs__options {
+      top: 39px;
+    }
+
+    .rrs--options-visible {
+      .rrs__label {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+
+    .rrs--has-changed .rrs__label {
+      color: $color-secondary;
+      background: $theme-primary;
+    }
+
+    .rrs__multiselect-label__badge {
+      border: 1px solid $color-secondary;
+      color: $color-secondary;
+    }
   }
 
   &__list {

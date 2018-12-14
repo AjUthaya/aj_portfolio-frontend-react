@@ -24,7 +24,7 @@
       background: $background-secondary;
       margin-left: 20px;
       margin-top: 20px;
-      padding: 25px 20px;
+      padding: 30px 40px;
       justify-content: center;
       align-items: center;
       border-radius: 5px;
@@ -62,7 +62,7 @@
           text-overflow: ellipsis;
           white-space: nowrap;
           overflow: hidden;
-          display: none;
+          display: flex;
           margin-top: 10px;
           font-size: 11px;
           color: $theme-primary;
