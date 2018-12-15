@@ -1,6 +1,6 @@
 # AJ Portfolio (Frontend)
 
-Frontend repo for AJ Portfolio, requires backend service to be able to get data.
+Frontend repo for personal portfolio.
 
 ## Required repos
 
@@ -13,19 +13,19 @@ Frontend repo for AJ Portfolio, requires backend service to be able to get data.
 3. Run `nvm use`
 4. Run `npm install`
 
-## Running app
+## Run
 
 1. Run `npm run start`
    - To shut down the dev server hit <kbd>CTRL</kbd><kbd>c</kbd>
 
-## Testing app
+## Test
 
 Note: App has to be running before you run the tests
 
 - Run `npm run test` to test via command line
 - Run `npm run test:open` to open up the cypress GUI
 
-## Technologies used
+## Technologies
 
 ### NVM
 
