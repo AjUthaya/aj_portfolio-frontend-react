@@ -174,6 +174,7 @@
       &__content {
         display: flex;
         width: 100%;
+        position: relative;
 
         &__image_container {
           height: 200px;
@@ -185,6 +186,88 @@
             object-fit: cover;
             width: 100%;
           }
+        }
+
+        &__icon_container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          overflow: hidden;
+          right: 20px;
+          top: 20px;
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+          background: $background-secondary;
+          z-index: 10;
+
+          &__icon {
+            object-fit: contain;
+            height: 20px;
+          }
+        }
+
+        &__overlayer {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          color: $color-secondary;
+          opacity: 0;
+          transition: opacity 0.15s ease;
+          width: 100%;
+          background: #4b4b4b90;
+          height: 100%;
+          z-index: 5;
+
+          &__title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            padding: 20px 20px;
+            padding-right: 80px;
+            padding-left: 80px;
+            padding-bottom: 0;
+            flex-shrink: 0;
+
+            &__label {
+              font-size: 18px;
+              font-weight: bold;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+          }
+
+          &__tools {
+            display: flex;
+            flex-wrap: wrap;
+            width: calc(100% - 40px);
+            max-height: 100%;
+            padding: 0 20px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            justify-content: center;
+            overflow: hidden;
+
+            &__item {
+              display: flex;
+              background: $background-secondary;
+              color: $theme-primary;
+              border-radius: 5px;
+              margin-top: 8px;
+              margin-left: 8px;
+              padding: 6px 20px;
+              justify-content: center;
+              align-items: center;
+              align-self: flex-start;
+            }
+          }
+        }
+
+        &:hover &__overlayer {
+          opacity: 1;
         }
       }
 

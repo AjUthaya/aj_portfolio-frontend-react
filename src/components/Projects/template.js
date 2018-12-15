@@ -46,14 +46,71 @@ export default class Template extends Component {
       returnHtml.push(
         <div className="projects__list__item" key={inc}>
           <div className="projects__list__item__content">
+            {/* ICON */}
+            <div className="projects__list__item__content__icon_container">
+              <img
+                className="projects__list__item__content__icon_container__icon"
+                src={
+                  "https://www.energysys.com/wp-content/uploads/2012/03/Energysys_avatar-logo-transparent-bg.png"
+                }
+                alt="icon"
+              />
+            </div>
+
+            {/* BACKGROUND IMAGE */}
             <div className="projects__list__item__content__image_container">
               <img
                 className="projects__list__item__content__image_container__image"
                 src={
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9rb-ojUpPLYR6EG2z1L1wv5q0Tpj7ROzc1OZvzK6jiXPSdZw"
+                  "https://cdn.freshdesignweb.com/wp-content/uploads/site/Boxify-Free-One-Page-Website-Template.jpg"
                 }
                 alt="project_image"
               />
+            </div>
+
+            {/* HOVER OVERLAYER */}
+            <div className="projects__list__item__content__overlayer">
+              {/* OVERLAYER TITLE */}
+              <div className="projects__list__item__content__overlayer__title">
+                <span className="projects__list__item__content__overlayer__title__label">
+                  Personal
+                </span>
+              </div>
+
+              {/* OVERLAYER TOOLS */}
+              <div className="projects__list__item__content__overlayer__tools">
+                <div className="projects__list__item__content__overlayer__tools__item">
+                  <span className="projects__list__item__content__overlayer__tools__item__label">
+                    ReactJS
+                  </span>
+                </div>
+
+                <div className="projects__list__item__content__overlayer__tools__item">
+                  <span className="projects__list__item__content__overlayer__tools__item__label">
+                    API Development
+                  </span>
+                </div>
+
+                <div className="projects__list__item__content__overlayer__tools__item">
+                  <a className="projects__list__item__content__overlayer__tools__item__link">
+                    <span className="projects__list__item__content__overlayer__tools__item__link__label">
+                      JavaScript
+                    </span>
+                  </a>
+                </div>
+
+                <div className="projects__list__item__content__overlayer__tools__item">
+                  <span className="projects__list__item__content__overlayer__tools__item__label">
+                    ReactJS
+                  </span>
+                </div>
+
+                <div className="projects__list__item__content__overlayer__tools__item">
+                  <span className="projects__list__item__content__overlayer__tools__item__label">
+                    API Development
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
 
