@@ -32,6 +32,65 @@ export default class Template extends Component {
     </div>
   );
 
+  /**
+   * @author  Aj
+   * @version 1.0
+   * @since   2018-12-12
+   *
+   * RENDER: Map data to HTML
+   */
+  RenderItems = () => {
+    const returnHtml = [];
+
+    for (let inc = 0; inc < 20; inc++) {
+      returnHtml.push(
+        <div className="projects__list__item" key={inc}>
+          <div className="projects__list__item__content">
+            <div className="projects__list__item__content__image_container">
+              <img
+                className="projects__list__item__content__image_container__image"
+                src={
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9rb-ojUpPLYR6EG2z1L1wv5q0Tpj7ROzc1OZvzK6jiXPSdZw"
+                }
+                alt="project_image"
+              />
+            </div>
+          </div>
+
+          <div className="projects__list__item__header">
+            <div className="projects__list__item__header__title">
+              <span className="projects__list__item__header__title__label">
+                Project title
+              </span>
+            </div>
+
+            <div className="projects__list__item__header__sub_title">
+              <span className="projects__list__item__header__sub_title__label">
+                <a className="projects__list__item__header__sub_title__label__link">
+                  Design
+                </a>
+                {", "}
+                <a className="projects__list__item__header__sub_title__label__link">
+                  Frontend
+                </a>
+                {", "}
+                <a className="projects__list__item__header__sub_title__label__link">
+                  Backend
+                </a>
+                {", "}
+                <a className="projects__list__item__header__sub_title__label__link">
+                  QA
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    return returnHtml;
+  };
+
   // RENDER
   render() {
     return (
@@ -103,7 +162,7 @@ export default class Template extends Component {
             <Select
               multiselect
               name="make6"
-              noSelectionLabel="Select organization"
+              noSelectionLabel="Select organizations"
               caretIcon={
                 <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
               }
@@ -133,7 +192,7 @@ export default class Template extends Component {
           </a>
         </div>
 
-        <div className="projects__list">Project list</div>
+        <div className="projects__list">{this.RenderItems()}</div>
       </div>
     );
   }
