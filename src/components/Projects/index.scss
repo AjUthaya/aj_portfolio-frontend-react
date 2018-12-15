@@ -159,12 +159,14 @@
     justify-content: center;
     width: calc(100% + 20px);
     margin-top: 0px;
-    margin-left: -20px;
+    margin-left: -10px;
 
     &__item {
       display: flex;
       flex-direction: column;
       width: 385px;
+      max-width: 450px;
+      flex-grow: 1;
       margin-top: 20px;
       margin-left: 20px;
       background: lightgrey;

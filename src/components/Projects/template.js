@@ -117,7 +117,7 @@ export default class Template extends Component {
           <div className="projects__list__item__header">
             <div className="projects__list__item__header__title">
               <span className="projects__list__item__header__title__label">
-                Project title
+                Title
               </span>
             </div>
 
