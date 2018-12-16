@@ -22,8 +22,8 @@ Frontend repo for AJ Portfolio, requires backend service to be able to get data.
 
 Note: App has to be running before you run the tests
 
-- Run `npm run test` to test via command line
-- Run `npm run test:open` to open up the cypress GUI
+- Run `npm run tests` to test via command line
+- Run `npm run tests:open` to open up the cypress GUI
 
 ## Technologies used
 
