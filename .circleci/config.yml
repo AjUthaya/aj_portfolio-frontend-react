@@ -7,13 +7,13 @@ jobs:
   build:
     docker:
       - image: circleci/node:9.2.0
-    working_directory: ~/circleci-demo-workflows
     steps:
       - checkout
+      - run: node -v
 
 # Main Config
 workflows:
   version: 2
-  main:
+  build_and_test:
     jobs:
-      - build:
+      - build
