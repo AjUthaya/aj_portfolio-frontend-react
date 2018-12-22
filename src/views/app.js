@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../scss/index.scss";
 
 // IMPORT: Views
-import NotFound from "./NotFound/index";
 import Home from "./Home/index";
 
 class App extends React.Component {
@@ -16,10 +15,7 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Switch>
-            <Route exact={true} path="/" component={Home} />
-            <Route exact={true} path="/login" component={Home} />
-            <Route exact={true} path="/home" component={Home} />
-            <Route path="*" component={NotFound} />
+            <Route path="*" component={Home} />
           </Switch>
         </div>
       </Router>

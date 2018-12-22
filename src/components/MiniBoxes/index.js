@@ -5,9 +5,6 @@ import { connect } from "react-redux";
 // IMPORT: Template view file
 import Template from "./template";
 
-// IMPORT: Actions
-import actions from "../../actions/index";
-
 /**
  * @author  Aj
  * @version 1.0
@@ -29,12 +26,7 @@ const mapStateToProps = state => {
  * FUNCTION: Map actions to view template
  */
 const mapDispatchToProps = dispatch => {
-  return bindActionCreators(
-    {
-      fetchSettings: actions.settings.fetch
-    },
-    dispatch
-  );
+  return bindActionCreators({}, dispatch);
 };
 
 // CALL: Function to wrap everything together

@@ -79,37 +79,35 @@ export default class Template extends Component {
 
               {/* OVERLAYER TOOLS */}
               <div className="projects__list__item__content__overlayer__tools">
-                <div className="projects__list__item__content__overlayer__tools__item">
+                <a className="projects__list__item__content__overlayer__tools__item">
                   <span className="projects__list__item__content__overlayer__tools__item__label">
                     ReactJS
                   </span>
-                </div>
+                </a>
 
-                <div className="projects__list__item__content__overlayer__tools__item">
-                  <span className="projects__list__item__content__overlayer__tools__item__label">
-                    API Development
-                  </span>
-                </div>
-
-                <div className="projects__list__item__content__overlayer__tools__item">
-                  <a className="projects__list__item__content__overlayer__tools__item__link">
-                    <span className="projects__list__item__content__overlayer__tools__item__link__label">
-                      JavaScript
-                    </span>
-                  </a>
-                </div>
-
-                <div className="projects__list__item__content__overlayer__tools__item">
+                <a className="projects__list__item__content__overlayer__tools__item">
                   <span className="projects__list__item__content__overlayer__tools__item__label">
                     ReactJS
                   </span>
-                </div>
+                </a>
 
-                <div className="projects__list__item__content__overlayer__tools__item">
+                <a className="projects__list__item__content__overlayer__tools__item">
                   <span className="projects__list__item__content__overlayer__tools__item__label">
-                    API Development
+                    ReactJS
                   </span>
-                </div>
+                </a>
+
+                <a className="projects__list__item__content__overlayer__tools__item">
+                  <span className="projects__list__item__content__overlayer__tools__item__label">
+                    ReactJS
+                  </span>
+                </a>
+
+                <a className="projects__list__item__content__overlayer__tools__item">
+                  <span className="projects__list__item__content__overlayer__tools__item__label">
+                    ReactJS
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -162,7 +160,7 @@ export default class Template extends Component {
                 <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
               }
               onChange={newValue => {
-                console.log(newValue);
+                //console.log(newValue);
               }}
               options={[
                 {
@@ -203,7 +201,7 @@ export default class Template extends Component {
                 <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
               }
               onChange={newValue => {
-                console.log(newValue);
+                //console.log(newValue);
               }}
               options={[
                 {
@@ -224,7 +222,7 @@ export default class Template extends Component {
                 <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
               }
               onChange={newValue => {
-                console.log(newValue);
+                //console.log(newValue);
               }}
               options={[
                 {

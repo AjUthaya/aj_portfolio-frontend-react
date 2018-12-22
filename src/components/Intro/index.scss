@@ -1,6 +1,8 @@
 // IMPORT: Variables
 @import "../../scss/variables";
 
+$min-height: calc(100vh - #{$navigation_dimensions} + 15px);
+
 .intro {
   display: flex;
   justify-content: center;
@@ -14,7 +16,7 @@
   overflow: hidden;
 
   @media only screen and (max-width: $navigation_breakpoint) {
-    min-height: calc(100vh - #{$navigation_dimensions});
+    min-height: $min-height;
   }
 
   @media only screen and (max-height: 400px) {
@@ -24,12 +26,12 @@
   &__particles {
     position: absolute;
     height: 100%;
-    width: calc(100% - 80px);
+    width: calc(100% - #{$navigation_dimensions});
     overflow: hidden;
 
     @media only screen and (max-width: $navigation_breakpoint) {
       width: 100%;
-      max-height: calc(100vh - 80px);
+      max-height: $min-height;
     }
   }
 

@@ -29,7 +29,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return bindActionCreators(
     {
-      fetchSettings: actions.settings.fetch
+      fetchResume: actions.resume.fetch
     },
     dispatch
   );

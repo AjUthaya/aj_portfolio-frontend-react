@@ -1,7 +1,7 @@
-// IMPORT: Settings
-import settings from "./Settings/index";
+// IMPORT: Resume
+import resume from "./Resume/index";
 
 // EXPORT: Object
 export default {
-  settings
+  resume
 };

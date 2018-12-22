@@ -12,7 +12,7 @@ export default class Template extends Component {
     const classes = ["hamburger"];
 
     // 2. IF: Prop of active is true
-    if (this.props.active === true) {
+    if (this.props.isActive === true) {
       // A. PUSH: Value of active into classes for main container
       classes.push("active");
     }

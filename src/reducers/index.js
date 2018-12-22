@@ -1,10 +1,10 @@
 // IMPORT: Redux
 import { combineReducers } from "redux";
 
-// IMPORT: Settings
-import settings from "./Settings/index";
+// IMPORT: Resume
+import resume from "./Resume/index";
 
 // EXPORT: Object
 export default combineReducers({
-  settings
+  resume
 });

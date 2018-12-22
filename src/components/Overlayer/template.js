@@ -11,7 +11,17 @@ export default class Template extends Component {
     // IF: Props key of active is true
     // ELSE: Return nothing
     if (this.props.isActive === true) {
-      return <div className="overlayer" />;
+      return (
+        <a
+          onClick={() => {
+            this.props.controller.toggleOverlayer();
+            this.props.controller.toggleNavigation();
+          }}
+          className="overlayer"
+        >
+          {""}
+        </a>
+      );
     } else {
       return "";
     }

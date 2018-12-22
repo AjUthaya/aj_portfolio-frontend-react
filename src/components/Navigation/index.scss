@@ -9,14 +9,14 @@
   left: 0;
   height: 100vh;
   max-height: 100%;
-  width: 80px;
+  width: $navigation_dimensions;
   flex-shrink: 0;
   z-index: 999;
   transition: width 0.1s ease-out;
 
   @media only screen and (max-width: $navigation_breakpoint) {
     width: 100%;
-    height: 80px;
+    height: $navigation_dimensions;
   }
 
   &__header {
@@ -130,7 +130,7 @@
 
     @media only screen and (max-width: $navigation_breakpoint) {
       width: 0;
-      height: calc(100vh - 80px);
+      height: calc(100vh - #{$navigation_dimensions});
     }
 
     &__list {
@@ -194,6 +194,7 @@
             font-size: 14px;
             text-transform: uppercase;
             transition: all 0.1s ease-out;
+            user-select: none;
           }
         }
       }
@@ -204,7 +205,7 @@
       display: flex;
       flex-shrink: 0;
       align-items: center;
-      height: 80px;
+      height: $navigation_dimensions;
       width: 100%;
       transition: all 0.1s ease-out;
       background: $background-secondary;

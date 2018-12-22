@@ -9,8 +9,8 @@ const initState = {
 // ##### RETURN #####
 export default function reducer(state = initState, action) {
   switch (action.type) {
-    // FETCH SETTINGS
-    case "FETCH_SETTINGS": {
+    // FETCH: Resume
+    case "FETCH_RESUME": {
       state = {
         ...state,
         data: ["test"]
