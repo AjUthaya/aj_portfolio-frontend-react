@@ -18,7 +18,7 @@ export default class Template extends Component {
 
     for (let inc = 0; inc < 20; inc++) {
       returnHtml.push(
-        <a className="mini_boxes__list__item" key={inc}>
+        <div className="mini_boxes__list__item" key={inc}>
           <div className="mini_boxes__list__item__image_container">
             <img
               className="mini_boxes__list__item__image_container"
@@ -36,7 +36,7 @@ export default class Template extends Component {
               View projects
             </span>
           </div>
-        </a>
+        </div>
       );
     }
 

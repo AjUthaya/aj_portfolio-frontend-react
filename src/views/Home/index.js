@@ -16,7 +16,9 @@ import actions from "../../actions/index";
  * FUNCTION: Map data to view template
  */
 const mapStateToProps = state => {
-  return {};
+  return {
+    resume: state.resume
+  };
 };
 
 /**

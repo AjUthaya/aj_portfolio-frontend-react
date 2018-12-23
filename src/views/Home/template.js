@@ -49,6 +49,11 @@ export default class Template extends Component {
     this.handleNavigationLink = handleNavigationLink.bind(this);
   }
 
+  componentDidMount() {
+    // FETCH: Resume data
+    this.props.fetchResume();
+  }
+
   // RENDER
   render() {
     /**
@@ -107,7 +112,7 @@ export default class Template extends Component {
             >
               <div className="content__wrapper" id="resume">
                 <SectionTitle title="Resume" />
-                <Accordion data={[]} />
+                <Accordion />
               </div>
             </Waypoint>
 
@@ -119,7 +124,7 @@ export default class Template extends Component {
             >
               <div className="content__wrapper" id="toolset">
                 <SectionTitle title="Toolset" />
-                <MiniBoxes data={[]} />
+                <MiniBoxes />
               </div>
             </Waypoint>
 

@@ -1,5 +1,4 @@
 // IMPORT: Redux
-import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 
 // IMPORT: Template view file
@@ -14,26 +13,12 @@ import Template from "./template";
  */
 const mapStateToProps = state => {
   return {
-    test: state.settings
+    resume: state.resume
   };
 };
 
-/**
- * @author  Aj
- * @version 1.0
- * @since   2018-11-21
- *
- * FUNCTION: Map actions to view template
- */
-const mapDispatchToProps = dispatch => {
-  return bindActionCreators({}, dispatch);
-};
-
 // CALL: Function to wrap everything together
-const Projects = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Template);
+const Projects = connect(mapStateToProps)(Template);
 
 // EXPORT
 export default Projects;

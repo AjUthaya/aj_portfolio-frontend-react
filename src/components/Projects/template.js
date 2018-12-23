@@ -12,6 +12,24 @@ import "./select.scss";
 import "./index.scss";
 
 export default class Template extends Component {
+  constructor() {
+    super();
+    this.state = {
+      filter: {
+        types: [],
+        tools: [],
+        organizations: []
+      }
+    };
+  }
+
+  /**
+   * @author  Aj
+   * @version 1.0
+   * @since   2018-12-23
+   *
+   * RENDER: Multi select option
+   */
   multiSelectOptionMarkup = text => (
     <div>
       <span className="checkbox">
@@ -148,6 +166,13 @@ export default class Template extends Component {
 
   // RENDER
   render() {
+    this.handleSelectedValue = (type = false, selected = false) => {
+      // IF: Function param values are not empty
+      if (type && selected) {
+        //console.log(type);
+      }
+    };
+
     return (
       <div className="projects">
         <div className="projects__filter">
@@ -159,8 +184,8 @@ export default class Template extends Component {
               caretIcon={
                 <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
               }
-              onChange={newValue => {
-                //console.log(newValue);
+              onChange={selected => {
+                this.handleSelectedValue("type", selected);
               }}
               options={[
                 {
@@ -200,8 +225,8 @@ export default class Template extends Component {
               caretIcon={
                 <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
               }
-              onChange={newValue => {
-                //console.log(newValue);
+              onChange={selected => {
+                this.handleSelectedValue("tools", selected);
               }}
               options={[
                 {
@@ -221,8 +246,8 @@ export default class Template extends Component {
               caretIcon={
                 <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
               }
-              onChange={newValue => {
-                //console.log(newValue);
+              onChange={selected => {
+                this.handleSelectedValue("organization", selected);
               }}
               options={[
                 {

@@ -30,6 +30,10 @@
       border-radius: 5px;
       max-width: 100px;
 
+      @media only screen and (max-width: 500px) {
+        padding: 30px 20px;
+      }
+
       &__image_container {
         display: flex;
         flex-shrink: 0;
@@ -56,6 +60,10 @@
           white-space: nowrap;
           overflow: hidden;
           width: 100%;
+
+          @media only screen and (max-width: 500px) {
+            font-size: 14px;
+          }
         }
 
         &__sub_title {
@@ -67,7 +75,20 @@
           font-size: 11px;
           color: $theme-primary;
           text-transform: uppercase;
-          width: 100%;
+          cursor: pointer;
+          user-select: none;
+
+          @media only screen and (max-width: 500px) {
+            font-size: 8px;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+          &:active {
+            color: #{$theme-primary}95;
+          }
         }
       }
     }
