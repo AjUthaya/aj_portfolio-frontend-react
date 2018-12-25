@@ -2,9 +2,7 @@
 import axios from "axios";
 
 // IMPORT: Config
-import Config from "../../local";
-
-console.log(Config);
+import config from "../../local";
 
 /**
  * @author  Aj
@@ -16,14 +14,20 @@ console.log(Config);
 export default function fetchResume() {
   // RETURN: Function
   return function(dispatch) {
-    /*
-    axios
-      .get(config.endpoint + "tree")
-      .then(res => dispatch(receiveTreeData(res.data)))
-      .catch(err => dispatch(treeRequestFailed(err)));
-      */
-
-    // DISPATCH: Send data to redux store
+    // DISPATCH: Fetch has started
     dispatch({ type: "FETCH_RESUME", payload: null });
+
+    // DEFINE: Endpoint URL
+    const resumeEndpoint = config.api.endpoints.resume;
+
+    // GET: Resume data
+    axios
+      .get(resumeEndpoint)
+      .then(res => {
+        dispatch({ type: "FETCH_RESUME_FULFILLED", payload: res.data });
+      })
+      .catch(err => {
+        dispatch({ type: "FETCH_RESUME_REJECTED", payload: err.response });
+      });
   };
 }
