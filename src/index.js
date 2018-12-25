@@ -22,7 +22,7 @@ import reducers from "./reducers/index";
 import App from "./views/app";
 
 // 1. DEFINE: Authentication middleware
-const authMiddleware = store => next => async action => {
+const authMiddleware = store => next => action => {
   if (action.type != null) {
     //await Auth();
   }
@@ -54,7 +54,6 @@ if (sentryConfigValid) {
 const Store = createStore(
   reducers,
   compose(
-    // DEV: Remove logger from applyMiddleware, before PROD
     applyMiddleware(authMiddleware, thunk),
     // DEV: Remove line that enables redux dev tools
     window.__REDUX_DEVTOOLS_EXTENSION__

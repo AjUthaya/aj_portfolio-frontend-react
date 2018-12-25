@@ -12,7 +12,6 @@ import config from "../../local";
  * FUNCTION: Fetch resume
  */
 export default function fetchResume() {
-  // RETURN: Function
   return function(dispatch) {
     // DISPATCH: Fetch has started
     dispatch({ type: "FETCH_RESUME", payload: null });

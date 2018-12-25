@@ -52,6 +52,8 @@ export default class Template extends Component {
   componentDidMount() {
     // FETCH: Resume data
     this.props.fetchResume();
+    this.props.fetchSkills();
+    this.props.fetchProjects();
   }
 
   // RENDER

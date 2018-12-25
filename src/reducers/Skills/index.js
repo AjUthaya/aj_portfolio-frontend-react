@@ -1,6 +1,6 @@
 // DEFINE: Init state
 const initState = {
-  data: JSON.parse(localStorage.getItem("resume")) || [],
+  data: JSON.parse(localStorage.getItem("skills")) || [],
   isLoading: false,
   error: false,
   errorTitle: null,
@@ -11,15 +11,15 @@ const initState = {
 // ##### RETURN #####
 export default function reducer(state = initState, action) {
   switch (action.type) {
-    case "FETCH_RESUME": {
+    case "FETCH_SKILLS": {
       state = {
         ...state,
         isLoading: true
       };
       break;
     }
-    case "FETCH_RESUME_FULFILLED": {
-      localStorage.setItem("resume", JSON.stringify(action.payload));
+    case "FETCH_SKILLS_FULFILLED": {
+      localStorage.setItem("skills", JSON.stringify(action.payload));
 
       state = {
         ...state,
@@ -29,7 +29,7 @@ export default function reducer(state = initState, action) {
       break;
     }
 
-    case "FETCH_RESUME_REJECTED": {
+    case "FETCH_SKILLS_REJECTED": {
       state = {
         ...state,
         isLoading: false,

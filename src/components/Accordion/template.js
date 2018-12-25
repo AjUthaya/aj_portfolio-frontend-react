@@ -72,8 +72,6 @@ export default class Template extends Component {
 
   // RENDER
   render() {
-    console.log(this.props);
-
     return (
       <div className="accordion">
         <div className="accordion__list">{this.RenderItems()}</div>

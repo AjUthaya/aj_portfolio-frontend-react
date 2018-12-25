@@ -31,7 +31,9 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return bindActionCreators(
     {
-      fetchResume: actions.resume.fetch
+      fetchResume: actions.resume.fetch,
+      fetchSkills: actions.skills.fetch,
+      fetchProjects: actions.projects.fetch
     },
     dispatch
   );
