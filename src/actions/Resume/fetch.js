@@ -1,8 +1,8 @@
-// IMPORT: Axios
-import axios from "axios";
-
 // IMPORT: Config
 import config from "../../local";
+
+// IMPORT: Get endpoint data
+import actionGet from "../../functions/actionGet";
 
 /**
  * @author  Aj
@@ -12,21 +12,12 @@ import config from "../../local";
  * FUNCTION: Fetch resume
  */
 export default function fetchResume() {
-  return function(dispatch) {
-    // DISPATCH: Fetch has started
-    dispatch({ type: "FETCH_RESUME", payload: null });
-
-    // DEFINE: Endpoint URL
-    const resumeEndpoint = config.api.endpoints.resume;
-
-    // GET: Resume data
-    axios
-      .get(resumeEndpoint)
-      .then(res => {
-        dispatch({ type: "FETCH_RESUME_FULFILLED", payload: res.data });
-      })
-      .catch(err => {
-        dispatch({ type: "FETCH_RESUME_REJECTED", payload: err.response });
-      });
+  // DEFINE: Config object to get data from endpoint
+  const getConfig = {
+    title: "RESUME",
+    url: config.api.endpoints.resume,
+    serverError: config.api.serverError
   };
+
+  return actionGet(getConfig);
 }

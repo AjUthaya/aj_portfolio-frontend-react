@@ -1,6 +1,6 @@
 // DEFINE: Init state
 const initState = {
-  data: JSON.parse(localStorage.getItem("resume")) || [],
+  data: [],
   isLoading: false,
   error: false,
   errorTitle: null,
@@ -30,14 +30,31 @@ export default function reducer(state = initState, action) {
     }
 
     case "FETCH_RESUME_REJECTED": {
-      state = {
-        ...state,
-        isLoading: false,
-        error: true,
-        errorTitle: action.payload.statusText,
-        errorMessage: action.payload.data.message,
-        errorRes: action.payload
-      };
+      // DEFINE: Error object
+      const err = action.payload;
+
+      // IF: Internal server error
+      // ELSE: Error with response
+      if (!err.response) {
+        state = {
+          ...state,
+          isLoading: false,
+          error: true,
+          errorTitle: err.serverError.title,
+          errorMessage: err.serverError.message,
+          errorRes: err.serverError
+        };
+      } else {
+        state = {
+          ...state,
+          isLoading: false,
+          error: true,
+          errorTitle: err.response.statusText,
+          errorMessage: err.response.data.message,
+          errorRes: err.response
+        };
+      }
+
       break;
     }
 

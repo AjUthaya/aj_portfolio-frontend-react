@@ -1,32 +1,23 @@
-// IMPORT: Axios
-import axios from "axios";
-
 // IMPORT: Config
 import config from "../../local";
+
+// IMPORT: Get endpoint data
+import actionGet from "../../functions/actionGet";
 
 /**
  * @author  Aj
  * @version 1.0
- * @since   2018-12-25
+ * @since   2018-12-21
  *
- * FUNCTION: Fetch projects
+ * FUNCTION: Fetch skills
  */
 export default function fetchProjects() {
-  return function(dispatch) {
-    // DISPATCH: Fetch has started
-    dispatch({ type: "FETCH_PROJECTS", payload: null });
-
-    // DEFINE: Endpoint URL
-    const projectsEndpoint = config.api.endpoints.projects;
-
-    // GET: Resume data
-    axios
-      .get(projectsEndpoint)
-      .then(res => {
-        dispatch({ type: "FETCH_PROJECTS_FULFILLED", payload: res.data });
-      })
-      .catch(err => {
-        dispatch({ type: "FETCH_PROJECTS_REJECTED", payload: err.response });
-      });
+  // DEFINE: Config object to get data from endpoint
+  const getConfig = {
+    title: "PROJECTS",
+    url: config.api.endpoints.projects,
+    serverError: config.api.serverError
   };
+
+  return actionGet(getConfig);
 }
