@@ -17,54 +17,54 @@ export default class Template extends Component {
    * RENDER: Map data to HTML
    */
   RenderItems = () => {
-    // 1. DEFINE: Resume data
-    const resumeObject = this.props.resume,
-      resumeData = this.props.resume.data;
+    // 1. DEFINE: Working variables
+    const Object = this.props.resume,
+      Data = this.props.resume.data;
 
     // 2. DEFINE: Array to store HTML elements
     let returnArray = [];
 
     // 3. IF: Error
-    if (resumeObject.error) {
+    if (Object.error) {
       return <span>Error</span>;
     }
 
     // 4. IF: Loading
-    if (resumeObject.isLoading) {
+    if (Object.isLoading) {
       return <span>Loading</span>;
     }
 
     // 5. IF: Data length is 0
-    if (resumeData.length <= 0) {
+    if (Data.length <= 0) {
       return <span>No data was found</span>;
     }
 
-    // 6. MAP: Resume data to HTML
-    returnArray = resumeData.map(function(resumeItem, key) {
+    // 6. MAP: Data to HTML
+    returnArray = Data.map(function(item, key) {
       return (
         <div className="accordion__list__item" key={key}>
           <div className="accordion__list__item__preview">
             <div className="accordion__list__item__preview__image_container">
               <img
                 className="accordion__list__item__preview__image_container__image"
-                src={resumeItem.acf.image}
+                src={item.acf.image}
                 alt="Logo"
               />
             </div>
 
             <div className="accordion__list__item__preview__title_container">
               <span className="accordion__list__item__preview__title_container__title">
-                {resumeItem.title.rendered}
+                {item.title.rendered}
               </span>
 
               <span className="accordion__list__item__preview__title_container__sub_title">
-                {resumeItem.acf.subtitle}
+                {item.acf.subtitle}
               </span>
             </div>
 
             <div className="accordion__list__item__preview__date_container">
               <span className="accordion__list__item__preview__date_container__date">
-                {resumeItem.acf.start_date} - {resumeItem.acf.end_date}
+                {item.acf.start_date} - {item.acf.end_date}
               </span>
             </div>
 
@@ -77,7 +77,7 @@ export default class Template extends Component {
           </div>
 
           <div className="accordion__list__item__content">
-            {resumeItem.content.rendered}
+            {item.content.rendered}
           </div>
         </div>
       );

@@ -14,22 +14,43 @@ export default class Template extends Component {
    * RENDER: Map data to HTML
    */
   RenderItems = () => {
-    const returnHtml = [];
+    // 1. DEFINE: Working variables
+    const Object = this.props.skills,
+      Data = this.props.skills.data;
 
-    for (let inc = 0; inc < 20; inc++) {
-      returnHtml.push(
-        <div className="mini_boxes__list__item" key={inc}>
+    // 2. DEFINE: Array to store HTML elements
+    let returnArray = [];
+
+    // 3. IF: Error
+    if (Object.error) {
+      return <span>Error</span>;
+    }
+
+    // 4. IF: Loading
+    if (Object.isLoading) {
+      return <span>Loading</span>;
+    }
+
+    // 5. IF: Data length is 0
+    if (Data.length <= 0) {
+      return <span>No data was found</span>;
+    }
+
+    // 6. MAP: Data to HTML
+    returnArray = Data.map(function(item, key) {
+      return (
+        <div className="mini_boxes__list__item" key={key}>
           <div className="mini_boxes__list__item__image_container">
             <img
               className="mini_boxes__list__item__image_container"
-              src={"https://via.placeholder.com/300x300"}
+              src={item.acf.image}
               alt="Skill"
             />
           </div>
 
           <div className="mini_boxes__list__item__title_container">
             <span className="mini_boxes__list__item__title_container__title">
-              Title
+              {item.title.rendered}
             </span>
 
             <span className="mini_boxes__list__item__title_container__sub_title">
@@ -38,9 +59,10 @@ export default class Template extends Component {
           </div>
         </div>
       );
-    }
+    });
 
-    return returnHtml;
+    // @RETURN
+    return returnArray;
   };
 
   // RENDER

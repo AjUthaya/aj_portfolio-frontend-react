@@ -15,7 +15,7 @@ export default function actionGet({ title = "", url = "", serverError = {} }) {
 
     // GET: Data from endpoint
     axios
-      .get(url)
+      .get(url + "?per_page=100")
       .then(res => {
         dispatch({ type: `FETCH_${title}_FULFILLED`, payload: res.data });
       })
