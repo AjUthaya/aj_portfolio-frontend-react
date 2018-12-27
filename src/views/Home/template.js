@@ -54,6 +54,7 @@ export default class Template extends Component {
     this.props.fetchResume();
     this.props.fetchSkills();
     this.props.fetchProjects();
+    this.props.fetchCategories();
   }
 
   // RENDER

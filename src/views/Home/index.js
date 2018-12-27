@@ -33,7 +33,8 @@ const mapDispatchToProps = dispatch => {
     {
       fetchResume: actions.resume.fetch,
       fetchSkills: actions.skills.fetch,
-      fetchProjects: actions.projects.fetch
+      fetchProjects: actions.projects.fetch,
+      fetchCategories: actions.categories.fetch
     },
     dispatch
   );

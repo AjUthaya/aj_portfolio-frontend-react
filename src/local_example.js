@@ -1,32 +1,41 @@
 // EXPORT: Function
 module.exports = (function() {
   // SENTRY
-  const sentry_key = "",
-    sentry_app = "";
+  const sentryKey = "ENTER_YOUR_SENTRY_KEY",
+    sentryApp = "ENTER_YOUR_SENTRY_APP_ID";
 
   // API
-  const apiBase = "http://127.0.0.1:3000",
+  const apiBase = "ENTER_YOUR_API_BASE_URL",
     apiDataPath = "/wp-json/wp/v2",
-    apiAuthPath = "/wp-json/jwt-auth/v1";
+    apiDataBase = apiBase + apiDataPath,
+    apiAuthPath = "/wp-json/jwt-auth/v1",
+    apiAuthBase = apiBase + apiAuthPath;
 
   // RETURN: Object
   return {
     sentry: {
-      key: sentry_key,
-      app: sentry_app,
-      url: `https://${sentry_key}@app.getsentry.com/${sentry_app}`
+      key: sentryKey,
+      app: sentryApp,
+      url: `https://${sentryKey}@app.getsentry.com/${sentryApp}`
     },
     api: {
-      username: "",
-      password: "",
+      username: "ENTER_YOUR_WORDPRESS_USERNAME",
+      password: "ENTER_YOUR_WORDPRESS_PASSWORD",
       base: apiBase,
-      path: apiBase + apiDataPath,
-      auth: apiBase + apiAuthPath,
-
+      path: apiDataBase,
+      auth: apiAuthBase,
+      serverError: {
+        status: 500,
+        title: "Internal server error",
+        message: "Oops! Something went terribly wrong, please try again later."
+      },
       endpoints: {
-        generateToken: `${apiBase}${apiAuthPath}/token`,
-        validateToken: `${apiBase}${apiAuthPath}/token/validate`,
-        resume: `${apiBase}${apiDataPath}/experiences`
+        generateToken: `${apiAuthBase}/token`,
+        validateToken: `${apiAuthBase}/token/validate`,
+        resume: `${apiDataBase}/experiences`,
+        skills: `${apiDataBase}/skills`,
+        projects: `${apiDataBase}/projects`,
+        categories: `${apiDataBase}/categories`
       }
     }
   };
