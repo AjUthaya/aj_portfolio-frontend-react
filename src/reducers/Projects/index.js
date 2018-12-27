@@ -3,9 +3,9 @@ const initState = {
   data: [],
   isLoading: false,
   error: false,
-  errorTitle: null,
-  errorMessage: null,
-  errorRes: null
+  errorTitle: "",
+  errorMessage: "",
+  errorRes: {}
 };
 
 // ##### RETURN #####
@@ -42,7 +42,7 @@ export default function reducer(state = initState, action) {
           error: true,
           errorTitle: err.serverError.title,
           errorMessage: err.serverError.message,
-          errorRes: err.serverError
+          errorRes: err.error
         };
       } else {
         state = {

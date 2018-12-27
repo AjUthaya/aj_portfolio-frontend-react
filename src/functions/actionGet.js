@@ -17,8 +17,6 @@ export default function actionGet({ title = "", url = "", serverError = {} }) {
     axios
       .get(url)
       .then(res => {
-        console.log(url);
-
         dispatch({ type: `FETCH_${title}_FULFILLED`, payload: res.data });
       })
       .catch(err => {
