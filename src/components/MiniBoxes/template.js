@@ -52,10 +52,11 @@ export default class Template extends Component {
             <span className="mini_boxes__list__item__title_container__title">
               {item.title.rendered}
             </span>
-
+            {/*
             <span className="mini_boxes__list__item__title_container__sub_title">
               View projects
             </span>
+          */}
           </div>
         </div>
       );

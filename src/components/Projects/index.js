@@ -13,7 +13,8 @@ import Template from "./template";
  */
 const mapStateToProps = state => {
   return {
-    resume: state.resume
+    projects: state.projects,
+    companies: state.resume
   };
 };
 

@@ -10,6 +10,7 @@ import { faAngleDown, faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import "./select.scss";
 // IMPORT: Styles
 import "./index.scss";
+import Config from "../../local";
 
 export default class Template extends Component {
   constructor() {
@@ -53,24 +54,161 @@ export default class Template extends Component {
   /**
    * @author  Aj
    * @version 1.0
-   * @since   2018-12-12
+   * @since   2018-12-28
    *
    * RENDER: Map data to HTML
    */
   RenderItems = () => {
-    const returnHtml = [];
+    // 1. DEFINE: Working variables
+    const Object = this.props.projects,
+      Data = this.props.projects.data;
 
-    for (let inc = 0; inc < 20; inc++) {
-      returnHtml.push(
-        <div className="projects__list__item" key={inc}>
+    // 2. DEFINE: Array to store HTML elements
+    let returnArray = [];
+
+    // 3. IF: Error
+    if (Object.error) {
+      return <span>Error</span>;
+    }
+
+    // 4. IF: Loading
+    if (Object.isLoading) {
+      return <span>Loading</span>;
+    }
+
+    // 5. IF: Data length is 0
+    if (Data.length <= 0) {
+      return <span>No data was found</span>;
+    }
+
+    // 6. MAP: Data to HTML
+    returnArray = Data.map((item, key) => {
+      // DEFINE: Working variables
+      const categories = item.acf.categories,
+        skills = item.acf.skills;
+
+      let company = item.acf.company;
+
+      // HELPER: Render sub data to HTML
+      const renderCategories = () => {
+        // DEFINE: Return array with HTML items
+        const returnItems = [];
+
+        // IF: Data length is 0
+        if (categories.length === 0) {
+          return returnItems;
+        }
+
+        // MAP: Data to HTML
+        return categories.map((item, key) => {
+          // DEFINE: Return item
+          let returnItem = "";
+
+          // IF: First item
+          if (key === 0) {
+            returnItem = (
+              <a
+                className="projects__list__item__header__sub_title__label__link"
+                key={item.ID}
+              >
+                {item.post_title}
+              </a>
+            );
+          } else {
+            returnItem = [
+              ", ",
+              <a
+                className="projects__list__item__header__sub_title__label__link"
+                key={item.ID}
+              >
+                {item.post_title}
+              </a>
+            ];
+          }
+
+          // @RETURN
+          return returnItem;
+        });
+      };
+
+      // HELPER: Render sub data to HTML
+      const renderSkills = () => {
+        // DEFINE: Return array with HTML items
+        const returnItems = [];
+
+        // IF: Data length is 0
+        if (skills.length === 0) {
+          // @RETURN
+          return returnItems;
+        }
+
+        // MAP: Data to HTML
+        return skills.map((item, key) => {
+          // DEFINE: Return item
+          let returnItem = (
+            <a
+              className="projects__list__item__content__overlayer__tools__item"
+              key={item.ID}
+            >
+              <span className="projects__list__item__content__overlayer__tools__item__label">
+                {item.post_title}
+              </span>
+            </a>
+          );
+
+          // @RETURN
+          return returnItem;
+        });
+      };
+
+      const getCompanyLogo = company => {
+        const defaultImage = Config.portfolio.projectIcon;
+        const noImage = Config.portfolio.noLogo;
+
+        // IF: Company object is eqaul to false
+        if (company === false) {
+          return defaultImage;
+        }
+
+        // DEFINE: Default return image for companies
+        let companyLogo = noImage;
+        const companyID = company.ID,
+          companies = this.props.companies;
+
+        // IF: Company object has a post ID
+        if (companyID) {
+          // IF: Companies data has length
+          if (companies && companies.data.length !== 0) {
+            // Loop: Through all companies to find a matching ED value
+            for (const data of companies.data) {
+              // IF: Data has a key value of ID
+              if (data.id) {
+                // IF: ID matches companyID
+                if (data.id === companyID) {
+                  // IF: Company image is not false
+                  if (data.acf.image) {
+                    companyLogo = data.acf.image;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        return companyLogo;
+      };
+
+      // DEFINE: Default project title
+      const defaultTitle = Config.portfolio.projectTitle;
+
+      return (
+        <div className="projects__list__item" key={key}>
           <div className="projects__list__item__content">
             {/* ICON */}
             <div className="projects__list__item__content__icon_container">
               <img
                 className="projects__list__item__content__icon_container__icon"
-                src={
-                  "https://www.energysys.com/wp-content/uploads/2012/03/Energysys_avatar-logo-transparent-bg.png"
-                }
+                src={getCompanyLogo(company)}
                 alt="icon"
               />
             </div>
@@ -79,9 +217,7 @@ export default class Template extends Component {
             <div className="projects__list__item__content__image_container">
               <img
                 className="projects__list__item__content__image_container__image"
-                src={
-                  "https://cdn.freshdesignweb.com/wp-content/uploads/site/Boxify-Free-One-Page-Website-Template.jpg"
-                }
+                src={item.acf.thumbnail}
                 alt="project_image"
               />
             </div>
@@ -91,41 +227,13 @@ export default class Template extends Component {
               {/* OVERLAYER TITLE */}
               <div className="projects__list__item__content__overlayer__title">
                 <span className="projects__list__item__content__overlayer__title__label">
-                  Personal
+                  {item.acf.company.post_title || defaultTitle}
                 </span>
               </div>
 
               {/* OVERLAYER TOOLS */}
               <div className="projects__list__item__content__overlayer__tools">
-                <a className="projects__list__item__content__overlayer__tools__item">
-                  <span className="projects__list__item__content__overlayer__tools__item__label">
-                    ReactJS
-                  </span>
-                </a>
-
-                <a className="projects__list__item__content__overlayer__tools__item">
-                  <span className="projects__list__item__content__overlayer__tools__item__label">
-                    ReactJS
-                  </span>
-                </a>
-
-                <a className="projects__list__item__content__overlayer__tools__item">
-                  <span className="projects__list__item__content__overlayer__tools__item__label">
-                    ReactJS
-                  </span>
-                </a>
-
-                <a className="projects__list__item__content__overlayer__tools__item">
-                  <span className="projects__list__item__content__overlayer__tools__item__label">
-                    ReactJS
-                  </span>
-                </a>
-
-                <a className="projects__list__item__content__overlayer__tools__item">
-                  <span className="projects__list__item__content__overlayer__tools__item__label">
-                    ReactJS
-                  </span>
-                </a>
+                {renderSkills()}
               </div>
             </div>
           </div>
@@ -133,35 +241,22 @@ export default class Template extends Component {
           <div className="projects__list__item__header">
             <div className="projects__list__item__header__title">
               <span className="projects__list__item__header__title__label">
-                Title
+                {item.title.rendered}
               </span>
             </div>
 
             <div className="projects__list__item__header__sub_title">
               <span className="projects__list__item__header__sub_title__label">
-                <a className="projects__list__item__header__sub_title__label__link">
-                  Design
-                </a>
-                {", "}
-                <a className="projects__list__item__header__sub_title__label__link">
-                  Frontend
-                </a>
-                {", "}
-                <a className="projects__list__item__header__sub_title__label__link">
-                  Backend
-                </a>
-                {", "}
-                <a className="projects__list__item__header__sub_title__label__link">
-                  QA
-                </a>
+                {renderCategories()}
               </span>
             </div>
           </div>
         </div>
       );
-    }
+    });
 
-    return returnHtml;
+    // @RETURN
+    return returnArray;
   };
 
   // RENDER

@@ -13,6 +13,11 @@ module.exports = (function() {
 
   // RETURN: Object
   return {
+    portfolio: {
+      projectIcon: `${apiBase}/wp-content/uploads/site/logo.png`,
+      projectTitle: "Personal",
+      noLogo: `${apiBase}/wp-content/uploads/site/no-picture.png`
+    },
     sentry: {
       key: sentryKey,
       app: sentryApp,
