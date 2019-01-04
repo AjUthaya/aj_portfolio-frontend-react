@@ -1,6 +1,6 @@
 // DEFINE: Init state
 const initState = {
-  data: [],
+  data: JSON.parse(localStorage.getItem("resume")) || [],
   isLoading: false,
   error: false,
   errorTitle: "",

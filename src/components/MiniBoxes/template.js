@@ -16,23 +16,24 @@ export default class Template extends Component {
   RenderItems = () => {
     // 1. DEFINE: Working variables
     const Object = this.props.skills,
-      Data = this.props.skills.data;
+      Data = this.props.skills.data,
+      noData = Data.length === 0;
 
     // 2. DEFINE: Array to store HTML elements
     let returnArray = [];
 
     // 3. IF: Error
-    if (Object.error) {
+    if (Object.error && noData) {
       return <span>Error</span>;
     }
 
     // 4. IF: Loading
-    if (Object.isLoading) {
+    if (Object.isLoading && noData) {
       return <span>Loading</span>;
     }
 
     // 5. IF: Data length is 0
-    if (Data.length <= 0) {
+    if (noData) {
       return <span>No data was found</span>;
     }
 

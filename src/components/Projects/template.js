@@ -58,26 +58,27 @@ export default class Template extends Component {
    *
    * RENDER: Map data to HTML
    */
-  RenderItems = () => {
+  renderItems = () => {
     // 1. DEFINE: Working variables
     const Object = this.props.projects,
-      Data = this.props.projects.data;
+      Data = this.props.projects.data,
+      noData = Data.length === 0;
 
     // 2. DEFINE: Array to store HTML elements
     let returnArray = [];
 
     // 3. IF: Error
-    if (Object.error) {
+    if (Object.error && noData) {
       return <span>Error</span>;
     }
 
     // 4. IF: Loading
-    if (Object.isLoading) {
+    if (Object.isLoading && noData) {
       return <span>Loading</span>;
     }
 
     // 5. IF: Data length is 0
-    if (Data.length <= 0) {
+    if (noData) {
       return <span>No data was found</span>;
     }
 
@@ -259,6 +260,131 @@ export default class Template extends Component {
     return returnArray;
   };
 
+  /**
+   * @author  Aj
+   * @version 1.0
+   * @since   2019-01-04
+   *
+   * RENDER: Filter options
+   */
+
+  renderFilters = () => {
+    // 1. DEFINE: Working variables
+    const Object = this.props.projects,
+      Data = this.props.projects.data;
+
+    // 2. IF: Error
+    if (Object.error) {
+      return;
+    }
+
+    // 3. IF: Loading
+    if (Object.isLoading) {
+      return;
+    }
+
+    // 4. IF: Data length is 0
+    if (Data.length <= 0) {
+      return;
+    }
+
+    // DEFINE: Selected values
+    //const { types, tools, organizations } = this.state.filter;
+
+    // @RETURN
+    return [
+      <div className="projects__filter__select" key={1}>
+        <Select
+          multiselect
+          name="make6"
+          noSelectionLabel="Select types"
+          caretIcon={
+            <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
+          }
+          onChange={selected => {
+            this.handleSelectedValue("type", selected);
+          }}
+          options={[
+            {
+              text: "Any",
+              value: "null",
+              markup: this.multiSelectOptionMarkup("Any")
+            },
+            {
+              text: "Design",
+              value: "Design",
+              markup: this.multiSelectOptionMarkup("Design")
+            },
+            {
+              text: "Frontend",
+              value: "Frontend",
+              markup: this.multiSelectOptionMarkup("Frontend")
+            },
+            {
+              text: "Backend",
+              value: "Backend",
+              markup: this.multiSelectOptionMarkup("Backend")
+            },
+            {
+              text: "Dev Ops",
+              value: "DevOps",
+              markup: this.multiSelectOptionMarkup("Dev Ops")
+            }
+          ]}
+        />
+      </div>,
+      <div className="projects__filter__select" key={2}>
+        <Select
+          multiselect
+          name="make6"
+          noSelectionLabel="Select tools"
+          caretIcon={
+            <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
+          }
+          onChange={selected => {
+            this.handleSelectedValue("tools", selected);
+          }}
+          options={[
+            {
+              text: "Any",
+              value: "null",
+              markup: this.multiSelectOptionMarkup("Any")
+            }
+          ]}
+        />
+      </div>,
+      <div className="projects__filter__select" key={3}>
+        <Select
+          multiselect
+          name="make6"
+          noSelectionLabel="Select organizations"
+          caretIcon={
+            <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
+          }
+          onChange={selected => {
+            this.handleSelectedValue("organization", selected);
+          }}
+          options={[
+            {
+              text: "Any",
+              value: "null",
+              markup: this.multiSelectOptionMarkup("Any")
+            }
+          ]}
+        />
+      </div>,
+      <a className="projects__filter__clear" key={4}>
+        <label className="projects__filter__clear__label">
+          <FontAwesomeIcon
+            className="caret-projects__filter__clear__label__icon"
+            icon={faTrashAlt}
+          />
+          <span className="projects__filter__clear__label__title">Clear</span>
+        </label>
+      </a>
+    ];
+  };
+
   // RENDER
   render() {
     this.handleSelectedValue = (type = false, selected = false) => {
@@ -270,104 +396,9 @@ export default class Template extends Component {
 
     return (
       <div className="projects">
-        <div className="projects__filter">
-          <div className="projects__filter__select">
-            <Select
-              multiselect
-              name="make6"
-              noSelectionLabel="Select types"
-              caretIcon={
-                <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
-              }
-              onChange={selected => {
-                this.handleSelectedValue("type", selected);
-              }}
-              options={[
-                {
-                  text: "Any",
-                  value: "null",
-                  markup: this.multiSelectOptionMarkup("Any")
-                },
-                {
-                  text: "Design",
-                  value: "Design",
-                  markup: this.multiSelectOptionMarkup("Design")
-                },
-                {
-                  text: "Frontend",
-                  value: "Frontend",
-                  markup: this.multiSelectOptionMarkup("Frontend")
-                },
-                {
-                  text: "Backend",
-                  value: "Backend",
-                  markup: this.multiSelectOptionMarkup("Backend")
-                },
-                {
-                  text: "Dev Ops",
-                  value: "DevOps",
-                  markup: this.multiSelectOptionMarkup("Dev Ops")
-                }
-              ]}
-            />
-          </div>
+        <div className="projects__filter">{this.renderFilters()}</div>
 
-          <div className="projects__filter__select">
-            <Select
-              multiselect
-              name="make6"
-              noSelectionLabel="Select tools"
-              caretIcon={
-                <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
-              }
-              onChange={selected => {
-                this.handleSelectedValue("tools", selected);
-              }}
-              options={[
-                {
-                  text: "Any",
-                  value: "null",
-                  markup: this.multiSelectOptionMarkup("Any")
-                }
-              ]}
-            />
-          </div>
-
-          <div className="projects__filter__select">
-            <Select
-              multiselect
-              name="make6"
-              noSelectionLabel="Select organizations"
-              caretIcon={
-                <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
-              }
-              onChange={selected => {
-                this.handleSelectedValue("organization", selected);
-              }}
-              options={[
-                {
-                  text: "Any",
-                  value: "null",
-                  markup: this.multiSelectOptionMarkup("Any")
-                }
-              ]}
-            />
-          </div>
-
-          <a className="projects__filter__clear">
-            <label className="projects__filter__clear__label">
-              <FontAwesomeIcon
-                className="caret-projects__filter__clear__label__icon"
-                icon={faTrashAlt}
-              />
-              <span className="projects__filter__clear__label__title">
-                Clear
-              </span>
-            </label>
-          </a>
-        </div>
-
-        <div className="projects__list">{this.RenderItems()}</div>
+        <div className="projects__list">{this.renderItems()}</div>
       </div>
     );
   }
