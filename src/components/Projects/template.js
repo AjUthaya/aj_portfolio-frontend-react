@@ -271,20 +271,16 @@ export default class Template extends Component {
   renderFilters = () => {
     // 1. DEFINE: Working variables
     const Object = this.props.projects,
-      Data = this.props.projects.data;
+      Data = this.props.projects.data,
+      noData = Data.length === 0;
 
     // 2. IF: Error
-    if (Object.error) {
+    if (Object.error && noData) {
       return;
     }
 
     // 3. IF: Loading
-    if (Object.isLoading) {
-      return;
-    }
-
-    // 4. IF: Data length is 0
-    if (Data.length <= 0) {
+    if (Object.isLoading && noData) {
       return;
     }
 
