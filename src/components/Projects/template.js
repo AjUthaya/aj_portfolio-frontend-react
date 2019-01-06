@@ -19,7 +19,7 @@ export default class Template extends Component {
     this.state = {
       filter: {
         types: [],
-        tools: ["HTML"],
+        tools: [],
         organizations: []
       }
     };
