@@ -1,6 +1,7 @@
 // IMPORT: React
 import React, { Component } from "react";
 import Select from "react-responsive-select";
+import Shuffle from "react-flip-move";
 
 // IMPORT: Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,7 +20,7 @@ export default class Template extends Component {
       filter: {
         types: [],
         tools: [],
-        organizations: ["Personal"]
+        organizations: []
       }
     };
   }
@@ -651,7 +652,7 @@ export default class Template extends Component {
       <div className="projects">
         <div className="projects__filter">{this.renderFilters()}</div>
 
-        <div className="projects__list">{this.renderItems()}</div>
+        <Shuffle className="projects__list">{this.renderItems()}</Shuffle>
       </div>
     );
   }

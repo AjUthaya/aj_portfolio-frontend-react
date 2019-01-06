@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 //import { Helmet } from "react-helmet";
 import Waypoint from "react-waypoint";
+import Fade from "react-reveal/Fade";
 
 // IMPORT: Navigation
 import Navigation from "../../components/Navigation/index";
@@ -114,8 +115,10 @@ export default class Template extends Component {
               }}
             >
               <div className="content__wrapper" id="resume">
-                <SectionTitle title="Resume" />
-                <Accordion />
+                <Fade right>
+                  <SectionTitle title="Resume" />
+                  <Accordion />
+                </Fade>
               </div>
             </Waypoint>
 
@@ -126,8 +129,10 @@ export default class Template extends Component {
               }}
             >
               <div className="content__wrapper" id="toolset">
-                <SectionTitle title="Toolset" />
-                <MiniBoxes />
+                <Fade right>
+                  <SectionTitle title="Toolset" />
+                  <MiniBoxes />
+                </Fade>
               </div>
             </Waypoint>
 
@@ -138,8 +143,10 @@ export default class Template extends Component {
               }}
             >
               <div className="content__wrapper" id="projects">
-                <SectionTitle title="Projects" />
-                <Projects />
+                <Fade right>
+                  <SectionTitle title="Projects" />
+                  <Projects />
+                </Fade>
               </div>
             </Waypoint>
           </div>
