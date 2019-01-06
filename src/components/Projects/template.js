@@ -19,7 +19,7 @@ export default class Template extends Component {
       filter: {
         types: [],
         tools: [],
-        organizations: []
+        organizations: ["Personal"]
       }
     };
   }
@@ -54,6 +54,79 @@ export default class Template extends Component {
   /**
    * @author  Aj
    * @version 1.0
+   * @since   2019-01-06
+   *
+   * DATA: Filter projects
+   */
+  filterProjects = projects => {
+    // DEFINE: Basic variables
+    const filteredProjects = [];
+
+    // LOOP: Projects
+    for (const project of projects) {
+      // DEFINE: Basic variables
+      const types = project.acf.categories || [],
+        tools = project.acf.skills || [],
+        organizations = project.acf.company || false,
+        filterTypes = this.state.filter.types,
+        filterTools = this.state.filter.tools,
+        filterOrganizations = this.state.filter.organizations,
+        filtersEmpty =
+          filterTypes.length === 0 &&
+          filterTools.length === 0 &&
+          filterOrganizations.length === 0;
+      let passedFilter = false;
+
+      // LOOP: Types
+      for (const type of types) {
+        const title = type.post_title;
+
+        if (
+          filtersEmpty ||
+          filterTypes.indexOf("Any") !== -1 ||
+          filterTypes.indexOf(title) !== -1
+        ) {
+          passedFilter = true;
+        }
+      }
+
+      // LOOP: Tools
+      for (const tool of tools) {
+        const title = tool.post_title;
+
+        if (
+          filtersEmpty ||
+          filterTools.indexOf("Any") !== -1 ||
+          filterTools.indexOf(title) !== -1
+        ) {
+          passedFilter = true;
+        }
+      }
+
+      // IF: Company in filter array
+      if (
+        filtersEmpty ||
+        filterOrganizations.indexOf("Any") !== -1 ||
+        filterOrganizations.indexOf(organizations.post_title) !== -1 ||
+        (filterOrganizations.indexOf("Personal") !== -1 && !organizations)
+      ) {
+        //console.log(organizations);
+
+        passedFilter = true;
+      }
+
+      if (passedFilter) {
+        filteredProjects.push(project);
+      }
+    }
+
+    // RETURN
+    return filteredProjects;
+  };
+
+  /**
+   * @author  Aj
+   * @version 1.0
    * @since   2018-12-28
    *
    * RENDER: Map data to HTML
@@ -82,8 +155,16 @@ export default class Template extends Component {
       return <span>No data was found</span>;
     }
 
-    // 6. MAP: Data to HTML
-    returnArray = Data.map((item, key) => {
+    // 6. DATA: Filter data
+    const filteredData = this.filterProjects(Data);
+
+    // 7. IF: No data after filtering
+    if (filteredData.length === 0) {
+      return <span>No data was found after filtering</span>;
+    }
+
+    // 8. MAP: Data to HTML
+    returnArray = filteredData.map((item, key) => {
       // DEFINE: Working variables
       const categories = item.acf.categories,
         skills = item.acf.skills;
@@ -111,6 +192,9 @@ export default class Template extends Component {
               <a
                 className="projects__list__item__header__sub_title__label__link"
                 key={item.ID}
+                onClick={() => {
+                  this.handleProjectRefs("type", item.post_title);
+                }}
               >
                 {item.post_title}
               </a>
@@ -121,6 +205,9 @@ export default class Template extends Component {
               <a
                 className="projects__list__item__header__sub_title__label__link"
                 key={item.ID}
+                onClick={() => {
+                  this.handleProjectRefs("type", item.post_title);
+                }}
               >
                 {item.post_title}
               </a>
@@ -150,6 +237,9 @@ export default class Template extends Component {
             <a
               className="projects__list__item__content__overlayer__tools__item"
               key={item.ID}
+              onClick={() => {
+                this.handleProjectRefs("tool", item.post_title);
+              }}
             >
               <span className="projects__list__item__content__overlayer__tools__item__label">
                 {item.post_title}
@@ -384,6 +474,11 @@ export default class Template extends Component {
           text: "Any",
           value: "Any",
           markup: this.multiSelectOptionMarkup("Any")
+        },
+        {
+          text: "Personal",
+          value: "Personal",
+          markup: this.multiSelectOptionMarkup("Personal")
         }
       ];
 
@@ -503,6 +598,51 @@ export default class Template extends Component {
         </label>
       </a>
     ];
+  };
+
+  /**
+   * @author  Aj
+   * @version 1.0
+   * @since   2019-01-06
+   *
+   * HANDLE: When a filter button on a project is clicked
+   */
+  handleProjectRefs = (type = false, value = false) => {
+    // IF: Params are not empty
+    if (type && value) {
+      // DEFINE: Basic variables
+      const filter = { ...this.state.filter };
+
+      // SWITCH: Check type
+      switch (type) {
+        case "type": {
+          // REDEFINE: Empty out the other filters
+          filter.tools = [];
+          filter.organizations = [];
+
+          // REDEFINE: Set value in filter array
+          filter.types = [value];
+
+          // STATE: Update filter
+          this.setState({ filter });
+          break;
+        }
+        case "tool": {
+          // REDEFINE: Empty out the other filters
+          filter.types = [];
+          filter.organizations = [];
+
+          // REDEFINE: Set value in filter array
+          filter.tools = [value];
+
+          // STATE: Update filter
+          this.setState({ filter });
+          break;
+        }
+        default: {
+        }
+      }
+    }
   };
 
   // RENDER
