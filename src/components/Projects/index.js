@@ -14,7 +14,9 @@ import Template from "./template";
 const mapStateToProps = state => {
   return {
     projects: state.projects,
-    companies: state.resume
+    companies: state.resume,
+    tools: state.skills,
+    types: state.categories
   };
 };
 

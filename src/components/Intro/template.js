@@ -53,7 +53,8 @@ export default class Template extends Component {
                 onhover: {
                   enable: true,
                   mode: "repulse"
-                }
+                },
+                resize: true
               }
             },
             modes: {

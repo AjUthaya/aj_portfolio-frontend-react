@@ -263,113 +263,237 @@ export default class Template extends Component {
   /**
    * @author  Aj
    * @version 1.0
+   * @since   2019-01-06
+   *
+   * HANDLE: On selected filter value
+   */
+  handleSelectedValue = (type = false, selected = false) => {
+    // IF: Function param values are not empty
+    if (type && selected) {
+      // DEFINE: Filter state
+      const filter = { ...this.state.filter };
+
+      // DEFINE: Return array
+      const selectedItems = [];
+
+      // LOOP: Through all items in array
+      for (const option of selected.options) {
+        if (option.value && option.value !== "null") {
+          selectedItems.push(option.value);
+        }
+      }
+
+      // SWITCH: Check what filter that was updated
+      switch (type) {
+        case "type": {
+          // IF: State data is diffrent from state
+          if (selectedItems.join("_") !== this.state.filter.types.join("_")) {
+            filter.types = selectedItems;
+            this.setState({ filter });
+          }
+          break;
+        }
+        case "tool": {
+          // IF: State data is diffrent from state
+          if (selectedItems.join("_") !== this.state.filter.tools.join("_")) {
+            filter.tools = selectedItems;
+            this.setState({ filter });
+          }
+          break;
+        }
+        case "organization": {
+          // IF: State data is diffrent from state
+          if (
+            selectedItems.join("_") !==
+            this.state.filter.organizations.join("_")
+          ) {
+            filter.organizations = selectedItems;
+            this.setState({ filter });
+          }
+          break;
+        }
+        default: {
+        }
+      }
+    }
+  };
+
+  /**
+   * @author  Aj
+   * @version 1.0
+   * @since   2019-01-05
+   *
+   * HANDLE: On click of clear filter
+   */
+  handleClearFilter = () => {
+    // DEFINE: Filter state
+    const filter = { ...this.state.filter };
+
+    // REDEFINE: Clear out all options
+    filter.types = [];
+    filter.tools = [];
+    filter.organizations = [];
+
+    // STATE: Update filter
+    this.setState({ filter });
+  };
+
+  /**
+   * @author  Aj
+   * @version 1.0
    * @since   2019-01-04
    *
    * RENDER: Filter options
    */
-
   renderFilters = () => {
     // 1. DEFINE: Working variables
-    const Object = this.props.projects,
+    const projects = this.props.projects,
+      types = this.props.types.data,
+      tools = this.props.tools.data,
+      organizations = this.props.companies.data,
       Data = this.props.projects.data,
       noData = Data.length === 0;
 
     // 2. IF: Error
-    if (Object.error && noData) {
+    if (projects.error && noData) {
       return;
     }
 
     // 3. IF: Loading
-    if (Object.isLoading && noData) {
+    if (projects.isLoading && noData) {
       return;
     }
 
-    // DEFINE: Selected values
-    //const { types, tools, organizations } = this.state.filter;
+    // 4. DEFINE: Default options
+    const typeOptions = [
+        {
+          text: "Any",
+          value: "Any",
+          markup: this.multiSelectOptionMarkup("Any")
+        }
+      ],
+      toolOptions = [
+        {
+          text: "Any",
+          value: "Any",
+          markup: this.multiSelectOptionMarkup("Any")
+        }
+      ],
+      organizationOptions = [
+        {
+          text: "Any",
+          value: "Any",
+          markup: this.multiSelectOptionMarkup("Any")
+        }
+      ];
+
+    // 5. IF: Type data has length
+    if (types.length !== 0) {
+      // A. LOOP: Through all the data
+      for (const type of types) {
+        // I. DEFINE: Working values
+        const title = type.title.rendered;
+
+        // IF: Title is not invalid
+        if (title) {
+          typeOptions.push({
+            text: title,
+            value: title,
+            markup: this.multiSelectOptionMarkup(title)
+          });
+        }
+      }
+    }
+
+    // 6. IF: Organizations data has length
+    if (organizations.length !== 0) {
+      // A. LOOP: Through all the data
+      for (const organization of organizations) {
+        // I. DEFINE: Working values
+        const title = organization.title.rendered;
+
+        // IF: Title is not invalid
+        if (title) {
+          organizationOptions.push({
+            text: title,
+            value: title,
+            markup: this.multiSelectOptionMarkup(title)
+          });
+        }
+      }
+    }
+
+    // 7. IF: Tools data has length
+    if (tools.length !== 0) {
+      // A. LOOP: Through all the data
+      for (const tool of tools) {
+        // I. DEFINE: Working values
+        const title = tool.title.rendered;
+
+        // IF: Title is not invalid
+        if (title) {
+          toolOptions.push({
+            text: title,
+            value: title,
+            markup: this.multiSelectOptionMarkup(title)
+          });
+        }
+      }
+    }
+
+    const caretIcon = (
+      <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
+    );
 
     // @RETURN
     return [
       <div className="projects__filter__select" key={1}>
         <Select
+          altered={[].join("_") !== this.state.filter.types.join("_")}
+          caretIcon={caretIcon}
           multiselect
           name="make6"
           noSelectionLabel="Select types"
-          caretIcon={
-            <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
-          }
           onChange={selected => {
             this.handleSelectedValue("type", selected);
           }}
-          options={[
-            {
-              text: "Any",
-              value: "null",
-              markup: this.multiSelectOptionMarkup("Any")
-            },
-            {
-              text: "Design",
-              value: "Design",
-              markup: this.multiSelectOptionMarkup("Design")
-            },
-            {
-              text: "Frontend",
-              value: "Frontend",
-              markup: this.multiSelectOptionMarkup("Frontend")
-            },
-            {
-              text: "Backend",
-              value: "Backend",
-              markup: this.multiSelectOptionMarkup("Backend")
-            },
-            {
-              text: "Dev Ops",
-              value: "DevOps",
-              markup: this.multiSelectOptionMarkup("Dev Ops")
-            }
-          ]}
+          options={typeOptions}
+          selectedValues={this.state.filter.types}
         />
       </div>,
       <div className="projects__filter__select" key={2}>
         <Select
+          altered={[].join("_") !== this.state.filter.tools.join("_")}
+          caretIcon={caretIcon}
           multiselect
           name="make6"
           noSelectionLabel="Select tools"
-          caretIcon={
-            <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
-          }
           onChange={selected => {
-            this.handleSelectedValue("tools", selected);
+            this.handleSelectedValue("tool", selected);
           }}
-          options={[
-            {
-              text: "Any",
-              value: "null",
-              markup: this.multiSelectOptionMarkup("Any")
-            }
-          ]}
+          options={toolOptions}
+          selectedValues={this.state.filter.tools}
         />
       </div>,
       <div className="projects__filter__select" key={3}>
         <Select
+          altered={[].join("_") !== this.state.filter.organizations.join("_")}
           multiselect
           name="make6"
           noSelectionLabel="Select organizations"
-          caretIcon={
-            <FontAwesomeIcon className="caret-icon" icon={faAngleDown} />
-          }
+          caretIcon={caretIcon}
           onChange={selected => {
             this.handleSelectedValue("organization", selected);
           }}
-          options={[
-            {
-              text: "Any",
-              value: "null",
-              markup: this.multiSelectOptionMarkup("Any")
-            }
-          ]}
+          options={organizationOptions}
+          selectedValues={this.state.filter.organizations}
         />
       </div>,
-      <a className="projects__filter__clear" key={4}>
+      <a
+        className="projects__filter__clear"
+        onClick={this.handleClearFilter}
+        key={4}
+      >
         <label className="projects__filter__clear__label">
           <FontAwesomeIcon
             className="caret-projects__filter__clear__label__icon"
@@ -383,13 +507,6 @@ export default class Template extends Component {
 
   // RENDER
   render() {
-    this.handleSelectedValue = (type = false, selected = false) => {
-      // IF: Function param values are not empty
-      if (type && selected) {
-        //console.log(type);
-      }
-    };
-
     return (
       <div className="projects">
         <div className="projects__filter">{this.renderFilters()}</div>
