@@ -19,7 +19,7 @@ export default class Template extends Component {
     this.state = {
       filter: {
         types: [],
-        tools: [],
+        tools: ["HTML"],
         organizations: []
       }
     };
@@ -68,6 +68,7 @@ export default class Template extends Component {
       // DEFINE: Basic variables
       const types = project.acf.categories || [],
         tools = project.acf.skills || [],
+        exstraTools = project.acf.invisible_skills || [],
         organizations = project.acf.company || false,
         filterTypes = this.state.filter.types,
         filterTools = this.state.filter.tools,
@@ -92,7 +93,7 @@ export default class Template extends Component {
       }
 
       // LOOP: Tools
-      for (const tool of tools) {
+      for (const tool of tools.concat(exstraTools)) {
         const title = tool.post_title;
 
         if (
