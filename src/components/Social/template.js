@@ -20,7 +20,7 @@ export default class Template extends Component {
             <div className="social__wrapper__list__item">
               <a
                 className="social__wrapper__list__item__link"
-                href="https://github.com/ajanthuthaya"
+                href="https://github.com/ajuthaya"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -36,7 +36,7 @@ export default class Template extends Component {
             <div className="social__wrapper__list__item">
               <a
                 className="social__wrapper__list__item__link"
-                href="https://codepen.io/"
+                href="https://codepen.io/aj_uthaya/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,7 +52,7 @@ export default class Template extends Component {
             <div className="social__wrapper__list__item">
               <a
                 className="social__wrapper__list__item__link"
-                href="mailto:ajanth160899@gmail.com?Subject=Question%20related%20to%20portfolio"
+                href="mailto:ajanth160899@gmail.com?Subject=AJ%20Portfolio"
               >
                 <div className="social__wrapper__list__item__link__icon_container">
                   <FontAwesomeIcon
