@@ -285,6 +285,7 @@
         flex-direction: column;
         padding: 20px 40px;
         background: $background-secondary;
+        flex-grow: 1;
 
         &__title {
           display: flex;

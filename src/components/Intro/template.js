@@ -70,7 +70,9 @@ export default class Template extends Component {
         <div className="content__wrapper">
           <div className="intro__wrapper">
             <div className="intro__wrapper__text">
-              <span className="intro__wrapper__text__name">My name is Aj</span>
+              <span className="intro__wrapper__text__name">
+                My name is Ajanth
+              </span>
               <span className="intro__wrapper__text__title">
                 <Typed
                   strings={[
