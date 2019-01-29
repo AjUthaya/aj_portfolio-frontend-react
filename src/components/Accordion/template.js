@@ -48,7 +48,7 @@ export default class Template extends Component {
             <div className="accordion__list__item__preview__image_container">
               <img
                 className="accordion__list__item__preview__image_container__image"
-                src={item.acf.image}
+                src={item.acf.image.sizes.company_icon}
                 alt="Logo"
               />
             </div>

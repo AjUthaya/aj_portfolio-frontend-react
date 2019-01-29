@@ -310,7 +310,7 @@ export default class Template extends Component {
             <div className="projects__list__item__content__image_container">
               <img
                 className="projects__list__item__content__image_container__image"
-                src={item.acf.thumbnail}
+                src={item.acf.thumbnail.sizes.project_preview}
                 alt="project_image"
               />
             </div>
