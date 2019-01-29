@@ -280,7 +280,7 @@ export default class Template extends Component {
                 if (data.id === companyID) {
                   // IF: Company image is not false
                   if (data.acf.image) {
-                    companyLogo = data.acf.image;
+                    companyLogo = data.acf.image.sizes.project_preview;
                   }
                 }
               }
