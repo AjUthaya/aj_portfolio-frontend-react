@@ -11,6 +11,13 @@
     flex-direction: column;
     width: 100%;
 
+    &__no_data {
+      font-size: 16px;
+      margin-top: 40px;
+      color: $color-primary;
+      text-align: center;
+    }
+
     &__item {
       display: flex;
       flex-direction: column;

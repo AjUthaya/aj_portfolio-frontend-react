@@ -15,7 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 // IMPORT: Animated hamburger icon
-import HamburgerIcon from "../hamburger/index";
+import HamburgerIcon from "../Hamburger/index";
 
 // IMPORT: SVG Logo
 import Logo from "../../assets/images/logo.svg";

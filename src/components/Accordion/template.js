@@ -5,6 +5,10 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
+// IMPORT: Loading & Error
+import Loading from "../Loading/index";
+import Error from "../Error/index";
+
 // IMPORT: Styles
 import "./index.scss";
 
@@ -26,18 +30,20 @@ export default class Template extends Component {
     let returnArray = [];
 
     // 3. IF: Error
-    if (Object.error && noData) {
-      return <span>Error</span>;
+    if ((Object.error && noData) || true) {
+      console.log(Object);
+
+      return <Error onClick={"Retry"} />;
     }
 
     // 4. IF: Loading
     if (Object.isLoading && noData) {
-      return <span>Loading</span>;
+      return <Loading />;
     }
 
     // 5. IF: Data length is 0
     if (noData) {
-      return <span>No data was found</span>;
+      return <span className="accordion__list__no_data">NO RECORDS FOUND</span>;
     }
 
     // 6. MAP: Data to HTML

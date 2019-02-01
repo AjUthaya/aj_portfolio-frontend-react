@@ -7,10 +7,15 @@ import Shuffle from "react-flip-move";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 
-// IMPORT: Style for select
-import "./select.scss";
 // IMPORT: Styles
+import "./select.scss";
 import "./index.scss";
+
+// IMPORT: Loading & Error
+import Loading from "../Loading/index";
+import Error from "../Error/index";
+
+// IMPORT: Config
 import Config from "../../local";
 
 export default class Template extends Component {
@@ -144,17 +149,17 @@ export default class Template extends Component {
 
     // 3. IF: Error
     if (Object.error && noData) {
-      return <span>Error</span>;
+      return <Error />;
     }
 
     // 4. IF: Loading
     if (Object.isLoading && noData) {
-      return <span>Loading</span>;
+      return <Loading />;
     }
 
     // 5. IF: Data length is 0
     if (noData) {
-      return <span>No data was found</span>;
+      return <span className="projects__list__no_data">NO RECORDS FOUND</span>;
     }
 
     // 6. DATA: Filter data
@@ -162,7 +167,11 @@ export default class Template extends Component {
 
     // 7. IF: No data after filtering
     if (filteredData.length === 0) {
-      return <span>No data was found after filtering</span>;
+      return (
+        <span className="projects__list__no_data">
+          No matching projects found
+        </span>
+      );
     }
 
     // 8. MAP: Data to HTML
