@@ -1,0 +1,34 @@
+// IMPORT: Variables
+@import "../../scss/variables";
+
+.section_title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+
+    @media only screen and (max-width: 800px) {
+      font-size: 20px;
+    }
+  }
+
+  &__underline {
+    margin-top: 5px;
+    height: 4px;
+    width: 70px;
+    border-radius: 5px;
+    background: $color-primary;
+
+    @media only screen and (max-width: 800px) {
+      height: 3px;
+      width: 40px;
+    }
+  }
+}

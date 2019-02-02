@@ -1,0 +1,19 @@
+# Version
+version: 2.0
+
+# Define Jobs
+jobs:
+  # Test Docker containers
+  build:
+    docker:
+      - image: circleci/node:9.2.0
+    steps:
+      - checkout
+      - run: node -v
+
+# Main Config
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
