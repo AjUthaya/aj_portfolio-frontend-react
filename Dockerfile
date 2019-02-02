@@ -14,13 +14,10 @@ COPY ./src/local.js /opt/app/aj_portfolio/frontend/src/local.js
 WORKDIR /opt/app/aj_portfolio/frontend
 
 # Install packages for production only
-RUN npm update
-
 # Build project
-RUN npm run build
-
 # Clear out NGINX folder
-RUN rm -R /usr/share/nginx/html/*
-
 # Copy build files into NGINX folder
-RUN cp -R /opt/app/aj_portfolio/frontend/build/* /usr/share/nginx/html
+RUN npm update && \
+    npm run build && \
+    rm -R /usr/share/nginx/html/* && \
+    cp -R /opt/app/aj_portfolio/frontend/build/* /usr/share/nginx/html
