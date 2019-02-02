@@ -26,21 +26,21 @@ export default class Template extends Component {
     // 2. DEFINE: Array to store HTML elements
     let returnArray = [];
 
-    // 3. IF: Error
-    if (Object.error && noData) {
-      return <Error />;
-    }
-
-    // 4. IF: Loading
+    // 3. IF: Loading
     if (Object.isLoading && noData) {
       return <Loading />;
     }
 
-    // 5. IF: Data length is 0
-    if (noData) {
+    // 4. IF: Data length is 0
+    if (noData && !Object.error) {
       return (
         <span className="mini_boxes__list__no_data">NO RECORDS FOUND</span>
       );
+    }
+
+    // 5. IF: Error
+    if (Object.error && noData) {
+      return <Error onClick={this.props.fetchSkills} />;
     }
 
     // 6. MAP: Data to HTML
