@@ -1,8 +1,11 @@
 # Image
 FROM ajuthaya/nginx-node
 
-# Clone repo
-RUN git clone https://github.com/AjUthaya/aj_portfolio-frontend-react.git /opt/app/aj_portfolio/frontend
+# Clone repo:
+# A. DEV
+COPY . /opt/app/aj_portfolio/frontend
+# B. PROD
+#RUN git clone https://github.com/AjUthaya/aj_portfolio-frontend-react.git /opt/app/aj_portfolio/frontend
 
 # Copy config into project folder
 COPY ./src/local.js /opt/app/aj_portfolio/frontend/src/local.js
