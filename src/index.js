@@ -11,7 +11,10 @@ import thunk from "redux-thunk";
 import Raven from "raven-js";
 
 // IMPORT: Google Analytics
-import ReactGA from "react-ga";
+import GA from "react-ga";
+
+// IMPORT: Google Analytics
+import { hotjar } from "react-hotjar";
 
 // IMPORT: Authentication
 //import Auth from "./auth/index";
@@ -38,10 +41,10 @@ const sentryConfig = Config.sentry;
 // 3. DEFINE: Conditions that validate the sentry config
 const sentryConfigValid =
   (sentryConfig.app !== "") &
-    (sentryConfig.key !== "") &
+    (sentryConfig.id !== "") &
     (sentryConfig.url !== "") &&
   (sentryConfig.app !== undefined) &
-    (sentryConfig.key !== undefined) &
+    (sentryConfig.id !== undefined) &
     (sentryConfig.url !== undefined);
 
 // 4. IF: Sentry config is valid
@@ -64,10 +67,24 @@ if (sentryConfigValid) {
 const gaConfig = Config.ga;
 
 // X. IF: GA Config is valid
-if (gaConfig.trackingId !== "" && gaConfig.trackingId !== undefined) {
+if (gaConfig.id !== "" && gaConfig.id !== undefined) {
   // A. CALL: Init GA
-  ReactGA.initialize(gaConfig.trackingId);
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  GA.initialize(gaConfig.id);
+  GA.pageview(window.location.pathname + window.location.search);
+}
+
+// X. DEFINE: HotJar Config
+const hotjarConfig = Config.hotjar;
+
+// X. IF: HotJar Config is valid
+if (
+  hotjarConfig.id !== "" &&
+  hotjarConfig.id !== undefined &&
+  hotjarConfig.version !== "" &&
+  hotjarConfig.version !== undefined
+) {
+  // A. CALL: Init HotJar
+  hotjar.initialize(hotjarConfig.id, hotjarConfig.version);
 }
 
 // 5. DEFINE: Redux store

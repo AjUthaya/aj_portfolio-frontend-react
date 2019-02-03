@@ -22,6 +22,13 @@ module.exports = (function() {
 
   // RETURN: Object
   return {
+    ga: {
+      id: "TRACKING_ID"
+    },
+    hotjar: {
+      id: "SITE_ID",
+      version: "SNIPPET_VERSION_ID"
+    },
     sentry: {
       key: sentryKey,
       app: sentryApp,
