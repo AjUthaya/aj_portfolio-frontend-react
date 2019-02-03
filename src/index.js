@@ -10,6 +10,9 @@ import thunk from "redux-thunk";
 // IMPORT: Raven for sentry
 import Raven from "raven-js";
 
+// IMPORT: Google Analytics
+import ReactGA from "react-ga";
+
 // IMPORT: Authentication
 //import Auth from "./auth/index";
 // IMPORT: Config
@@ -41,7 +44,7 @@ const sentryConfigValid =
     (sentryConfig.key !== undefined) &
     (sentryConfig.url !== undefined);
 
-// 4. IF: Sentry config variable is true
+// 4. IF: Sentry config is valid
 if (sentryConfigValid) {
   // A. CALL: Init sentry
   Raven.config(Config.sentry.url, {
@@ -55,6 +58,16 @@ if (sentryConfigValid) {
   Raven.addPlugin(require("raven-js/plugins/console"), console, {
     levels: ["debug", "info", "warn", "error", "log"]
   });
+}
+
+// X. DEFINE: GA Config
+const gaConfig = Config.ga;
+
+// X. IF: GA Config is valid
+if (gaConfig.trackingId !== "" && gaConfig.trackingId !== undefined) {
+  // A. CALL: Init GA
+  ReactGA.initialize(gaConfig.trackingId);
+  ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
 // 5. DEFINE: Redux store
