@@ -46,8 +46,15 @@ if (sentryConfigValid) {
   // A. CALL: Init sentry
   Raven.config(Config.sentry.url, {
     environment: process.env.NODE_ENV,
-    sampleRate: 1
+    autoBreadcrumbs: true,
+    captureUnhandledRejections: true,
+    levels: "log"
   }).install();
+
+  // B. ADD: Plugin to catch all console log errors
+  Raven.addPlugin(require("raven-js/plugins/console"), console, {
+    levels: ["debug", "info", "warn", "error", "log"]
+  });
 }
 
 // 5. DEFINE: Redux store

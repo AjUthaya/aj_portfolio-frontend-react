@@ -1,31 +1,40 @@
 // EXPORT: Function
 module.exports = (function() {
-  // SENTRY
-  const sentryKey = "ENTER_YOUR_SENTRY_KEY",
-    sentryApp = "ENTER_YOUR_SENTRY_APP_ID";
+  // ### Fillout this section ###
+  const sentryKey = "SENTRY_KEY",
+    sentryApp = "SENTRY_PROJECT_ID",
+    // Base url for backend
+    apiBase = "https://www.admin.aj-portfolio.com",
+    // Login for WordPress
+    apiUsername = "WORDPRESS_USERNAME",
+    apiPassword = "WORDPRESS_PASSWORD";
+  // ### Fillout this section ###
 
   // API
-  const apiBase = "ENTER_YOUR_API_BASE_URL",
-    apiDataPath = "/wp-json/wp/v2",
+  const apiDataPath = "/wp-json/wp/v2",
     apiDataBase = apiBase + apiDataPath,
     apiAuthPath = "/wp-json/jwt-auth/v1",
     apiAuthBase = apiBase + apiAuthPath;
 
+  const perPage = "per_page=100",
+    orderBy = "filter[orderby]=post_title",
+    order = "order=asc";
+
   // RETURN: Object
   return {
-    portfolio: {
-      projectIcon: `${apiBase}/wp-content/uploads/site/logo.png`,
-      projectTitle: "Personal",
-      noLogo: `${apiBase}/wp-content/uploads/site/no-picture.png`
-    },
     sentry: {
       key: sentryKey,
       app: sentryApp,
       url: `https://${sentryKey}@app.getsentry.com/${sentryApp}`
     },
+    portfolio: {
+      projectIcon: `${apiBase}/wp-content/uploads/site/logo.png`,
+      projectTitle: "Personal",
+      noLogo: `${apiBase}/wp-content/uploads/site/no-picture.png`
+    },
     api: {
-      username: "ENTER_YOUR_WORDPRESS_USERNAME",
-      password: "ENTER_YOUR_WORDPRESS_PASSWORD",
+      username: apiUsername,
+      password: apiPassword,
       base: apiBase,
       path: apiDataBase,
       auth: apiAuthBase,
@@ -37,10 +46,10 @@ module.exports = (function() {
       endpoints: {
         generateToken: `${apiAuthBase}/token`,
         validateToken: `${apiAuthBase}/token/validate`,
-        resume: `${apiDataBase}/experiences`,
-        skills: `${apiDataBase}/skills`,
-        projects: `${apiDataBase}/projects`,
-        categories: `${apiDataBase}/categories`
+        resume: `${apiDataBase}/experiences?${perPage}`,
+        skills: `${apiDataBase}/skills?${perPage}&${orderBy}&${order}`,
+        projects: `${apiDataBase}/projects?${perPage}`,
+        categories: `${apiDataBase}/categories?${perPage}&${orderBy}&${order}`
       }
     }
   };
