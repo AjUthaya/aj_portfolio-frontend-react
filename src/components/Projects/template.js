@@ -307,13 +307,21 @@ export default class Template extends Component {
         <div className="projects__list__item" key={key}>
           <div className="projects__list__item__content">
             {/* ICON */}
-            <div className="projects__list__item__content__icon_container">
+            <a
+              className="projects__list__item__content__icon_container"
+              onClick={() => {
+                this.handleProjectRefs(
+                  "organization",
+                  company.post_title || defaultTitle
+                );
+              }}
+            >
               <img
                 className="projects__list__item__content__icon_container__icon"
                 src={getCompanyLogo(company)}
                 alt="icon"
               />
-            </div>
+            </a>
 
             {/* BACKGROUND IMAGE */}
             <div className="projects__list__item__content__image_container">
@@ -645,6 +653,18 @@ export default class Template extends Component {
 
           // REDEFINE: Set value in filter array
           filter.tools = [value];
+
+          // STATE: Update filter
+          this.setState({ filter });
+          break;
+        }
+        case "organization": {
+          // REDEFINE: Empty out the other filters
+          filter.types = [];
+          filter.tools = [];
+
+          // REDEFINE: Set value in filter array
+          filter.organizations = [value];
 
           // STATE: Update filter
           this.setState({ filter });
