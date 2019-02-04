@@ -110,7 +110,7 @@ export default class Template extends Component {
 
         <div className="navigation__menu">
           <ul className="navigation__menu__list">
-            <a
+            <li
               className={
                 this.props.activeSection === "home"
                   ? "navigation__menu__list__item active"
@@ -132,9 +132,9 @@ export default class Template extends Component {
                   Home
                 </span>
               </div>
-            </a>
+            </li>
 
-            <a
+            <li
               className={
                 this.props.activeSection === "resume"
                   ? "navigation__menu__list__item active"
@@ -156,9 +156,9 @@ export default class Template extends Component {
                   Resume
                 </span>
               </div>
-            </a>
+            </li>
 
-            <a
+            <li
               className={
                 this.props.activeSection === "toolset"
                   ? "navigation__menu__list__item active"
@@ -180,9 +180,9 @@ export default class Template extends Component {
                   Toolset
                 </span>
               </div>
-            </a>
+            </li>
 
-            <a
+            <li
               className={
                 this.props.activeSection === "projects"
                   ? "navigation__menu__list__item active"
@@ -204,7 +204,7 @@ export default class Template extends Component {
                   Projects
                 </span>
               </div>
-            </a>
+            </li>
           </ul>
 
           <a

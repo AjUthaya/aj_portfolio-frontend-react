@@ -572,7 +572,7 @@ export default class Template extends Component {
           altered={[].join("_") !== this.state.filter.tools.join("_")}
           caretIcon={caretIcon}
           multiselect
-          name="make6"
+          name="make5"
           noSelectionLabel="Select tools"
           onChange={selected => {
             this.handleSelectedValue("tool", selected);
@@ -585,7 +585,7 @@ export default class Template extends Component {
         <Select
           altered={[].join("_") !== this.state.filter.organizations.join("_")}
           multiselect
-          name="make6"
+          name="make4"
           noSelectionLabel="Select organizations"
           caretIcon={caretIcon}
           onChange={selected => {

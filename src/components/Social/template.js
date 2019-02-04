@@ -23,6 +23,7 @@ export default class Template extends Component {
                 href="https://github.com/ajuthaya"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Github"
               >
                 <div className="social__wrapper__list__item__link__icon_container">
                   <FontAwesomeIcon
@@ -39,6 +40,7 @@ export default class Template extends Component {
                 href="https://codepen.io/aj_uthaya/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Codepen"
               >
                 <div className="social__wrapper__list__item__link__icon_container">
                   <FontAwesomeIcon
@@ -53,6 +55,7 @@ export default class Template extends Component {
               <a
                 className="social__wrapper__list__item__link"
                 href="mailto:ajanth160899@gmail.com?Subject=AJ%20Portfolio"
+                aria-label="email"
               >
                 <div className="social__wrapper__list__item__link__icon_container">
                   <FontAwesomeIcon
@@ -67,6 +70,7 @@ export default class Template extends Component {
               <a
                 className="social__wrapper__list__item__link"
                 href="tel:+4746150178"
+                aria-label="Phone"
               >
                 <div className="social__wrapper__list__item__link__icon_container">
                   <FontAwesomeIcon
