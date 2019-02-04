@@ -20,5 +20,6 @@
   "taskTimeout": 60000,
   "videosFolder": "tests/videos",
   "viewportHeight": 1080,
-  "viewportWidth": 1920
+  "viewportWidth": 1920,
+  "projectId": "o45exy"
 }
