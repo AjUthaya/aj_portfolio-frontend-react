@@ -79,7 +79,7 @@ export default class Template extends Component {
                     "I'm a UI/UX Designer",
                     "I'm a Frontend Developer",
                     "I'm a Backend Developer",
-                    "I'm a Full-Stack Designer"
+                    "I'm a Full-Stack Developer"
                   ]}
                   typeSpeed={20}
                   backSpeed={40}
