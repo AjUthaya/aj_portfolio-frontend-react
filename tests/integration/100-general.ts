@@ -1,50 +1,74 @@
 /// <reference types="Cypress" />
 
-// DEFINE: Address options
-const address = {
-  protocol: "http",
-  host: "localhost",
-  port: "6969",
-  alias: ""
-};
+// DEFINE: Host/Domain names
+const devHost = "127.0.0.1:6969",
+  prodHost = "aj-portfolio.com";
 
-// DEFINE: Base url
-const devUrl = `${address.protocol}://${address.alias}${address.host}:${
-  address.port
-}`;
+// DEFINE: Full url
+const devUrl = `http://${devHost}`,
+  prodUrl = `https://www.${prodHost}`;
+
+// DEFINE: Working variables
+const host = prodHost,
+  url = prodUrl;
 
 // GENERAL
 describe("General", () => {
   // PROTOCOL
   describe("Protocol", () => {
-    // HTTP
+    // VALIDATE: That http redirects to https with www.
     describe("HTTP", () => {
       // NON-WWW
-      it("NON-WWW", () => {
-        cy.visit(devUrl);
+      it("Redirect: http://", () => {
+        cy.request({ url: `http://${host}`, followRedirect: false }).then(
+          res => {
+            // VALIDATE: Status code
+            expect(res.status).to.eq(301);
+
+            // VALIDATE: Redirect url
+            expect(res.redirectedToUrl).to.eq(`${prodUrl}/`);
+          }
+        );
       });
 
-      /*
       // WWW
-      it("WWW", () => {
-        cy.visit("http://www.localhost:6969");
+      it("Redirect: http://www", () => {
+        cy.request({ url: `http://www.${host}`, followRedirect: false }).then(
+          res => {
+            // VALIDATE: Status code
+            expect(res.status).to.eq(301);
+
+            // VALIDATE: Redirect url
+            expect(res.redirectedToUrl).to.eq(`${prodUrl}/`);
+          }
+        );
       });
-      */
     });
 
-    /*
     // HTTPS
     describe("HTTPS", () => {
       // NON-WWW
       it("NON-WWW", () => {
-        cy.visit("https://localhost:6969");
+        cy.request({ url: `https://${host}`, followRedirect: false }).then(
+          res => {
+            // VALIDATE: Status code
+            expect(res.status).to.eq(301);
+
+            // VALIDATE: Redirect url
+            expect(res.redirectedToUrl).to.eq(`${prodUrl}/`);
+          }
+        );
       });
 
       // WWW
       it("WWW", () => {
-        cy.visit("https://www.localhost:6969");
+        cy.request({ url: url, followRedirect: false }).then(res => {
+          console.log(res);
+
+          // VALIDATE: Status code
+          expect(res.status).to.eq(200);
+        });
       });
     });
-    */
   });
 });

@@ -21,5 +21,6 @@
   "videosFolder": "tests/videos",
   "viewportHeight": 1080,
   "viewportWidth": 1920,
-  "projectId": "o45exy"
+  "projectId": "o45exy",
+  "chromeWebSecurity": false
 }
