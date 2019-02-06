@@ -1,0 +1,455 @@
+[
+  {
+    "id": 200,
+    "date": "2019-01-05T03:10:22",
+    "date_gmt": "2019-01-05T03:10:22",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=200"
+    },
+    "modified": "2019-01-05T03:10:22",
+    "modified_gmt": "2019-01-05T03:10:22",
+    "slug": "analytics",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/analytics/",
+    "title": { "rendered": "Analytics" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/200"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/200/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=200"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "date": "2018-12-20T21:18:10",
+    "date_gmt": "2018-12-20T21:18:10",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=31"
+    },
+    "modified": "2018-12-20T21:18:10",
+    "modified_gmt": "2018-12-20T21:18:10",
+    "slug": "backend",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/backend/",
+    "title": { "rendered": "Backend" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/31"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/31/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=31"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 199,
+    "date": "2019-01-05T03:03:40",
+    "date_gmt": "2019-01-05T03:03:40",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=199"
+    },
+    "modified": "2019-01-05T03:03:40",
+    "modified_gmt": "2019-01-05T03:03:40",
+    "slug": "ci-cd",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/ci-cd/",
+    "title": { "rendered": "CI/CD" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/199"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/199/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=199"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "date": "2019-01-27T07:13:47",
+    "date_gmt": "2019-01-27T07:13:47",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=217"
+    },
+    "modified": "2019-01-27T07:13:47",
+    "modified_gmt": "2019-01-27T07:13:47",
+    "slug": "cms",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/cms/",
+    "title": { "rendered": "CMS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/217"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/217/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 218,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/217/revisions/218"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=217"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 215,
+    "date": "2019-01-27T06:19:09",
+    "date_gmt": "2019-01-27T06:19:09",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=215"
+    },
+    "modified": "2019-01-27T06:19:09",
+    "modified_gmt": "2019-01-27T06:19:09",
+    "slug": "database",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/database/",
+    "title": { "rendered": "Database" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/215"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/215/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 216,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/215/revisions/216"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=215"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "date": "2018-12-20T21:17:33",
+    "date_gmt": "2018-12-20T21:17:33",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=29"
+    },
+    "modified": "2018-12-20T21:17:33",
+    "modified_gmt": "2018-12-20T21:17:33",
+    "slug": "devops",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/devops/",
+    "title": { "rendered": "DevOps" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/29"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/29/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=29"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "date": "2018-12-20T21:17:50",
+    "date_gmt": "2018-12-20T21:17:50",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=30"
+    },
+    "modified": "2018-12-20T21:17:50",
+    "modified_gmt": "2018-12-20T21:17:50",
+    "slug": "frontend",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/frontend/",
+    "title": { "rendered": "Frontend" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/30"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/30/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=30"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "date": "2018-12-20T21:23:40",
+    "date_gmt": "2018-12-20T21:23:40",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=36"
+    },
+    "modified": "2018-12-20T21:23:40",
+    "modified_gmt": "2018-12-20T21:23:40",
+    "slug": "qa",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/qa/",
+    "title": { "rendered": "QA" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/36"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/36/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=36"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "date": "2018-12-20T21:29:01",
+    "date_gmt": "2018-12-20T21:29:01",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=categories&#038;p=38"
+    },
+    "modified": "2018-12-20T21:29:01",
+    "modified_gmt": "2018-12-20T21:29:01",
+    "slug": "ui-ux",
+    "status": "publish",
+    "type": "categories",
+    "link": "https://www.admin.aj-portfolio.com/categories/ui-ux/",
+    "title": { "rendered": "UI/UX" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/38"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/categories"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/categories/38/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=38"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

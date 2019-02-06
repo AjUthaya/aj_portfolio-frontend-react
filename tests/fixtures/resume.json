@@ -1,0 +1,216 @@
+[
+  {
+    "id": 69,
+    "date": "2018-12-21T12:26:22",
+    "date_gmt": "2018-12-21T12:26:22",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=experiences&#038;p=69"
+    },
+    "modified": "2019-01-31T06:17:51",
+    "modified_gmt": "2019-01-31T06:17:51",
+    "slug": "bjerke-vgs",
+    "status": "publish",
+    "type": "experiences",
+    "link": "https://www.admin.aj-portfolio.com/experiences/bjerke-vgs/",
+    "title": { "rendered": "Bjerke VGS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 267,
+        "id": 267,
+        "title": "bjerke_vgs",
+        "filename": "bjerke_vgs.png",
+        "filesize": 38484,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs.png",
+        "link": "https://www.admin.aj-portfolio.com/experiences/bjerke-vgs/bjerke_vgs-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "bjerke_vgs-2",
+        "status": "inherit",
+        "uploaded_to": 69,
+        "date": "2019-01-31 06:17:25",
+        "modified": "2019-01-31 06:17:51",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 483,
+        "height": 495,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs-98x100.png",
+          "thumbnail-width": 98,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs-439x450.png",
+          "medium-width": 439,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs.png",
+          "medium_large-width": 483,
+          "medium_large-height": 495,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs.png",
+          "large-width": 483,
+          "large-height": 495,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs-78x80.png",
+          "skill_icon-width": 78,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/bjerke_vgs/bjerke_vgs.png",
+          "project_preview-width": 483,
+          "project_preview-height": 495
+        }
+      },
+      "subtitle": "Media & Communication Student",
+      "start_date": "Aug 2015",
+      "end_date": "May 2018"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences/69"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/experiences"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences/69/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 268,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences/69/revisions/268"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=69"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "date": "2018-12-21T12:21:46",
+    "date_gmt": "2018-12-21T12:21:46",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=experiences&#038;p=68"
+    },
+    "modified": "2019-01-31T06:18:11",
+    "modified_gmt": "2019-01-31T06:18:11",
+    "slug": "levelup-2-0-as",
+    "status": "publish",
+    "type": "experiences",
+    "link": "https://www.admin.aj-portfolio.com/experiences/levelup-2-0-as/",
+    "title": { "rendered": "Levelup" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 266,
+        "id": 266,
+        "title": "levelup",
+        "filename": "levelup.png",
+        "filesize": 176,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup.png",
+        "link": "https://www.admin.aj-portfolio.com/experiences/levelup-2-0-as/levelup-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "levelup-2",
+        "status": "inherit",
+        "uploaded_to": 68,
+        "date": "2019-01-31 06:17:12",
+        "modified": "2019-01-31 06:18:11",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 109,
+        "height": 200,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup-55x100.png",
+          "thumbnail-width": 55,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup.png",
+          "medium-width": 109,
+          "medium-height": 200,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup.png",
+          "medium_large-width": 109,
+          "medium_large-height": 200,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup.png",
+          "large-width": 109,
+          "large-height": 200,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup-27x50.png",
+          "company_icon-width": 27,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup-44x80.png",
+          "skill_icon-width": 44,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/experiences/levelup/levelup.png",
+          "project_preview-width": 109,
+          "project_preview-height": 200
+        }
+      },
+      "subtitle": "Fullstack Intern",
+      "start_date": "May 2018",
+      "end_date": "Nov 2018"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences/68"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/experiences"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences/68/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 269,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/experiences/68/revisions/269"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=68"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

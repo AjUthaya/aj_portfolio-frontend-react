@@ -1,0 +1,4704 @@
+[
+  {
+    "id": 132,
+    "date": "2019-01-05T00:51:56",
+    "date_gmt": "2019-01-05T00:51:56",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=132"
+    },
+    "modified": "2019-01-05T01:45:34",
+    "modified_gmt": "2019-01-05T01:45:34",
+    "slug": "ajax",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/ajax/",
+    "title": { "rendered": "AJAX" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 141,
+        "id": 141,
+        "title": "ajax",
+        "filename": "ajax.png",
+        "filesize": 114519,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/ajax/ajax-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "ajax-2",
+        "status": "inherit",
+        "uploaded_to": 132,
+        "date": "2019-01-05 01:33:48",
+        "modified": "2019-01-05 01:45:34",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 960,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax-100x48.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 48,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax-450x216.png",
+          "medium-width": 450,
+          "medium-height": 216,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax-768x369.png",
+          "medium_large-width": 768,
+          "medium_large-height": 369,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax-800x384.png",
+          "large-width": 800,
+          "large-height": 384,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax-50x24.png",
+          "company_icon-width": 50,
+          "company_icon-height": 24,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax-80x38.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 38,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ajax-800x384.png",
+          "project_preview-width": 800,
+          "project_preview-height": 384
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/132"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/132/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=132"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 223,
+    "date": "2019-01-27T07:48:57",
+    "date_gmt": "2019-01-27T07:48:57",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=223"
+    },
+    "modified": "2019-01-27T15:22:57",
+    "modified_gmt": "2019-01-27T15:22:57",
+    "slug": "apache",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/apache/",
+    "title": { "rendered": "Apache" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 232,
+        "id": 232,
+        "title": "apache",
+        "filename": "apache.png",
+        "filesize": 91661,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/apache/apache-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "apache-2",
+        "status": "inherit",
+        "uploaded_to": 223,
+        "date": "2019-01-27 15:22:37",
+        "modified": "2019-01-27 15:22:57",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1295,
+        "height": 2288,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache-57x100.png",
+          "thumbnail-width": 57,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache-255x450.png",
+          "medium-width": 255,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache-768x1357.png",
+          "medium_large-width": 768,
+          "medium_large-height": 1357,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache-453x800.png",
+          "large-width": 453,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache-28x50.png",
+          "company_icon-width": 28,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache-45x80.png",
+          "skill_icon-width": 45,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/apache-453x800.png",
+          "project_preview-width": 453,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/223"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/223/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 233,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/223/revisions/233"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=223"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "date": "2018-12-21T12:04:18",
+    "date_gmt": "2018-12-21T12:04:18",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=63"
+    },
+    "modified": "2019-01-05T01:48:16",
+    "modified_gmt": "2019-01-05T01:48:16",
+    "slug": "api",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/api/",
+    "title": { "rendered": "API" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 140,
+        "id": 140,
+        "title": "api",
+        "filename": "api.png",
+        "filesize": 2312,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/api/api-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "api-2",
+        "status": "inherit",
+        "uploaded_to": 63,
+        "date": "2019-01-05 01:33:48",
+        "modified": "2019-01-05 01:48:16",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 525,
+        "height": 525,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api.png",
+          "medium_large-width": 525,
+          "medium_large-height": 525,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api.png",
+          "large-width": 525,
+          "large-height": 525,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/api.png",
+          "project_preview-width": 525,
+          "project_preview-height": 525
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/63" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/63/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=63"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 249,
+    "date": "2019-01-31T05:36:05",
+    "date_gmt": "2019-01-31T05:36:05",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=249"
+    },
+    "modified": "2019-01-31T05:36:05",
+    "modified_gmt": "2019-01-31T05:36:05",
+    "slug": "bem",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/bem/",
+    "title": { "rendered": "BEM" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 245,
+        "id": 245,
+        "title": "bem",
+        "filename": "bem.png",
+        "filesize": 859,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/bem/bem-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "bem-2",
+        "status": "inherit",
+        "uploaded_to": 249,
+        "date": "2019-01-31 05:32:42",
+        "modified": "2019-01-31 05:36:05",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 230,
+        "height": 182,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem-100x79.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 79,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem.png",
+          "medium-width": 230,
+          "medium-height": 182,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem.png",
+          "medium_large-width": 230,
+          "medium_large-height": 182,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem.png",
+          "large-width": 230,
+          "large-height": 182,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem-50x40.png",
+          "company_icon-width": 50,
+          "company_icon-height": 40,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem-80x63.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 63,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bem.png",
+          "project_preview-width": 230,
+          "project_preview-height": 182
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/249"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/249/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 250,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/249/revisions/250"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=249"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 183,
+    "date": "2019-01-05T02:13:13",
+    "date_gmt": "2019-01-05T02:13:13",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=183"
+    },
+    "modified": "2019-01-29T17:34:45",
+    "modified_gmt": "2019-01-29T17:34:45",
+    "slug": "circleci",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/circleci/",
+    "title": { "rendered": "CircleCI" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 239,
+        "id": 239,
+        "title": "circleci",
+        "filename": "circleci.png",
+        "filesize": 121066,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/circleci/circleci-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "circleci-2",
+        "status": "inherit",
+        "uploaded_to": 183,
+        "date": "2019-01-29 17:34:17",
+        "modified": "2019-01-29 17:34:46",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 2428,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci-445x450.png",
+          "medium-width": 445,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci-768x777.png",
+          "medium_large-width": 768,
+          "medium_large-height": 777,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci-791x800.png",
+          "large-width": 791,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/circleci-791x800.png",
+          "project_preview-width": 791,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/183"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/183/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 240,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/183/revisions/240"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=183"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 182,
+    "date": "2019-01-05T02:12:41",
+    "date_gmt": "2019-01-05T02:12:41",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=182"
+    },
+    "modified": "2019-01-05T02:12:41",
+    "modified_gmt": "2019-01-05T02:12:41",
+    "slug": "cli",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/cli/",
+    "title": { "rendered": "CLI" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 177,
+        "id": 177,
+        "title": "cli",
+        "filename": "cli.png",
+        "filesize": 29718,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/cli/cli-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "cli-2",
+        "status": "inherit",
+        "uploaded_to": 182,
+        "date": "2019-01-05 02:08:32",
+        "modified": "2019-01-05 02:12:41",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 2286,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli-87x100.png",
+          "thumbnail-width": 87,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli-394x450.png",
+          "medium-width": 394,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli-768x878.png",
+          "medium_large-width": 768,
+          "medium_large-height": 878,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli-700x800.png",
+          "large-width": 700,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli-44x50.png",
+          "company_icon-width": 44,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli-70x80.png",
+          "skill_icon-width": 70,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cli-700x800.png",
+          "project_preview-width": 700,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/182"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/182/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=182"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "date": "2018-12-21T12:05:12",
+    "date_gmt": "2018-12-21T12:05:12",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=65"
+    },
+    "modified": "2019-01-05T01:44:10",
+    "modified_gmt": "2019-01-05T01:44:10",
+    "slug": "css",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/css/",
+    "title": { "rendered": "CSS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 142,
+        "id": 142,
+        "title": "css3",
+        "filename": "css3.png",
+        "filesize": 119238,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/css/css3/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "css3",
+        "status": "inherit",
+        "uploaded_to": 65,
+        "date": "2019-01-05 01:33:49",
+        "modified": "2019-01-05 01:44:10",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 3384,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3-71x100.png",
+          "thumbnail-width": 71,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3-319x450.png",
+          "medium-width": 319,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3-768x1083.png",
+          "medium_large-width": 768,
+          "medium_large-height": 1083,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3-567x800.png",
+          "large-width": 567,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3-35x50.png",
+          "company_icon-width": 35,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3-57x80.png",
+          "skill_icon-width": 57,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/css3-567x800.png",
+          "project_preview-width": 567,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/65" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/65/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=65"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 138,
+    "date": "2019-01-05T01:30:51",
+    "date_gmt": "2019-01-05T01:30:51",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=138"
+    },
+    "modified": "2019-01-05T01:48:45",
+    "modified_gmt": "2019-01-05T01:48:45",
+    "slug": "csv",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/csv/",
+    "title": { "rendered": "CSV" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 139,
+        "id": 139,
+        "title": "csv",
+        "filename": "csv.png",
+        "filesize": 9315,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/csv/csv-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "csv-2",
+        "status": "inherit",
+        "uploaded_to": 138,
+        "date": "2019-01-05 01:33:47",
+        "modified": "2019-01-05 01:48:45",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 512,
+        "height": 512,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv.png",
+          "medium_large-width": 512,
+          "medium_large-height": 512,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv.png",
+          "large-width": 512,
+          "large-height": 512,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/csv.png",
+          "project_preview-width": 512,
+          "project_preview-height": 512
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/138"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/138/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=138"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 184,
+    "date": "2019-01-05T02:14:32",
+    "date_gmt": "2019-01-05T02:14:32",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=184"
+    },
+    "modified": "2019-01-05T02:14:32",
+    "modified_gmt": "2019-01-05T02:14:32",
+    "slug": "cypress",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/cypress/",
+    "title": { "rendered": "Cypress" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 185,
+        "id": 185,
+        "title": "cypress",
+        "filename": "cypress.png",
+        "filesize": 53354,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/cypress/cypress-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "cypress-2",
+        "status": "inherit",
+        "uploaded_to": 184,
+        "date": "2019-01-05 02:14:13",
+        "modified": "2019-01-05 02:14:32",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 3600,
+        "height": 1020,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress-100x28.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 28,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress-450x128.png",
+          "medium-width": 450,
+          "medium-height": 128,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress-768x218.png",
+          "medium_large-width": 768,
+          "medium_large-height": 218,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress-800x227.png",
+          "large-width": 800,
+          "large-height": 227,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress-50x14.png",
+          "company_icon-width": 50,
+          "company_icon-height": 14,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress-80x23.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 23,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/cypress-800x227.png",
+          "project_preview-width": 800,
+          "project_preview-height": 227
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/184"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/184/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=184"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "date": "2018-12-21T12:03:19",
+    "date_gmt": "2018-12-21T12:03:19",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=61"
+    },
+    "modified": "2019-01-05T01:53:38",
+    "modified_gmt": "2019-01-05T01:53:38",
+    "slug": "data-modeling",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/data-modeling/",
+    "title": { "rendered": "Data Modeling" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 145,
+        "id": 145,
+        "title": "datamodeling",
+        "filename": "datamodeling.png",
+        "filesize": 7828,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/data-modeling/datamodeling/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "datamodeling",
+        "status": "inherit",
+        "uploaded_to": 61,
+        "date": "2019-01-05 01:33:56",
+        "modified": "2019-01-05 01:53:38",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 300,
+        "height": 300,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling.png",
+          "medium-width": 300,
+          "medium-height": 300,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling.png",
+          "medium_large-width": 300,
+          "medium_large-height": 300,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling.png",
+          "large-width": 300,
+          "large-height": 300,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/datamodeling.png",
+          "project_preview-width": 300,
+          "project_preview-height": 300
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/61" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/61/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=61"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 198,
+    "date": "2019-01-05T02:31:33",
+    "date_gmt": "2019-01-05T02:31:33",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=198"
+    },
+    "modified": "2019-01-05T02:31:33",
+    "modified_gmt": "2019-01-05T02:31:33",
+    "slug": "doc-blocks",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/doc-blocks/",
+    "title": { "rendered": "Doc Blocks" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 197,
+        "id": 197,
+        "title": "docblock",
+        "filename": "docblock.png",
+        "filesize": 30569,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/doc-blocks/docblock/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "docblock",
+        "status": "inherit",
+        "uploaded_to": 198,
+        "date": "2019-01-05 02:30:59",
+        "modified": "2019-01-05 02:31:33",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 980,
+        "height": 660,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock-100x67.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 67,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock-450x303.png",
+          "medium-width": 450,
+          "medium-height": 303,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock-768x517.png",
+          "medium_large-width": 768,
+          "medium_large-height": 517,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock-800x539.png",
+          "large-width": 800,
+          "large-height": 539,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock-50x34.png",
+          "company_icon-width": 50,
+          "company_icon-height": 34,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock-80x54.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 54,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docblock-800x539.png",
+          "project_preview-width": 800,
+          "project_preview-height": 539
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/198"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/198/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=198"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "date": "2019-01-05T02:09:25",
+    "date_gmt": "2019-01-05T02:09:25",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=179"
+    },
+    "modified": "2019-01-05T02:09:25",
+    "modified_gmt": "2019-01-05T02:09:25",
+    "slug": "docker",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/docker/",
+    "title": { "rendered": "Docker" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 174,
+        "id": 174,
+        "title": "docker",
+        "filename": "docker.png",
+        "filesize": 11423,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/docker/docker-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "docker-2",
+        "status": "inherit",
+        "uploaded_to": 179,
+        "date": "2019-01-05 02:08:21",
+        "modified": "2019-01-05 02:09:25",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 269,
+        "height": 201,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-100x75.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 75,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker.png",
+          "medium-width": 269,
+          "medium-height": 201,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker.png",
+          "medium_large-width": 269,
+          "medium_large-height": 201,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker.png",
+          "large-width": 269,
+          "large-height": 201,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-50x37.png",
+          "company_icon-width": 50,
+          "company_icon-height": 37,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-80x60.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 60,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker.png",
+          "project_preview-width": 269,
+          "project_preview-height": 201
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/179"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/179/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=179"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 225,
+    "date": "2019-01-27T07:49:29",
+    "date_gmt": "2019-01-27T07:49:29",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=225"
+    },
+    "modified": "2019-01-27T15:23:15",
+    "modified_gmt": "2019-01-27T15:23:15",
+    "slug": "docker-compose",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/docker-compose/",
+    "title": { "rendered": "Docker Compose" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 231,
+        "id": 231,
+        "title": "docker-compose",
+        "filename": "docker-compose.png",
+        "filesize": 35271,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/docker-compose/docker-compose-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "docker-compose-2",
+        "status": "inherit",
+        "uploaded_to": 225,
+        "date": "2019-01-27 15:22:28",
+        "modified": "2019-01-27 15:23:16",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 184,
+        "height": 233,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose-79x100.png",
+          "thumbnail-width": 79,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose.png",
+          "medium-width": 184,
+          "medium-height": 233,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose.png",
+          "medium_large-width": 184,
+          "medium_large-height": 233,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose.png",
+          "large-width": 184,
+          "large-height": 233,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose-39x50.png",
+          "company_icon-width": 39,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose-63x80.png",
+          "skill_icon-width": 63,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/docker-compose.png",
+          "project_preview-width": 184,
+          "project_preview-height": 233
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/225"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/225/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 234,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/225/revisions/234"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=225"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "date": "2019-01-05T01:39:40",
+    "date_gmt": "2019-01-05T01:39:40",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=162"
+    },
+    "modified": "2019-01-29T17:38:14",
+    "modified_gmt": "2019-01-29T17:38:14",
+    "slug": "foundation",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/foundation/",
+    "title": { "rendered": "Foundation" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 241,
+        "id": 241,
+        "title": "zurbfoundation",
+        "filename": "zurbfoundation.png",
+        "filesize": 131796,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/foundation/zurbfoundation/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "zurbfoundation",
+        "status": "inherit",
+        "uploaded_to": 162,
+        "date": "2019-01-29 17:37:15",
+        "modified": "2019-01-29 17:38:15",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 702,
+        "height": 702,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation.png",
+          "medium_large-width": 702,
+          "medium_large-height": 702,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation.png",
+          "large-width": 702,
+          "large-height": 702,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/zurbfoundation.png",
+          "project_preview-width": 702,
+          "project_preview-height": 702
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/162"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/162/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 242,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/162/revisions/242"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=162"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 205,
+    "date": "2019-01-05T03:12:51",
+    "date_gmt": "2019-01-05T03:12:51",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=205"
+    },
+    "modified": "2019-01-05T03:13:19",
+    "modified_gmt": "2019-01-05T03:13:19",
+    "slug": "google-analytics",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/google-analytics/",
+    "title": { "rendered": "GA" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 202,
+        "id": 202,
+        "title": "ga",
+        "filename": "ga.png",
+        "filesize": 5072,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/google-analytics/ga/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "ga",
+        "status": "inherit",
+        "uploaded_to": 205,
+        "date": "2019-01-05 03:11:43",
+        "modified": "2019-01-05 03:12:51",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 256,
+        "height": 256,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga.png",
+          "medium-width": 256,
+          "medium-height": 256,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga.png",
+          "medium_large-width": 256,
+          "medium_large-height": 256,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga.png",
+          "large-width": 256,
+          "large-height": 256,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ga.png",
+          "project_preview-width": 256,
+          "project_preview-height": 256
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/205"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/205/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=205"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "date": "2018-12-21T14:38:37",
+    "date_gmt": "2018-12-21T14:38:37",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=80"
+    },
+    "modified": "2019-01-05T01:46:49",
+    "modified_gmt": "2019-01-05T01:46:49",
+    "slug": "git",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/git/",
+    "title": { "rendered": "Git" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 146,
+        "id": 146,
+        "title": "git",
+        "filename": "git.png",
+        "filesize": 2383,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/git/git-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "git-2",
+        "status": "inherit",
+        "uploaded_to": 80,
+        "date": "2019-01-05 01:33:56",
+        "modified": "2019-01-05 01:46:49",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 383,
+        "height": 383,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git.png",
+          "medium-width": 383,
+          "medium-height": 383,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git.png",
+          "medium_large-width": 383,
+          "medium_large-height": 383,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git.png",
+          "large-width": 383,
+          "large-height": 383,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/git.png",
+          "project_preview-width": 383,
+          "project_preview-height": 383
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/80" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/80/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=80"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "date": "2019-01-05T03:12:12",
+    "date_gmt": "2019-01-05T03:12:12",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=204"
+    },
+    "modified": "2019-01-05T03:12:12",
+    "modified_gmt": "2019-01-05T03:12:12",
+    "slug": "gtm",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/gtm/",
+    "title": { "rendered": "GTM" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 201,
+        "id": 201,
+        "title": "gtm",
+        "filename": "gtm.png",
+        "filesize": 11855,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/gtm/gtm-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "gtm-2",
+        "status": "inherit",
+        "uploaded_to": 204,
+        "date": "2019-01-05 03:11:41",
+        "modified": "2019-01-05 03:12:12",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 450,
+        "height": 300,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm-100x67.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 67,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm-450x300.png",
+          "medium-width": 450,
+          "medium-height": 300,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm.png",
+          "medium_large-width": 450,
+          "medium_large-height": 300,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm.png",
+          "large-width": 450,
+          "large-height": 300,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm-50x33.png",
+          "company_icon-width": 50,
+          "company_icon-height": 33,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm-80x53.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 53,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/gtm.png",
+          "project_preview-width": 450,
+          "project_preview-height": 300
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/204"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/204/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=204"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 206,
+    "date": "2019-01-05T03:13:54",
+    "date_gmt": "2019-01-05T03:13:54",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=206"
+    },
+    "modified": "2019-01-05T03:13:54",
+    "modified_gmt": "2019-01-05T03:13:54",
+    "slug": "hotjar",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/hotjar/",
+    "title": { "rendered": "HotJar" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 203,
+        "id": 203,
+        "title": "hotjar",
+        "filename": "hotjar.png",
+        "filesize": 5577,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/hotjar/hotjar-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "hotjar-2",
+        "status": "inherit",
+        "uploaded_to": 206,
+        "date": "2019-01-05 03:11:44",
+        "modified": "2019-01-05 03:13:54",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 300,
+        "height": 144,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar-100x48.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 48,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar.png",
+          "medium-width": 300,
+          "medium-height": 144,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar.png",
+          "medium_large-width": 300,
+          "medium_large-height": 144,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar.png",
+          "large-width": 300,
+          "large-height": 144,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar-50x24.png",
+          "company_icon-width": 50,
+          "company_icon-height": 24,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar-80x38.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 38,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/hotjar.png",
+          "project_preview-width": 300,
+          "project_preview-height": 144
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/206"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/206/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=206"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "date": "2018-12-20T21:54:13",
+    "date_gmt": "2018-12-20T21:54:13",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=51"
+    },
+    "modified": "2019-01-05T01:43:26",
+    "modified_gmt": "2019-01-05T01:43:26",
+    "slug": "html",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/html/",
+    "title": { "rendered": "HTML" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 147,
+        "id": 147,
+        "title": "html5",
+        "filename": "html5.png",
+        "filesize": 125494,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/html/html5/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "html5",
+        "status": "inherit",
+        "uploaded_to": 51,
+        "date": "2019-01-05 01:33:58",
+        "modified": "2019-01-05 01:43:26",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 3384,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5-71x100.png",
+          "thumbnail-width": 71,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5-319x450.png",
+          "medium-width": 319,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5-768x1083.png",
+          "medium_large-width": 768,
+          "medium_large-height": 1083,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5-567x800.png",
+          "large-width": 567,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5-35x50.png",
+          "company_icon-width": 35,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5-57x80.png",
+          "skill_icon-width": 57,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/html5-567x800.png",
+          "project_preview-width": 567,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/51" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/51/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=51"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "date": "2018-12-21T14:08:55",
+    "date_gmt": "2018-12-21T14:08:55",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=78"
+    },
+    "modified": "2019-01-05T01:44:38",
+    "modified_gmt": "2019-01-05T01:44:38",
+    "slug": "javascript",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/javascript/",
+    "title": { "rendered": "JavaScript" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 143,
+        "id": 143,
+        "title": "js",
+        "filename": "js.png",
+        "filesize": 7233,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/javascript/js/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "js",
+        "status": "inherit",
+        "uploaded_to": 78,
+        "date": "2019-01-05 01:33:55",
+        "modified": "2019-01-05 01:44:38",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 400,
+        "height": 400,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js.png",
+          "medium-width": 400,
+          "medium-height": 400,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js.png",
+          "medium_large-width": 400,
+          "medium_large-height": 400,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js.png",
+          "large-width": 400,
+          "large-height": 400,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/js.png",
+          "project_preview-width": 400,
+          "project_preview-height": 400
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/78" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/78/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=78"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "date": "2018-12-21T14:09:22",
+    "date_gmt": "2018-12-21T14:09:22",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=79"
+    },
+    "modified": "2019-01-05T01:45:20",
+    "modified_gmt": "2019-01-05T01:45:20",
+    "slug": "jquery",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/jquery/",
+    "title": { "rendered": "jQuery" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 144,
+        "id": 144,
+        "title": "jquery",
+        "filename": "jquery.png",
+        "filesize": 15598,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/jquery/jquery-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "jquery-2",
+        "status": "inherit",
+        "uploaded_to": 79,
+        "date": "2019-01-05 01:33:56",
+        "modified": "2019-01-05 01:45:20",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 800,
+        "height": 600,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery-100x75.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 75,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery-450x338.png",
+          "medium-width": 450,
+          "medium-height": 338,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery-768x576.png",
+          "medium_large-width": 768,
+          "medium_large-height": 576,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery-800x600.png",
+          "large-width": 800,
+          "large-height": 600,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery-50x38.png",
+          "company_icon-width": 50,
+          "company_icon-height": 38,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery-80x60.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 60,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jquery-800x600.png",
+          "project_preview-width": 800,
+          "project_preview-height": 600
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/79" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/79/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=79"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 135,
+    "date": "2019-01-05T00:55:03",
+    "date_gmt": "2019-01-05T00:55:03",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=135"
+    },
+    "modified": "2019-01-05T01:49:09",
+    "modified_gmt": "2019-01-05T01:49:09",
+    "slug": "json",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/json/",
+    "title": { "rendered": "JSON" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 148,
+        "id": 148,
+        "title": "json",
+        "filename": "json.png",
+        "filesize": 14285,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/json/json-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "json-2",
+        "status": "inherit",
+        "uploaded_to": 135,
+        "date": "2019-01-05 01:34:03",
+        "modified": "2019-01-05 01:49:09",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 512,
+        "height": 512,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json.png",
+          "medium_large-width": 512,
+          "medium_large-height": 512,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json.png",
+          "large-width": 512,
+          "large-height": 512,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/json.png",
+          "project_preview-width": 512,
+          "project_preview-height": 512
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/135"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/135/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=135"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 190,
+    "date": "2019-01-05T02:20:55",
+    "date_gmt": "2019-01-05T02:20:55",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=190"
+    },
+    "modified": "2019-01-05T02:20:55",
+    "modified_gmt": "2019-01-05T02:20:55",
+    "slug": "jwt",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/jwt/",
+    "title": { "rendered": "JWT" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 189,
+        "id": 189,
+        "title": "jwt",
+        "filename": "jwt.png",
+        "filesize": 43744,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/jwt/jwt-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "jwt-2",
+        "status": "inherit",
+        "uploaded_to": 190,
+        "date": "2019-01-05 02:20:35",
+        "modified": "2019-01-05 02:20:55",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 827,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt-100x41.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 41,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt-450x186.png",
+          "medium-width": 450,
+          "medium-height": 186,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt-768x318.png",
+          "medium_large-width": 768,
+          "medium_large-height": 318,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt-800x331.png",
+          "large-width": 800,
+          "large-height": 331,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt-50x21.png",
+          "company_icon-width": 50,
+          "company_icon-height": 21,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt-80x33.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 33,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/jwt-800x331.png",
+          "project_preview-width": 800,
+          "project_preview-height": 331
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/190"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/190/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=190"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 180,
+    "date": "2019-01-05T02:11:02",
+    "date_gmt": "2019-01-05T02:11:02",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=180"
+    },
+    "modified": "2019-01-05T02:11:02",
+    "modified_gmt": "2019-01-05T02:11:02",
+    "slug": "kubernetes",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/kubernetes/",
+    "title": { "rendered": "Kubernetes" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 175,
+        "id": 175,
+        "title": "kubernetes",
+        "filename": "kubernetes.png",
+        "filesize": 12130,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/kubernetes/kubernetes-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "kubernetes-2",
+        "status": "inherit",
+        "uploaded_to": 180,
+        "date": "2019-01-05 02:08:23",
+        "modified": "2019-01-05 02:11:02",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 209,
+        "height": 203,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes-100x97.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 97,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes.png",
+          "medium-width": 209,
+          "medium-height": 203,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes.png",
+          "medium_large-width": 209,
+          "medium_large-height": 203,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes.png",
+          "large-width": 209,
+          "large-height": 203,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes-80x78.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 78,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/kubernetes.png",
+          "project_preview-width": 209,
+          "project_preview-height": 203
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/180"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/180/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=180"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 181,
+    "date": "2019-01-05T02:12:09",
+    "date_gmt": "2019-01-05T02:12:09",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=181"
+    },
+    "modified": "2019-01-05T02:12:09",
+    "modified_gmt": "2019-01-05T02:12:09",
+    "slug": "linux",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/linux/",
+    "title": { "rendered": "Linux" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 176,
+        "id": 176,
+        "title": "linux",
+        "filename": "linux.png",
+        "filesize": 45974,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/linux/linux-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "linux-2",
+        "status": "inherit",
+        "uploaded_to": 181,
+        "date": "2019-01-05 02:08:30",
+        "modified": "2019-01-05 02:12:09",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 594,
+        "height": 720,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux-83x100.png",
+          "thumbnail-width": 83,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux-371x450.png",
+          "medium-width": 371,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux.png",
+          "medium_large-width": 594,
+          "medium_large-height": 720,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux.png",
+          "large-width": 594,
+          "large-height": 720,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux-41x50.png",
+          "company_icon-width": 41,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux-66x80.png",
+          "skill_icon-width": 66,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/linux.png",
+          "project_preview-width": 594,
+          "project_preview-height": 720
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/181"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/181/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=181"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "date": "2019-01-05T00:54:31",
+    "date_gmt": "2019-01-05T00:54:31",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=134"
+    },
+    "modified": "2019-01-05T01:37:36",
+    "modified_gmt": "2019-01-05T01:37:36",
+    "slug": "mockups",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/mockups/",
+    "title": { "rendered": "Mockups" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 149,
+        "id": 149,
+        "title": "moqups",
+        "filename": "moqups.png",
+        "filesize": 13062,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/mockups/moqups/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "moqups",
+        "status": "inherit",
+        "uploaded_to": 134,
+        "date": "2019-01-05 01:34:03",
+        "modified": "2019-01-05 01:37:36",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1050,
+        "height": 702,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups-100x67.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 67,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups-450x301.png",
+          "medium-width": 450,
+          "medium-height": 301,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups-768x513.png",
+          "medium_large-width": 768,
+          "medium_large-height": 513,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups-800x535.png",
+          "large-width": 800,
+          "large-height": 535,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups-50x33.png",
+          "company_icon-width": 50,
+          "company_icon-height": 33,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups-80x53.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 53,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/moqups-800x535.png",
+          "project_preview-width": 800,
+          "project_preview-height": 535
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/134"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/134/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=134"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 192,
+    "date": "2019-01-05T02:23:08",
+    "date_gmt": "2019-01-05T02:23:08",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=192"
+    },
+    "modified": "2019-01-05T02:23:08",
+    "modified_gmt": "2019-01-05T02:23:08",
+    "slug": "mongodb",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/mongodb/",
+    "title": { "rendered": "MongoDB" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 191,
+        "id": 191,
+        "title": "mongodb",
+        "filename": "mongodb.png",
+        "filesize": 30101,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/mongodb/mongodb-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "mongodb-2",
+        "status": "inherit",
+        "uploaded_to": 192,
+        "date": "2019-01-05 02:22:43",
+        "modified": "2019-01-05 02:23:08",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1756,
+        "height": 477,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb-100x27.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 27,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb-450x122.png",
+          "medium-width": 450,
+          "medium-height": 122,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb-768x209.png",
+          "medium_large-width": 768,
+          "medium_large-height": 209,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb-800x217.png",
+          "large-width": 800,
+          "large-height": 217,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb-50x14.png",
+          "company_icon-width": 50,
+          "company_icon-height": 14,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb-80x22.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 22,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mongodb-800x217.png",
+          "project_preview-width": 800,
+          "project_preview-height": 217
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/192"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/192/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=192"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "date": "2018-12-21T12:02:41",
+    "date_gmt": "2018-12-21T12:02:41",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=60"
+    },
+    "modified": "2019-01-05T01:53:56",
+    "modified_gmt": "2019-01-05T01:53:56",
+    "slug": "mysql",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/mysql/",
+    "title": { "rendered": "MySQL" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 151,
+        "id": 151,
+        "title": "mysql",
+        "filename": "mysql.png",
+        "filesize": 34688,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/mysql/mysql-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "mysql-2",
+        "status": "inherit",
+        "uploaded_to": 60,
+        "date": "2019-01-05 01:34:03",
+        "modified": "2019-01-05 01:53:56",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1280,
+        "height": 662,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql-100x52.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 52,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql-450x233.png",
+          "medium-width": 450,
+          "medium-height": 233,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql-768x397.png",
+          "medium_large-width": 768,
+          "medium_large-height": 397,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql-800x414.png",
+          "large-width": 800,
+          "large-height": 414,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql-50x26.png",
+          "company_icon-width": 50,
+          "company_icon-height": 26,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql-80x41.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 41,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/mysql-800x414.png",
+          "project_preview-width": 800,
+          "project_preview-height": 414
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/60" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/60/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=60"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "date": "2018-12-21T11:59:34",
+    "date_gmt": "2018-12-21T11:59:34",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=55"
+    },
+    "modified": "2019-01-05T01:59:06",
+    "modified_gmt": "2019-01-05T01:59:06",
+    "slug": "nextjs",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/nextjs/",
+    "title": { "rendered": "NextJS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 172,
+        "id": 172,
+        "title": "nextjs",
+        "filename": "nextjs.png",
+        "filesize": 4258,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/nextjs/nextjs-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "nextjs-2",
+        "status": "inherit",
+        "uploaded_to": 55,
+        "date": "2019-01-05 01:57:40",
+        "modified": "2019-01-05 01:59:06",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 300,
+        "height": 181,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs-100x60.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 60,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs.png",
+          "medium-width": 300,
+          "medium-height": 181,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs.png",
+          "medium_large-width": 300,
+          "medium_large-height": 181,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs.png",
+          "large-width": 300,
+          "large-height": 181,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs-50x30.png",
+          "company_icon-width": 50,
+          "company_icon-height": 30,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs-80x48.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 48,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nextjs.png",
+          "project_preview-width": 300,
+          "project_preview-height": 181
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/55" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/55/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=55"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 186,
+    "date": "2019-01-05T02:16:03",
+    "date_gmt": "2019-01-05T02:16:03",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=186"
+    },
+    "modified": "2019-01-05T02:16:03",
+    "modified_gmt": "2019-01-05T02:16:03",
+    "slug": "nginx",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/nginx/",
+    "title": { "rendered": "NGINX" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 187,
+        "id": 187,
+        "title": "nginx",
+        "filename": "nginx.png",
+        "filesize": 18868,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/nginx/nginx-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "nginx-2",
+        "status": "inherit",
+        "uploaded_to": 186,
+        "date": "2019-01-05 02:15:46",
+        "modified": "2019-01-05 02:16:03",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1921,
+        "height": 645,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx-100x34.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 34,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx-450x151.png",
+          "medium-width": 450,
+          "medium-height": 151,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx-768x258.png",
+          "medium_large-width": 768,
+          "medium_large-height": 258,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx-800x269.png",
+          "large-width": 800,
+          "large-height": 269,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx-50x17.png",
+          "company_icon-width": 50,
+          "company_icon-height": 17,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx-80x27.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 27,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nginx-800x269.png",
+          "project_preview-width": 800,
+          "project_preview-height": 269
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/186"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/186/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=186"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "date": "2018-12-21T12:00:25",
+    "date_gmt": "2018-12-21T12:00:25",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=57"
+    },
+    "modified": "2019-01-05T01:58:32",
+    "modified_gmt": "2019-01-05T01:58:32",
+    "slug": "nodejs",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/nodejs/",
+    "title": { "rendered": "NodeJS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 171,
+        "id": 171,
+        "title": "nodejs",
+        "filename": "nodejs.png",
+        "filesize": 42870,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/nodejs/nodejs-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "nodejs-2",
+        "status": "inherit",
+        "uploaded_to": 57,
+        "date": "2019-01-05 01:57:32",
+        "modified": "2019-01-05 01:58:32",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1200,
+        "height": 734,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs-100x61.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 61,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs-450x275.png",
+          "medium-width": 450,
+          "medium-height": 275,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs-768x470.png",
+          "medium_large-width": 768,
+          "medium_large-height": 470,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs-800x489.png",
+          "large-width": 800,
+          "large-height": 489,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs-50x31.png",
+          "company_icon-width": 50,
+          "company_icon-height": 31,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs-80x49.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 49,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/nodejs-800x489.png",
+          "project_preview-width": 800,
+          "project_preview-height": 489
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/57" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/57/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=57"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "date": "2019-01-05T00:36:01",
+    "date_gmt": "2019-01-05T00:36:01",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=131"
+    },
+    "modified": "2019-01-05T01:58:20",
+    "modified_gmt": "2019-01-05T01:58:20",
+    "slug": "npm",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/npm/",
+    "title": { "rendered": "NPM" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 170,
+        "id": 170,
+        "title": "npm",
+        "filename": "npm.png",
+        "filesize": 2875,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/npm/npm-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "npm-2",
+        "status": "inherit",
+        "uploaded_to": 131,
+        "date": "2019-01-05 01:57:30",
+        "modified": "2019-01-05 01:58:20",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1200,
+        "height": 467,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm-100x39.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 39,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm-450x175.png",
+          "medium-width": 450,
+          "medium-height": 175,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm-768x299.png",
+          "medium_large-width": 768,
+          "medium_large-height": 299,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm-800x311.png",
+          "large-width": 800,
+          "large-height": 311,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm-50x19.png",
+          "company_icon-width": 50,
+          "company_icon-height": 19,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm-80x31.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 31,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/npm-800x311.png",
+          "project_preview-width": 800,
+          "project_preview-height": 311
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/131"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/131/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=131"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "date": "2019-01-05T01:42:42",
+    "date_gmt": "2019-01-05T01:42:42",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=164"
+    },
+    "modified": "2019-01-05T01:42:42",
+    "modified_gmt": "2019-01-05T01:42:42",
+    "slug": "php-2",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/php-2/",
+    "title": { "rendered": "PHP" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 150,
+        "id": 150,
+        "title": "php",
+        "filename": "php.png",
+        "filesize": 24377,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/php-2/php-2-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "php-2-2",
+        "status": "inherit",
+        "uploaded_to": 164,
+        "date": "2019-01-05 01:34:03",
+        "modified": "2019-01-05 01:42:42",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 971,
+        "height": 512,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php-100x53.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 53,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php-450x237.png",
+          "medium-width": 450,
+          "medium-height": 237,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php-768x405.png",
+          "medium_large-width": 768,
+          "medium_large-height": 405,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php-800x422.png",
+          "large-width": 800,
+          "large-height": 422,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php-50x26.png",
+          "company_icon-width": 50,
+          "company_icon-height": 26,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php-80x42.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 42,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/php-800x422.png",
+          "project_preview-width": 800,
+          "project_preview-height": 422
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/164"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/164/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=164"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "date": "2018-12-21T12:02:16",
+    "date_gmt": "2018-12-21T12:02:16",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=59"
+    },
+    "modified": "2019-01-05T01:58:08",
+    "modified_gmt": "2019-01-05T01:58:08",
+    "slug": "postgresql",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/postgresql/",
+    "title": { "rendered": "PostgreSQL" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 169,
+        "id": 169,
+        "title": "postgresql",
+        "filename": "postgresql.png",
+        "filesize": 99710,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/postgresql/postgresql-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "postgresql-2",
+        "status": "inherit",
+        "uploaded_to": 59,
+        "date": "2019-01-05 01:57:29",
+        "modified": "2019-01-05 01:58:08",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1200,
+        "height": 1238,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql-97x100.png",
+          "thumbnail-width": 97,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql-436x450.png",
+          "medium-width": 436,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql-768x792.png",
+          "medium_large-width": 768,
+          "medium_large-height": 792,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql-775x800.png",
+          "large-width": 775,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql-48x50.png",
+          "company_icon-width": 48,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql-78x80.png",
+          "skill_icon-width": 78,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/postgresql-775x800.png",
+          "project_preview-width": 775,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/59" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/59/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=59"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 212,
+    "date": "2019-01-06T19:37:43",
+    "date_gmt": "2019-01-06T19:37:43",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=212"
+    },
+    "modified": "2019-01-06T19:37:43",
+    "modified_gmt": "2019-01-06T19:37:43",
+    "slug": "raspberry-pi",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/raspberry-pi/",
+    "title": { "rendered": "Raspberry PI" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 213,
+        "id": 213,
+        "title": "raspberrypi",
+        "filename": "raspberrypi.png",
+        "filesize": 136659,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/raspberry-pi/raspberrypi/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "raspberrypi",
+        "status": "inherit",
+        "uploaded_to": 212,
+        "date": "2019-01-06 19:37:20",
+        "modified": "2019-01-06 19:37:43",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 840,
+        "height": 764,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 91,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+          "medium-width": 450,
+          "medium-height": 409,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+          "medium_large-width": 768,
+          "medium_large-height": 699,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+          "large-width": 800,
+          "large-height": 728,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+          "company_icon-width": 50,
+          "company_icon-height": 45,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 73,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/raspberrypi.png",
+          "project_preview-width": 800,
+          "project_preview-height": 728
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/212"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/212/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=212"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "date": "2018-12-21T11:59:03",
+    "date_gmt": "2018-12-21T11:59:03",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=54"
+    },
+    "modified": "2019-01-05T01:59:22",
+    "modified_gmt": "2019-01-05T01:59:22",
+    "slug": "reactjs",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/reactjs/",
+    "title": { "rendered": "ReactJS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 168,
+        "id": 168,
+        "title": "reactjs",
+        "filename": "reactjs.png",
+        "filesize": 43070,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/reactjs/reactjs-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "reactjs-2",
+        "status": "inherit",
+        "uploaded_to": 54,
+        "date": "2019-01-05 01:57:21",
+        "modified": "2019-01-05 01:59:22",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1200,
+        "height": 848,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs-100x71.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 71,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs-450x318.png",
+          "medium-width": 450,
+          "medium-height": 318,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs-768x543.png",
+          "medium_large-width": 768,
+          "medium_large-height": 543,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs-800x565.png",
+          "large-width": 800,
+          "large-height": 565,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs-50x35.png",
+          "company_icon-width": 50,
+          "company_icon-height": 35,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs-80x57.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 57,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/reactjs-800x565.png",
+          "project_preview-width": 800,
+          "project_preview-height": 565
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/54" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/54/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=54"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "date": "2018-12-21T12:00:03",
+    "date_gmt": "2018-12-21T12:00:03",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=56"
+    },
+    "modified": "2019-01-05T01:58:49",
+    "modified_gmt": "2019-01-05T01:58:49",
+    "slug": "redux",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/redux/",
+    "title": { "rendered": "Redux" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 167,
+        "id": 167,
+        "title": "redux",
+        "filename": "redux.png",
+        "filesize": 68349,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/redux/redux-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "redux-2",
+        "status": "inherit",
+        "uploaded_to": 56,
+        "date": "2019-01-05 01:57:19",
+        "modified": "2019-01-05 01:58:49",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1200,
+        "height": 1084,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux-100x90.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 90,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux-450x407.png",
+          "medium-width": 450,
+          "medium-height": 407,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux-768x694.png",
+          "medium_large-width": 768,
+          "medium_large-height": 694,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux-800x723.png",
+          "large-width": 800,
+          "large-height": 723,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux-50x45.png",
+          "company_icon-width": 50,
+          "company_icon-height": 45,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux-80x72.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 72,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/redux-800x723.png",
+          "project_preview-width": 800,
+          "project_preview-height": 723
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/56" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/56/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=56"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "date": "2019-01-02T21:16:50",
+    "date_gmt": "2019-01-02T21:16:50",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=103"
+    },
+    "modified": "2019-01-05T01:47:04",
+    "modified_gmt": "2019-01-05T01:47:04",
+    "slug": "regular-expression",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/regular-expression/",
+    "title": { "rendered": "Regex" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 152,
+        "id": 152,
+        "title": "regex",
+        "filename": "regex.png",
+        "filesize": 42563,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/regular-expression/regex/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "regex",
+        "status": "inherit",
+        "uploaded_to": 103,
+        "date": "2019-01-05 01:34:06",
+        "modified": "2019-01-05 01:47:04",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 2000,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex-768x768.png",
+          "medium_large-width": 768,
+          "medium_large-height": 768,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex-800x800.png",
+          "large-width": 800,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/regex-800x800.png",
+          "project_preview-width": 800,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/103"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/103/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=103"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "date": "2018-12-21T12:05:47",
+    "date_gmt": "2018-12-21T12:05:47",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=66"
+    },
+    "modified": "2019-01-05T01:44:23",
+    "modified_gmt": "2019-01-05T01:44:23",
+    "slug": "sass-scss",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/sass-scss/",
+    "title": { "rendered": "SASS/SCSS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 156,
+        "id": 156,
+        "title": "sass",
+        "filename": "sass.png",
+        "filesize": 14087,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/sass-scss/sass/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "sass",
+        "status": "inherit",
+        "uploaded_to": 66,
+        "date": "2019-01-05 01:34:10",
+        "modified": "2019-01-05 01:44:23",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 320,
+        "height": 320,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass.png",
+          "medium-width": 320,
+          "medium-height": 320,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass.png",
+          "medium_large-width": 320,
+          "medium_large-height": 320,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass.png",
+          "large-width": 320,
+          "large-height": 320,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sass.png",
+          "project_preview-width": 320,
+          "project_preview-height": 320
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/66" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/66/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=66"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 137,
+    "date": "2019-01-05T00:59:30",
+    "date_gmt": "2019-01-05T00:59:30",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=137"
+    },
+    "modified": "2019-01-05T01:35:48",
+    "modified_gmt": "2019-01-05T01:35:48",
+    "slug": "seo",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/seo/",
+    "title": { "rendered": "SEO" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 154,
+        "id": 154,
+        "title": "seo",
+        "filename": "seo.png",
+        "filesize": 73170,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/seo/seo-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "seo-2",
+        "status": "inherit",
+        "uploaded_to": 137,
+        "date": "2019-01-05 01:34:10",
+        "modified": "2019-01-05 01:35:48",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 840,
+        "height": 473,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 56,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+          "medium-width": 450,
+          "medium-height": 253,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+          "medium_large-width": 768,
+          "medium_large-height": 432,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+          "large-width": 800,
+          "large-height": 450,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+          "company_icon-width": 50,
+          "company_icon-height": 28,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 45,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/seo.png",
+          "project_preview-width": 800,
+          "project_preview-height": 450
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/137"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/137/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=137"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "date": "2019-01-02T20:54:12",
+    "date_gmt": "2019-01-02T20:54:12",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=102"
+    },
+    "modified": "2019-01-05T01:47:24",
+    "modified_gmt": "2019-01-05T01:47:24",
+    "slug": "sequelizejs",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/sequelizejs/",
+    "title": { "rendered": "SequelizeJS" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 153,
+        "id": 153,
+        "title": "sequelizejs",
+        "filename": "sequelizejs.png",
+        "filesize": 22509,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/sequelizejs/sequelizejs-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "sequelizejs-2",
+        "status": "inherit",
+        "uploaded_to": 102,
+        "date": "2019-01-05 01:34:10",
+        "modified": "2019-01-05 01:47:24",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 250,
+        "height": 250,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs.png",
+          "medium-width": 250,
+          "medium-height": 250,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs.png",
+          "medium_large-width": 250,
+          "medium_large-height": 250,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs.png",
+          "large-width": 250,
+          "large-height": 250,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/sequelizejs.png",
+          "project_preview-width": 250,
+          "project_preview-height": 250
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/102"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/102/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=102"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 195,
+    "date": "2019-01-05T02:27:52",
+    "date_gmt": "2019-01-05T02:27:52",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=195"
+    },
+    "modified": "2019-01-05T02:27:52",
+    "modified_gmt": "2019-01-05T02:27:52",
+    "slug": "shell-scripting",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/shell-scripting/",
+    "title": { "rendered": "Shell Scripting" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 196,
+        "id": 196,
+        "title": "bash",
+        "filename": "bash.png",
+        "filesize": 9386,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/shell-scripting/bash/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "bash",
+        "status": "inherit",
+        "uploaded_to": 195,
+        "date": "2019-01-05 02:26:35",
+        "modified": "2019-01-05 02:27:52",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 256,
+        "height": 256,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash.png",
+          "medium-width": 256,
+          "medium-height": 256,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash.png",
+          "medium_large-width": 256,
+          "medium_large-height": 256,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash.png",
+          "large-width": 256,
+          "large-height": 256,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/bash.png",
+          "project_preview-width": 256,
+          "project_preview-height": 256
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/195"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/195/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=195"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 193,
+    "date": "2019-01-05T02:25:26",
+    "date_gmt": "2019-01-05T02:25:26",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=193"
+    },
+    "modified": "2019-01-05T07:56:31",
+    "modified_gmt": "2019-01-05T07:56:31",
+    "slug": "ssl",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/ssl/",
+    "title": { "rendered": "SSL" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 207,
+        "id": 207,
+        "title": "ssl",
+        "filename": "ssl.png",
+        "filesize": 28695,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/ssl/ssl-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "ssl-2",
+        "status": "inherit",
+        "uploaded_to": 193,
+        "date": "2019-01-05 07:55:20",
+        "modified": "2019-01-05 07:56:31",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 459,
+        "height": 455,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl-450x446.png",
+          "medium-width": 450,
+          "medium-height": 446,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl.png",
+          "medium_large-width": 459,
+          "medium_large-height": 455,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl.png",
+          "large-width": 459,
+          "large-height": 455,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/ssl.png",
+          "project_preview-width": 459,
+          "project_preview-height": 455
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/193"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/193/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=193"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "date": "2019-01-05T01:51:09",
+    "date_gmt": "2019-01-05T01:51:09",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=165"
+    },
+    "modified": "2019-01-05T02:02:00",
+    "modified_gmt": "2019-01-05T02:02:00",
+    "slug": "twig",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/twig/",
+    "title": { "rendered": "Twig" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 166,
+        "id": 166,
+        "title": "twig",
+        "filename": "twig.png",
+        "filesize": 9990,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/twig/twig-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "twig-2",
+        "status": "inherit",
+        "uploaded_to": 165,
+        "date": "2019-01-05 01:52:21",
+        "modified": "2019-01-05 02:02:00",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 160,
+        "height": 160,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig.png",
+          "medium-width": 160,
+          "medium-height": 160,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig.png",
+          "medium_large-width": 160,
+          "medium_large-height": 160,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig.png",
+          "large-width": 160,
+          "large-height": 160,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/twig.png",
+          "project_preview-width": 160,
+          "project_preview-height": 160
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/165"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/165/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=165"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "date": "2018-12-21T12:06:21",
+    "date_gmt": "2018-12-21T12:06:21",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=67"
+    },
+    "modified": "2019-01-05T01:47:38",
+    "modified_gmt": "2019-01-05T01:47:38",
+    "slug": "webpack",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/webpack/",
+    "title": { "rendered": "WebPack" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 157,
+        "id": 157,
+        "title": "webpack",
+        "filename": "webpack.png",
+        "filesize": 135289,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/webpack/webpack-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "webpack-2",
+        "status": "inherit",
+        "uploaded_to": 67,
+        "date": "2019-01-05 01:34:13",
+        "modified": "2019-01-05 01:47:38",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 2400,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack-768x768.png",
+          "medium_large-width": 768,
+          "medium_large-height": 768,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack-800x800.png",
+          "large-width": 800,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/webpack-800x800.png",
+          "project_preview-width": 800,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/67" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/67/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=67"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "date": "2018-12-21T12:04:38",
+    "date_gmt": "2018-12-21T12:04:38",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=64"
+    },
+    "modified": "2019-01-05T01:47:53",
+    "modified_gmt": "2019-01-05T01:47:53",
+    "slug": "websocket",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/websocket/",
+    "title": { "rendered": "WebSocket" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 155,
+        "id": 155,
+        "title": "websocket",
+        "filename": "websocket.png",
+        "filesize": 43141,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/websocket/websocket-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "websocket-2",
+        "status": "inherit",
+        "uploaded_to": 64,
+        "date": "2019-01-05 01:34:10",
+        "modified": "2019-01-05 01:47:53",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 1810,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket-100x75.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 75,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket-450x339.png",
+          "medium-width": 450,
+          "medium-height": 339,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket-768x579.png",
+          "medium_large-width": 768,
+          "medium_large-height": 579,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket-800x603.png",
+          "large-width": 800,
+          "large-height": 603,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket-50x38.png",
+          "company_icon-width": 50,
+          "company_icon-height": 38,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket-80x60.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 60,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/websocket-800x603.png",
+          "project_preview-width": 800,
+          "project_preview-height": 603
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/64" }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/64/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=64"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "date": "2019-01-05T00:53:38",
+    "date_gmt": "2019-01-05T00:53:38",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=133"
+    },
+    "modified": "2019-01-05T01:36:39",
+    "modified_gmt": "2019-01-05T01:36:39",
+    "slug": "wireframing",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/wireframing/",
+    "title": { "rendered": "Wireframing" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 158,
+        "id": 158,
+        "title": "wireframe",
+        "filename": "wireframe.png",
+        "filesize": 9817,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/wireframing/wireframe/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "wireframe",
+        "status": "inherit",
+        "uploaded_to": 133,
+        "date": "2019-01-05 01:34:17",
+        "modified": "2019-01-05 01:36:39",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 400,
+        "height": 300,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe-100x75.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 75,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe.png",
+          "medium-width": 400,
+          "medium-height": 300,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe.png",
+          "medium_large-width": 400,
+          "medium_large-height": 300,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe.png",
+          "large-width": 400,
+          "large-height": 300,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe-50x38.png",
+          "company_icon-width": 50,
+          "company_icon-height": 38,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe-80x60.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 60,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wireframe.png",
+          "project_preview-width": 400,
+          "project_preview-height": 300
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/133"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/133/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=133"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 160,
+    "date": "2019-01-05T01:38:48",
+    "date_gmt": "2019-01-05T01:38:48",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=160"
+    },
+    "modified": "2019-01-05T01:38:48",
+    "modified_gmt": "2019-01-05T01:38:48",
+    "slug": "wordpress-2",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/wordpress-2/",
+    "title": { "rendered": "WordPress" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 161,
+        "id": 161,
+        "title": "wordpress",
+        "filename": "wordpress.png",
+        "filesize": 86151,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/wordpress-2/wordpress-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "wordpress-2",
+        "status": "inherit",
+        "uploaded_to": 160,
+        "date": "2019-01-05 01:38:34",
+        "modified": "2019-01-05 01:38:34",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 1200,
+        "height": 1200,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress-768x768.png",
+          "medium_large-width": 768,
+          "medium_large-height": 768,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress-800x800.png",
+          "large-width": 800,
+          "large-height": 800,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/wordpress-800x800.png",
+          "project_preview-width": 800,
+          "project_preview-height": 800
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/160"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/160/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=160"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "date": "2019-01-05T00:55:38",
+    "date_gmt": "2019-01-05T00:55:38",
+    "guid": {
+      "rendered": "https://www.admin.aj-portfolio.com/?post_type=skills&#038;p=136"
+    },
+    "modified": "2019-01-05T01:48:32",
+    "modified_gmt": "2019-01-05T01:48:32",
+    "slug": "xml",
+    "status": "publish",
+    "type": "skills",
+    "link": "https://www.admin.aj-portfolio.com/skills/xml/",
+    "title": { "rendered": "XML" },
+    "content": { "rendered": "", "protected": false },
+    "template": "",
+    "acf": {
+      "image": {
+        "ID": 159,
+        "id": 159,
+        "title": "xml",
+        "filename": "xml.png",
+        "filesize": 79075,
+        "url": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml.png",
+        "link": "https://www.admin.aj-portfolio.com/skills/xml/xml-2/",
+        "alt": "",
+        "author": "1",
+        "description": "",
+        "caption": "",
+        "name": "xml-2",
+        "status": "inherit",
+        "uploaded_to": 136,
+        "date": "2019-01-05 01:34:17",
+        "modified": "2019-01-05 01:48:32",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "https://www.admin.aj-portfolio.com/wp-includes/images/media/default.png",
+        "width": 500,
+        "height": 500,
+        "sizes": {
+          "thumbnail": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml-100x100.png",
+          "thumbnail-width": 100,
+          "thumbnail-height": 100,
+          "medium": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml-450x450.png",
+          "medium-width": 450,
+          "medium-height": 450,
+          "medium_large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml.png",
+          "medium_large-width": 500,
+          "medium_large-height": 500,
+          "large": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml.png",
+          "large-width": 500,
+          "large-height": 500,
+          "company_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml-50x50.png",
+          "company_icon-width": 50,
+          "company_icon-height": 50,
+          "skill_icon": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml-80x80.png",
+          "skill_icon-width": 80,
+          "skill_icon-height": 80,
+          "project_preview": "https://www.admin.aj-portfolio.com/wp-content/uploads/skills/xml.png",
+          "project_preview-width": 500,
+          "project_preview-height": 500
+        }
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/136"
+        }
+      ],
+      "collection": [
+        { "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills" }
+      ],
+      "about": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/types/skills"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/skills/136/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.admin.aj-portfolio.com/wp-json/wp/v2/media?parent=136"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]
