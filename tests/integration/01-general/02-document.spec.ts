@@ -1,8 +1,5 @@
 /// <reference types="Cypress" />
 
-// IMPORT: Config
-const config = require("../../../src/local");
-
 // DEFINE: Working variables
 const url = Cypress.env("URL");
 
@@ -112,19 +109,13 @@ describe("Document", () => {
   // 4. DEFINE: Image tests
   describe("Images", () => {
     // A. TEST: Alt
-    it("Alt", () => {
+    it("Alt & Src & Broken links", () => {
       // I. LOOP: Thorugh all the image elements
       cy.get("img").each(function(element, index, list) {
         cy.wrap(element)
           .should("have.attr", "alt")
           .should("not.be.empty");
-      });
-    });
 
-    // B. TEST: Src
-    it("Src", () => {
-      // I. LOOP: Thorugh all the image elements
-      cy.get("img").each(function(element, index, list) {
         cy.wrap(element)
           .should("have.attr", "src")
           .should("not.be.empty")
@@ -139,17 +130,5 @@ describe("Document", () => {
           });
       });
     });
-  });
-
-  // 5. DEFINE: Links tests
-  describe("Links", () => {
-    // A. TEST: Has aria-label on external links
-    it("Aria label", () => {});
-  });
-
-  // 6. DEFINE: Lists tests
-  describe("Lists", () => {
-    // A. TEST: Only li tags
-    it("Only li tags", () => {});
   });
 });

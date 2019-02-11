@@ -1,8 +1,5 @@
 /// <reference types="Cypress" />
 
-// IMPORT: Config
-const config = require("../../../src/local");
-
 // DEFINE: Working variables
 const domain = Cypress.env("DOMAIN");
 const url = Cypress.env("URL");
