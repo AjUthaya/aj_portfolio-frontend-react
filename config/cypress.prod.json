@@ -1,0 +1,29 @@
+{
+  "baseUrl": null,
+  "defaultCommandTimeout": 4000,
+  "execTimeout": 60000,
+  "fixturesFolder": "tests/fixtures",
+  "hosts": null,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "integrationFolder": "tests/integration",
+  "modifyObstructiveCode": true,
+  "pageLoadTimeout": 60000,
+  "pluginsFile": "tests/plugins",
+  "port": null,
+  "requestTimeout": 5000,
+  "responseTimeout": 30000,
+  "screenshotsFolder": "tests/screenshots",
+  "video": false,
+  "supportFile": "tests/support",
+  "taskTimeout": 60000,
+  "videosFolder": "tests/videos",
+  "projectId": "o45exy",
+  "chromeWebSecurity": false,
+  "env": {
+    "NODE_ENV": "production",
+    "DOMAIN_PREFIX": "https://www.",
+    "DOMAIN": "aj-portfolio.com",
+    "URL": "https://www.aj-portfolio.com"
+  }
+}

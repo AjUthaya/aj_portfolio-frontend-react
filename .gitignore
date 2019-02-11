@@ -28,11 +28,11 @@ config/database.js
 src/local.js
 
 
-
 ## Test files
 tests/screenshots/*
 tests/videos/*
 test-results.xml
+cypress.json
 
 
 ## Environment

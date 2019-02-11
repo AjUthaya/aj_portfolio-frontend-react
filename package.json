@@ -11,8 +11,10 @@
     "reset": "rm -r node_modules && rm -r package-lock.json",
     "serve": "serve -s build",
     "start": "node scripts/start.js",
-    "test": "node node_modules/.bin/cypress run",
-    "test:open": "node node_modules/.bin/cypress open"
+    "test": "cp ./config/cypress.dev.json ./cypress.json; node node_modules/.bin/cypress run;",
+    "test:open": "cp ./config/cypress.dev.json ./cypress.json; node node_modules/.bin/cypress open;",
+    "test_prod": "cp ./config/cypress.prod.json ./cypress.json; node node_modules/.bin/cypress run;",
+    "test_prod:open": "cp ./config/cypress.prod.json ./cypress.json; node node_modules/.bin/cypress open;"
   },
   "babel": {
     "presets": [
@@ -83,6 +85,7 @@
     "webpack-manifest-plugin": "1.3.2"
   },
   "devDependencies": {
+    "@types/node": "^10.12.24",
     "cypress": "3.1.5",
     "webpack-dev-server": "v2.11.1"
   }
