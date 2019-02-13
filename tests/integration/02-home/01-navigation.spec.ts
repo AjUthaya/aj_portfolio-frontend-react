@@ -13,12 +13,42 @@ describe("Navigation", () => {
 
   // B. DEFINE: Logo
   describe("Logo", () => {
-    //
+    // I. TEST: SVG
+    it("SVG element is not empty", () => {
+      cy.get(".navigation__header__right__logo_link__image_container__image")
+        .children()
+        .should("have.length.gte", 2);
+    });
+
+    // II. TEST: Click
+    it("OnClick: Change background color", () => {});
+
+    // III. TEST: Link
+    it("Links to homepage", () => {
+      cy.get(".navigation__header__right__logo_link")
+        .should("have.attr", "href")
+        .and("include", "/");
+    });
   });
 
   // C. DEFINE: Menu
   describe("Menu", () => {
-    //
+    // I. TEST: Only one active item
+    it("Only one active menu item", () => {
+      cy.get(".navigation__menu__list__item.active").should("have.length", 1);
+    });
+
+    // III. TEST: All items have SVG's that are not empty
+    it("All menu items have SVG's", () => {
+      cy.get(".navigation__menu__list__item")
+        .its("length")
+        .then(size => {
+          cy.get(".navigation__menu__list__item__icon_container__icon")
+            .should("have.length", size)
+            .children()
+            .should("have.length.gte", 1);
+        });
+    });
   });
 
   // D. DEFINE: Toggle

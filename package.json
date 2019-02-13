@@ -11,8 +11,8 @@
     "reset": "rm -r node_modules && rm -r package-lock.json",
     "serve": "serve -s build",
     "start": "node scripts/start.js",
-    "test": "cp ./config/cypress.dev.json ./cypress.json; node node_modules/.bin/cypress run;",
-    "test:open": "cp ./config/cypress.dev.json ./cypress.json; node node_modules/.bin/cypress open;",
+    "test": "npm run start & cp ./config/cypress.dev.json ./cypress.json; node node_modules/.bin/cypress run;",
+    "test:open": "npm run start & cp ./config/cypress.dev.json ./cypress.json; node node_modules/.bin/cypress open;",
     "test_prod": "cp ./config/cypress.prod.json ./cypress.json; node node_modules/.bin/cypress run;",
     "test_prod:open": "cp ./config/cypress.prod.json ./cypress.json; node node_modules/.bin/cypress open;"
   },
