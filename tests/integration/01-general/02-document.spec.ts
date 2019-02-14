@@ -1,8 +1,9 @@
 /// <reference types="Cypress" />
 
-// DEFINE: Working variables
+// Working variables
 const url = Cypress.env("URL");
 
+// Document
 describe("Document", () => {
   // 1. RUN: Once before all tests in this wrapper
   before(() => {

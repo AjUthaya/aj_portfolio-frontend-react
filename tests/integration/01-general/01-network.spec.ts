@@ -1,10 +1,12 @@
 /// <reference types="Cypress" />
 
-// DEFINE: Working variables
+// Working variables
 const domain = Cypress.env("DOMAIN");
 const url = Cypress.env("URL");
 
+// IF: Production
 if (Cypress.env("NODE_ENV") === "production") {
+  // Network
   describe("Network", () => {
     // 1. DEFINE: HTTP Routes
     describe("HTTP", () => {
