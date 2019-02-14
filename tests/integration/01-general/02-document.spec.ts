@@ -121,12 +121,13 @@ describe("Document", () => {
           .should("not.be.empty")
           .then(res => {
             // 1. VALIDATE: Image link
-            cy.request({ url: res.toString(), followRedirect: false }).then(
-              res => {
-                // I. VALIDATE: Status code
-                expect(res.status).to.eq(200);
-              }
-            );
+            cy.request({
+              url: res.toString(),
+              followRedirect: false
+            }).then(res => {
+              // I. VALIDATE: Status code
+              expect(res.status).to.eq(200);
+            });
           });
       });
     });

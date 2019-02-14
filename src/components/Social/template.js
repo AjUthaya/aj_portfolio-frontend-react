@@ -55,7 +55,7 @@ export default class Template extends Component {
               <a
                 className="social__wrapper__list__item__link"
                 href="mailto:ajanth160899@gmail.com?Subject=AJ%20Portfolio"
-                aria-label="email"
+                aria-label="Email"
               >
                 <div className="social__wrapper__list__item__link__icon_container">
                   <FontAwesomeIcon
