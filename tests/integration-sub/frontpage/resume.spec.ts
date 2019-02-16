@@ -17,7 +17,7 @@ module.exports = () => {
     // B. DEFINE: Section title
     describe("Section Title", () => {
       // I. TEST: Has section title container
-      it("Has the container class", () => {
+      it("Container found", () => {
         cy.get("#resume .section_title");
       });
 
@@ -36,13 +36,25 @@ module.exports = () => {
       });
     });
 
-    // C. DEFINE: Items
-    describe("Items", () => {
-      // I. TEST: All required values are present
-      it("Required values", () => {});
+    // C. DEFINE: Loading
+    describe("Loading", () => {});
 
-      // II. TEST: Maps properly
-      it("Maps properly", () => {});
+    // D. DEFINE: Error
+    describe("Error", () => {});
+
+    // E. DEFINE: Items
+    describe("Items", () => {
+      // I. TEST: Icon
+      it("Icon", () => {});
+
+      // II. TEST: Title
+      it("Title", () => {});
+
+      // II. TEST: Sub title
+      it("Sub title", () => {});
+
+      // II. TEST: Data
+      it("Date", () => {});
     });
   });
 };
