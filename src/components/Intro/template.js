@@ -17,7 +17,7 @@ export default class Template extends Component {
   // RENDER
   render() {
     return (
-      <div className="intro">
+      <div id="intro" className="intro">
         <Particles
           className="intro__particles"
           params={{
