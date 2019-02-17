@@ -8,16 +8,13 @@ module.exports = () => {
   describe("Resume", () => {
     // A. RUN: Once before all tests in this wrapper
     before(() => {
-      // Visit frontpage
-      cy.visit(url);
-
       // Empty out local storage
       cy.clearLocalStorage().then(ls => {
         expect(ls.getItem("resume")).to.be.null;
       });
 
-      // Reload the page
-      //cy.reload();
+      // Visit frontpage
+      cy.visit(url);
 
       // Scroll down to section
       cy.get("#resume").scrollIntoView();

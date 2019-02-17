@@ -9,8 +9,10 @@ describe("Frontpage", () => {
   /*
   api();
   intro();
-  */
   resume();
+  */
   skills();
+  /*
   projects();
+  */
 });

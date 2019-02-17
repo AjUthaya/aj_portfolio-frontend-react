@@ -49,7 +49,7 @@ export default class Template extends Component {
         <div className="mini_boxes__list__item" key={key}>
           <div className="mini_boxes__list__item__image_container">
             <img
-              className="mini_boxes__list__item__image_container"
+              className="mini_boxes__list__item__image_container__image"
               src={item.acf.image.sizes.skill_icon}
               alt="Skill"
             />
