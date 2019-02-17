@@ -15,7 +15,7 @@
   "responseTimeout": 30000,
   "screenshotsFolder": "tests/screenshots",
   "video": false,
-  "supportFile": "tests/support",
+  "supportFile": false,
   "taskTimeout": 60000,
   "videosFolder": "tests/videos",
   "projectId": "o45exy",
