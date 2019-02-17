@@ -1,17 +1,31 @@
 // EXPORT
 module.exports = () => {
   // Working variables
-  const url = Cypress.env("URL");
+  const url = Cypress.env("URL"),
+    validateSectionTitle = require("../functions/sectionTitle.spec.ts");
 
   // Projects
   describe("Projects", () => {
     // A. RUN: Once before all tests in this wrapper
     before(() => {
-      // I. GOTO: Frontpage, give data some time to load
-      cy.visit(url).wait(2000);
+      // Visit frontpage
+      cy.visit(url);
 
-      // II. GOTO: Scroll down to section
+      // Empty out local storage
+      cy.clearLocalStorage().then(ls => {
+        expect(ls.getItem("projects")).to.be.null;
+      });
+
+      // Reload the page
+      cy.reload();
+
+      // Scroll down to section
       cy.get("#projects").scrollIntoView();
+    });
+
+    // B. DEFINE: Section title
+    describe("Section Title", () => {
+      validateSectionTitle("#projects .section_title", "Projects");
     });
   });
 };

@@ -2,7 +2,7 @@
 module.exports = () => {
   // Working variables
   const config = require("../../../src/local"),
-    validateApiRoute = require("../functions/validateApiRoute.spec.ts");
+    validateApiRoute = require("../functions/apiRoute.spec.ts");
 
   // API data
   describe("API data", () => {
@@ -24,7 +24,7 @@ module.exports = () => {
       validateApiRoute(config.api.endpoints.categories);
     });
 
-    // D. TEST: Projects
+    // E. TEST: Projects
     describe("Projects", () => {
       validateApiRoute(config.api.endpoints.projects);
     });

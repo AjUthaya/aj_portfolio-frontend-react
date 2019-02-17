@@ -8,7 +8,7 @@ module.exports = () => {
     // A. RUN: Once before all tests in this wrapper
     before(() => {
       // I. GOTO: Frontpage, give data some time to load
-      cy.visit(url).wait(2000);
+      cy.visit(url);
 
       // II. GOTO: Scroll down to section
       cy.get("#intro").scrollIntoView();

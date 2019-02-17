@@ -6,8 +6,10 @@ const api = require("../integration-sub/frontpage/api.spec.ts"),
   projects = require("../integration-sub/frontpage/projects.spec.ts");
 
 describe("Frontpage", () => {
+  /*
   api();
   intro();
+  */
   resume();
   skills();
   projects();
