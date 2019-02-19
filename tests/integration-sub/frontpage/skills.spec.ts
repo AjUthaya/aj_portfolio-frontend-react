@@ -32,7 +32,7 @@ module.exports = () => {
 
       // II. TEST: Get all the elements
       it("Get all the items", () => {
-        cy.wait(2000);
+        cy.wait(3000);
         cy.get(".mini_boxes__list .mini_boxes__list__item").each(res => {
           elements.push(res);
         });

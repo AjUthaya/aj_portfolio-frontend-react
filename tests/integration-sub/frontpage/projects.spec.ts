@@ -32,7 +32,7 @@ module.exports = () => {
 
       // II. TEST: Get all the elements
       it("Get all the items", () => {
-        cy.wait(2000);
+        cy.wait(3000);
         cy.get(".projects__list .projects__list__item").each(res => {
           elements.push(res);
         });
