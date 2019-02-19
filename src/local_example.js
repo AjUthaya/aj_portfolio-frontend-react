@@ -1,15 +1,23 @@
+// ##### Fillout this section ##### //
+
+// Sentry
+const sentryKey = "SENTRY_KEY",
+  sentryApp = "SENTRY_APP";
+
+// Backend API
+const apiBase = "https://www.admin.aj-portfolio.com";
+
+// Goggle Analytics
+const gaId = "";
+
+// HotJar
+const hotjarId = "",
+  hotjarVersion = "";
+
+// ##### Fillout this section ##### //
+
 // EXPORT: Function
 module.exports = (function() {
-  // ### Fillout this section ###
-  const sentryKey = "SENTRY_KEY",
-    sentryApp = "SENTRY_PROJECT_ID",
-    // Base url for backend
-    apiBase = "https://www.admin.aj-portfolio.com",
-    // Login for WordPress
-    apiUsername = "WORDPRESS_USERNAME",
-    apiPassword = "WORDPRESS_PASSWORD";
-  // ### Fillout this section ###
-
   // API
   const apiDataPath = "/wp-json/wp/v2",
     apiDataBase = apiBase + apiDataPath,
@@ -23,14 +31,14 @@ module.exports = (function() {
   // RETURN: Object
   return {
     ga: {
-      id: "TRACKING_ID"
+      id: gaId
     },
     hotjar: {
-      id: "SITE_ID",
-      version: "SNIPPET_VERSION_ID"
+      id: hotjarId,
+      version: hotjarVersion
     },
     sentry: {
-      key: sentryKey,
+      id: sentryKey,
       app: sentryApp,
       url: `https://${sentryKey}@app.getsentry.com/${sentryApp}`
     },
@@ -40,8 +48,6 @@ module.exports = (function() {
       noLogo: `${apiBase}/wp-content/uploads/site/no-picture.png`
     },
     api: {
-      username: apiUsername,
-      password: apiPassword,
       base: apiBase,
       path: apiDataBase,
       auth: apiAuthBase,

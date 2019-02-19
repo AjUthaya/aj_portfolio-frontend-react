@@ -23,7 +23,7 @@
   "env": {
     "NODE_ENV": "development",
     "DOMAIN_PREFIX": "http://",
-    "DOMAIN": "127.0.0.1:6969",
-    "URL": "http://127.0.0.1:6969"
+    "DOMAIN": "localhost:6969",
+    "URL": "http://localhost:6969"
   }
 }
