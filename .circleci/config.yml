@@ -5,6 +5,8 @@ jobs:
   test:
     docker:
       - image: cypress/base:10
+        environment:
+          - CYPRESS_RECORD_KEY: ${CYPRESS_RECORD_KEY}
     steps:
       # 1. Checkout code
       - checkout
@@ -39,7 +41,7 @@ jobs:
       # 7. Run tests
       - run:
           name: Run tests
-          command: npm run test --record --key ${CYPRESS_RECORD_KEY}
+          command: npm run test --record
 
       # 8. Stop server
       - run:
