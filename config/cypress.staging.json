@@ -1,6 +1,6 @@
 {
   "baseUrl": null,
-  "defaultCommandTimeout": 4000,
+  "defaultCommandTimeout": 5000,
   "execTimeout": 60000,
   "fixturesFolder": "tests/fixtures",
   "hosts": null,
