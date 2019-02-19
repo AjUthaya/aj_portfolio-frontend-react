@@ -11,8 +11,7 @@ jobs:
 
       # 2. Restore cached dependencies
       - restore_cache:
-          - keys:
-              - cache-{{ checksum "package.json" }}
+          key: dependency-cache-{{ checksum "package.json" }}
 
       # 3. Install dependencies
       - run:
@@ -21,10 +20,11 @@ jobs:
 
       # 4. Save dependencies in cache for future runs
       - save_cache:
-          key: cache-{{ checksum "package.json" }}
+          key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ~/.npm
             - ~/.cache
+            - node_modules
 
       # 5. Decode and write config into file from env
       - run:
