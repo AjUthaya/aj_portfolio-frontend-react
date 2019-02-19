@@ -29,7 +29,7 @@ jobs:
       # 5. Decode and write config into file from env
       - run:
           name: Decode config file
-          command: echo ${CONFIG} base64 --decode ./src/local.js
+          command: echo "${CONFIG}" | base64 --decode > ./src/local.js
 
       # 6. Start server
       - run:
