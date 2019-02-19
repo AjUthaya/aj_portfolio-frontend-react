@@ -39,7 +39,7 @@ jobs:
       # 7. Run tests
       - run:
           name: Run tests
-          command: cp ./config/cypress.dev.json ./cypress.json; node node_modules/.bin/cypress run --record;
+          command: cp ./config/cypress.staging.json ./cypress.json; node node_modules/.bin/cypress run --record;
 
       # 8. Stop server
       - run:
