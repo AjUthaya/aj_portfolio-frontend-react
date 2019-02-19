@@ -24,7 +24,6 @@ jobs:
           paths:
             - ~/.npm
             - ~/.cache
-            - node_modules
 
       # 5. Decode and write config into file from env
       - run:
@@ -41,6 +40,11 @@ jobs:
       - run:
           name: Run tests
           command: npm run test --record --key ${CYPRESS_RECORD_KEY}
+
+      # 8. Stop server
+      - run:
+          name: Stop server
+          command: killall node
 
 workflows:
   version: 2
