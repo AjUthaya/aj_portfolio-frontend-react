@@ -44,7 +44,7 @@ jobs:
       # 8. Stop server
       - run:
           name: Stop server
-          command: killall node
+          command: kill -9 $(ps aux | grep '\snode\s' | awk '{print $2}')
 
 workflows:
   version: 2
