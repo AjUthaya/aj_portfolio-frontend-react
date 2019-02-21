@@ -20,6 +20,15 @@
   "videosFolder": "tests/videos",
   "projectId": "o45exy",
   "chromeWebSecurity": false,
+  "blacklistHosts": [
+    "https://www.google-analytics.com/",
+    "https://www.google-analytics.com/",
+    "https://static.hotjar.com/",
+    "https://script.hotjar.com/",
+    "https://vars.hotjar.com/",
+    "https://in.hotjar.com",
+    "wss://ws1.hotjar.com/"
+  ],
   "env": {
     "NODE_ENV": "production",
     "DOMAIN_PREFIX": "https://www.",
