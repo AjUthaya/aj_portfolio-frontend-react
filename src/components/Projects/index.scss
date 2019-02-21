@@ -190,6 +190,7 @@
           width: 100%;
           overflow: hidden;
           background: $color-primary;
+          max-height: 190px;
 
           &__image {
             object-fit: cover;
