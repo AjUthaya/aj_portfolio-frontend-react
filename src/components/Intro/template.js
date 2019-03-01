@@ -23,7 +23,7 @@ export default class Template extends Component {
           params={{
             particles: {
               number: {
-                value: 300,
+                value: 125,
                 density: {
                   enable: true,
                   value_area: 1500
