@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import Select from "react-responsive-select";
 import Shuffle from "react-flip-move";
+import Fade from "react-reveal/Fade";
 
 // IMPORT: Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -682,7 +683,9 @@ export default class Template extends Component {
       <div className="projects">
         <div className="projects__filter">{this.renderFilters()}</div>
 
-        <Shuffle className="projects__list">{this.renderItems()}</Shuffle>
+        <Shuffle className="projects__list">
+          <Fade right>{this.renderItems()}</Fade>
+        </Shuffle>
       </div>
     );
   }

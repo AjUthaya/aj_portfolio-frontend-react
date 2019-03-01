@@ -1,5 +1,6 @@
 // IMPORT: React
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
 
 // IMPORT: Font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -96,7 +97,9 @@ export default class Template extends Component {
   render() {
     return (
       <div className="accordion">
-        <div className="accordion__list">{this.RenderItems()}</div>
+        <div className="accordion__list">
+          <Fade right>{this.RenderItems()}</Fade>
+        </div>
       </div>
     );
   }

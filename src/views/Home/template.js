@@ -117,8 +117,8 @@ export default class Template extends Component {
               <div className="content__wrapper" id="resume">
                 <Fade right>
                   <SectionTitle title="Resume" />
-                  <Accordion />
                 </Fade>
+                <Accordion />
               </div>
             </Waypoint>
 
@@ -145,8 +145,8 @@ export default class Template extends Component {
               <div className="content__wrapper" id="projects">
                 <Fade right>
                   <SectionTitle title="Projects" />
-                  <Projects />
                 </Fade>
+                <Projects />
               </div>
             </Waypoint>
           </div>
