@@ -1,5 +1,6 @@
 // IMPORT: React
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
 
 // IMPORT: Styles
 import "./index.scss";
@@ -77,7 +78,9 @@ export default class Template extends Component {
   render() {
     return (
       <div className="mini_boxes">
-        <div className="mini_boxes__list">{this.RenderItems()}</div>
+        <div className="mini_boxes__list">
+          <Fade right>{this.RenderItems()}</Fade>
+        </div>
       </div>
     );
   }

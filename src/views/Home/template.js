@@ -131,8 +131,8 @@ export default class Template extends Component {
               <div className="content__wrapper" id="toolset">
                 <Fade right>
                   <SectionTitle title="Toolset" />
-                  <MiniBoxes />
                 </Fade>
+                <MiniBoxes />
               </div>
             </Waypoint>
 
