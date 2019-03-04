@@ -682,10 +682,9 @@ export default class Template extends Component {
     return (
       <div className="projects">
         <div className="projects__filter">{this.renderFilters()}</div>
-
-        <Shuffle className="projects__list">
-          <Fade right>{this.renderItems()}</Fade>
-        </Shuffle>
+        <Fade right>
+          <Shuffle className="projects__list">{this.renderItems()}</Shuffle>
+        </Fade>
       </div>
     );
   }
