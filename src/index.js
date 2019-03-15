@@ -7,6 +7,9 @@ import { applyMiddleware, createStore, compose } from "redux";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
 
+// IMPORT: Babel polyfill
+import "babel-polyfill";
+
 // IMPORT: Raven for sentry
 import Raven from "raven-js";
 
