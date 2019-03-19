@@ -1,88 +1,149 @@
 # AJ Portfolio (Frontend)
 
-![logo_banner](https://raw.githubusercontent.com/AjUthaya/aj_portfolio-backend-wordpress/3399d9abdde62ba6034600af8a817cf9d9ef4068/wp-content/uploads/site/logo_banner.png)
+![logo_banner](https://imgur.com/f2beX1w.png)
 
-## Required repos
+This repository is a part of my personal portfolio project, it is built with the separation of the frontend and backend in mind (micro services). So that i have one backend, where all the data comes from and a frontend where the user sees the data presented in a pretty and user frinely way. This way if i feel like building a new website for my portfolio, all i have to build is a new frontend and reuse the data from the backend.
 
-- Backend - "aj_portfolio-backend-wordpress"
+## Prerequisites
 
-## Setup
+### System
 
-1. Open a terminal window
-2. Navigate to the root folder of the project
-3. Run `nvm use`
-4. Run `npm install`
+Software that the system requires to be able to run this repository.
+
+- [Docker](https://www.docker.com/products/docker-desktop) - Docker is a computer program that performs operating-system-level virtualization, also known as "containerization".
+
+- [NVM](https://github.com/creationix/nvm) - Node Version Manager - Simple bash script to manage multiple active node.js versions
+
+- [NodeJS](https://nodejs.org/) - Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
+
+### Repositories
+
+List of the other repositories that you have to have up and running, before running this repository without errors.
+
+- [Backend](https://github.com/AjUthaya/aj_portfolio-backend-wordpress) (aj_portfolio-backend-wordpress)
+
+### Configuration
+
+A list of the configuration files that you have to create, for every configuration file listed below there should a file with the suffix "\_example" before the extention. So all you have to do is copy that file and replace the values.
+
+- src/local.json
 
 ## Run
 
-1. Run `npm run start`
-   - To shut down the dev server hit <kbd>CTRL</kbd><kbd>c</kbd>
+### Development
+
+1. Coming soon
+
+### Review
+
+1. Coming soon
+
+### Staging
+
+1. Coming soon
+
+### Production
+
+1. Coming soon
 
 ## Test
 
-Note: App has to be running before you run the tests
+### Development
 
-- Run `npm run tests` to test via command line
-- Run `npm run tests:open` to open up the cypress GUI
+1. Coming soon
+
+### Review
+
+1. Coming soon
+
+### Staging
+
+1. Coming soon
+
+### Production
+
+1. Coming soon
+
+## Application
+
+### Linter
+
+Coming soon
+
+### Architecture
+
+![application_architecture](https://imgur.com/bxhhkqt.png)
+
+### Design
+
+Coming soon
+
+## Versioning
+
+We use git for versioning. For the versions available, see the [tags on this repository](https://github.com/AjUthaya/aj_portfolio-frontend-react/tags).
+
+### Add a new version tag
+
+1. Update the CHANGELOG file with a new section and the "Unreleased Changes" link with the new tag version
+
+2. Create a new tag `git tag X.X.X`
+
+3. Push the new tag to remote `git push origin --tags`
+
+### Add a version tag for an older commit
+
+1. Type in `git log` in the root of the repo, to list all the commits with ID's
+
+- Press <kbd>Q</kbd> to get out of the list view
+
+2. Create a tag for an older commit `git tag -a X.X.X COMMIT_ID`
+
+3. Push the tag to remote `git push origin --tags`
+
+### Remove a version tag
+
+1. Remove tag `git tag -d X.X.X`
+
+2. Remove tag from remote `git push -d origin X.X.X`
 
 ## Technologies
 
-### NVM
+### [ReactJS](https://reactjs.org/)
 
-Node Version Manager (nvm) is a tool that allows you to manage multiple versions of Node.js on the same machine. Each version runs in its own isolated environment, so you can safely switch versions without affecting the whole system.
+React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
 
-[Link to docs](https://github.com/creationix/nvm/)
-
-### NPM
-
-npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
-
-[Link to docs](https://docs.npmjs.com/)
-
-### SASS (SCSS)
-
-Sass (Syntactically Awesome Style Sheets) is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more. It also helps to keep things organised and allows you to create style sheets faster.
-
-[Link to docs](http://sass-lang.com/documentation/file.SASS_REFERENCE.html/)
-
-### Webpack
-
-Webpack is an open-source JavaScript module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. Webpack takes modules with dependencies and generates static assets representing those modules.
-
-[Link to docs](https://webpack.js.org/concepts/)
-
-### JavaScript
-
-JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
-
-[Link to docs](https://developer.mozilla.org/bm/docs/Web/JavaScript)
-
-### ReactJS
-
-In computing, React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
-
-[Link to docs](https://reactjs.org/docs/getting-started.html/)
-
-### Redux
+### [Redux](https://redux.js.org/)
 
 Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to Facebook's Flux architecture, it was created by Dan Abramov and Andrew Clark.
 
-[Link to docs](https://redux.js.org/basics/usagewithreact/)
+### [Service Worker](https://serviceworke.rs/)
 
-### Service Worker
+A service worker is a script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction. Today, they already include features like push notifications and background sync.
 
-A service worker is a script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction. Today, they already include features like push notifications and background sync. In the future, service workers might support other things like periodic sync or geofencing. The core feature discussed in this tutorial is the ability to intercept and handle network requests, including programmatically managing a cache of responses.
+### [WebPack](https://webpack.js.org/)
 
-[Link to docs](https://developers.google.com/web/fundamentals/primers/service-workers/)
+Webpack is an open-source JavaScript module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. Webpack takes modules with dependencies and generates static assets representing those modules.
 
-### Sentry
+### [SASS](https://sass-lang.com/)
 
-Sentry is an open-source error tracking platform that provides complete app logic, deep context, and visibility across the entire stack in real time. For the first time, developers can fix bugs at every stage of the product lifecycle, well before users ever encounter a problem.
+Sass is a style sheet language initially designed by Henry Thornton and developed by Natalie Weizenbaum. After its initial versions, Weizenbaum and Chris Eppstein have continued to extend Sass with SassScript, a simple scripting language used in Sass files.
 
-[Link to docs](https://docs.sentry.io/)
+### [NPM](https://www.npmjs.com/)
 
-### Cypress
+NPM is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment NodeJS. It consists of a command line client, also called NPM, and an online database of public and paid-for private packages, called the NPM registry.
 
-Cypress is free, open source, and locally installed front end testing tool. It can be used by developers or QA engineers, who build web applications using JavaScript framework. One can do unit testing, integration testing and end to end testing by writing test case using Cypress. Using cypress, one can test anything that can run in browser.
+### [Cypress](https://www.cypress.io/)
 
-[Link to docs](https://docs.cypress.io/)
+Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications.
+
+### [Sentry](https://sentry.io/)
+
+Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time. Here we cover everything about the product, the platform integrations, and our on-premise offering.
+
+### [Google Analytics](https://analytics.google.com/analytics/web/)
+
+Google Analytics is a web analytics service offered by Google that tracks and reports website traffic, currently as a platform inside the Google Marketing Platform brand. Google launched the service in November 2005 after acquiring developer Urchin.
+
+### [HotJar](https://www.hotjar.com/)
+
+Hotjar is a new, powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the 'big picture' of how to improve your site's user experience and performance/conversion rates.
