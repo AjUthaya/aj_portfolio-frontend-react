@@ -18,7 +18,7 @@ Software that the system requires to be able to run this repository.
 
 ### Repositories
 
-List of the other repositories that you have to have up and running, before running this repository without errors.
+List of other repositories that you need to have up and running, to be able to run this repository without getting any errors.
 
 - [Backend](https://github.com/AjUthaya/aj_portfolio-backend-wordpress) (aj_portfolio-backend-wordpress)
 
@@ -34,33 +34,11 @@ A list of the configuration files that you have to create, for every configurati
 
 1. Coming soon
 
-### Review
-
-1. Coming soon
-
-### Staging
-
-1. Coming soon
-
 ### Production
 
 1. Coming soon
 
 ## Test
-
-### Development
-
-1. Coming soon
-
-### Review
-
-1. Coming soon
-
-### Staging
-
-1. Coming soon
-
-### Production
 
 1. Coming soon
 
